@@ -1,0 +1,193 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/machines",
+      "FromFile": "assets/machines.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModId}}_BotanicalExtractor": {
+          "Name": "{{ModId}}_BotanicalExtractor",
+          "DisplayName": "Botanical Extractor",
+          "Description": "Extracts valuable compounds from carnivorous plants.",
+          "Price": 1500,
+          "Texture": "Mods/{{ModId}}/machines",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC){{ModId}}_BotanicalExtractor": {
+          "OutputRules": [
+            {
+              "Id": "{{ModId}}_FlytrapExtract",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Flytrap",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_FlytrapExtract",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_PitcherNectar",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Pitcher",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_PitcherNectar",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_SundewResin",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Sundew",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_SundewResin",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 1080
+            }
+          ],
+          "ShowNextIndexWhenReady": true
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)12",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_FlytrapTincture": {
+          "Id": "{{ModId}}_FlytrapTincture",
+          "Triggers": [
+            {
+              "Id": "Input",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O){{ModId}}_Flytrap",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "Output",
+              "ItemId": "(O){{ModId}}_FlytrapTincture",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 2880
+        },
+        "{{ModId}}_PitcherElixir": {
+          "Id": "{{ModId}}_PitcherElixir",
+          "Triggers": [
+            {
+              "Id": "Input",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O){{ModId}}_Pitcher",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "Output",
+              "ItemId": "(O){{ModId}}_PitcherElixir",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 2880
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModId}}_FlytrapTincture",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "{{ModId}}_PitcherElixir",
+          "ToPosition": "Top"
+        }
+      ]
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)15",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_SundewSyrup": {
+          "Id": "{{ModId}}_SundewSyrup",
+          "Triggers": [
+            {
+              "Id": "Input",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O){{ModId}}_Sundew",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "Output",
+              "ItemId": "(O){{ModId}}_SundewSyrup",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 2880
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModId}}_SundewSyrup",
+          "ToPosition": "Top"
+        }
+      ]
+    }
+  ]
+}

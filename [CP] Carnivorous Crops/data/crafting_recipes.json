@@ -1,0 +1,11 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "{{ModId}}_BotanicalExtractor": "388 30 335 2 338 5 {{ModId}}_SundewSyrup 1/Home/{{ModId}}_BotanicalExtractor/true/Farming 6/Botanical Extractor"
+      }
+    }
+  ]
+}

@@ -1,226 +1,193 @@
 {
-  "Format": "2.0.0",
   "Changes": [
     {
       "Action": "Load",
-      "Target": "Mods/{{ModId}}/objects",
-      "FromFile": "assets/objects.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Mods/{{ModId}}/crops",
-      "FromFile": "assets/crops.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Mods/{{ModId}}/giant_crops",
-      "FromFile": "assets/giant_crops.png"
+      "Target": "Mods/{{ModId}}/machines",
+      "FromFile": "assets/machines.png"
     },
     {
       "Action": "EditData",
-      "Target": "Data/Objects",
+      "Target": "Data/BigCraftables",
       "Entries": {
-        "{{ModId}}_Flytrap": {
-          "Name": "{{ModId}}_Flytrap",
-          "DisplayName": "Flytrap Head",
-          "Description": "A vivid green trap with a crimson interior.",
-          "Type": "Basic",
-          "Category": -80,
-          "Price": 180,
-          "Edibility": -300,
-          "Texture": "Mods/{{ModId}}/objects",
+        "{{ModId}}_BotanicalExtractor": {
+          "Name": "{{ModId}}_BotanicalExtractor",
+          "DisplayName": "Botanical Extractor",
+          "Description": "Extracts valuable compounds from carnivorous plants.",
+          "Price": 1500,
+          "Texture": "Mods/{{ModId}}/machines",
           "SpriteIndex": 0
-        },
-        "{{ModId}}_FlytrapSeeds": {
-          "Name": "{{ModId}}_FlytrapSeeds",
-          "DisplayName": "Venus Flytrap Seeds",
-          "Description": "Plant in spring or summer. Takes 12 days to mature.",
-          "Type": "Seeds",
-          "Category": -74,
-          "Price": 40,
-          "Edibility": -300,
-          "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 3
-        },
-        "{{ModId}}_Pitcher": {
-          "Name": "{{ModId}}_Pitcher",
-          "DisplayName": "Pitcher Pod",
-          "Description": "An exotic pitcher with a colorful rim.",
-          "Type": "Basic",
-          "Category": -80,
-          "Price": 220,
-          "Edibility": -300,
-          "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 1
-        },
-        "{{ModId}}_PitcherSeeds": {
-          "Name": "{{ModId}}_PitcherSeeds",
-          "DisplayName": "Pitcher Plant Seeds",
-          "Description": "Plant in summer. Takes 14 days to mature.",
-          "Type": "Seeds",
-          "Category": -74,
-          "Price": 50,
-          "Edibility": -300,
-          "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 4
-        },
-        "{{ModId}}_Sundew": {
-          "Name": "{{ModId}}_Sundew",
-          "DisplayName": "Sundew Tentacle",
-          "Description": "A crimson spiral covered in glistening dew.",
-          "Type": "Basic",
-          "Category": -80,
-          "Price": 150,
-          "Edibility": -300,
-          "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 2
-        },
-        "{{ModId}}_SundewSeeds": {
-          "Name": "{{ModId}}_SundewSeeds",
-          "DisplayName": "Sundew Seeds",
-          "Description": "Plant in summer or fall. Takes 10 days to mature.",
-          "Type": "Seeds",
-          "Category": -74,
-          "Price": 30,
-          "Edibility": -300,
-          "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 5
         }
       }
     },
     {
       "Action": "EditData",
-      "Target": "Data/Crops",
+      "Target": "Data/Machines",
       "Entries": {
-        "{{ModId}}_FlytrapSeeds": {
-          "Seasons": [
-            "spring",
-            "summer"
+        "(BC){{ModId}}_BotanicalExtractor": {
+          "OutputRules": [
+            {
+              "Id": "{{ModId}}_FlytrapExtract",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Flytrap",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_FlytrapExtract",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_PitcherNectar",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Pitcher",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_PitcherNectar",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_SundewResin",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Sundew",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_SundewResin",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 1080
+            }
           ],
-          "DaysInPhase": [
-            1,
-            2,
-            2,
-            3,
-            4
-          ],
-          "RegrowDays": -1,
-          "HarvestItemId": "{{ModId}}_Flytrap",
-          "Texture": "Mods/{{ModId}}/crops",
-          "SpriteIndex": 0
-        },
-        "{{ModId}}_PitcherSeeds": {
-          "Seasons": [
-            "summer"
-          ],
-          "DaysInPhase": [
-            2,
-            2,
-            3,
-            3,
-            4
-          ],
-          "RegrowDays": -1,
-          "HarvestItemId": "{{ModId}}_Pitcher",
-          "Texture": "Mods/{{ModId}}/crops",
-          "SpriteIndex": 1
-        },
-        "{{ModId}}_SundewSeeds": {
-          "Seasons": [
-            "summer",
-            "fall"
-          ],
-          "DaysInPhase": [
-            1,
-            1,
-            2,
-            3,
-            3
-          ],
-          "RegrowDays": -1,
-          "HarvestItemId": "{{ModId}}_Sundew",
-          "Texture": "Mods/{{ModId}}/crops",
-          "SpriteIndex": 2
+          "ShowNextIndexWhenReady": true
         }
       }
     },
     {
       "Action": "EditData",
-      "Target": "Data/GiantCrops",
-      "Entries": {
-        "{{ModId}}_GiantFlytrap": {
-          "FromItemId": "(O){{ModId}}_Flytrap",
-          "Texture": "Mods/{{ModId}}/giant_crops",
-          "TexturePosition": {
-            "X": 0,
-            "Y": 0
-          },
-          "TileSize": {
-            "X": 3,
-            "Y": 3
-          },
-          "Chance": 0.01,
-          "Health": 3,
-          "HarvestItems": [
-            {
-              "Id": "{{ModId}}_Flytrap",
-              "ItemId": "(O){{ModId}}_Flytrap",
-              "MinStack": 15,
-              "MaxStack": 21
-            }
-          ]
-        },
-        "{{ModId}}_GiantPitcher": {
-          "FromItemId": "(O){{ModId}}_Pitcher",
-          "Texture": "Mods/{{ModId}}/giant_crops",
-          "TexturePosition": {
-            "X": 48,
-            "Y": 0
-          },
-          "TileSize": {
-            "X": 3,
-            "Y": 3
-          },
-          "Chance": 0.01,
-          "Health": 3,
-          "HarvestItems": [
-            {
-              "Id": "{{ModId}}_Pitcher",
-              "ItemId": "(O){{ModId}}_Pitcher",
-              "MinStack": 15,
-              "MaxStack": 21
-            }
-          ]
-        }
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Shops",
+      "Target": "Data/Machines",
       "TargetField": [
-        "SeedShop",
-        "Items"
+        "(BC)12",
+        "OutputRules"
       ],
       "Entries": {
-        "{{ModId}}_FlytrapSeeds": {
-          "Id": "{{ModId}}_FlytrapSeeds",
-          "ItemId": "(O){{ModId}}_FlytrapSeeds",
-          "Price": 80,
-          "Condition": "SEASON spring summer"
+        "{{ModId}}_FlytrapTincture": {
+          "Id": "{{ModId}}_FlytrapTincture",
+          "Triggers": [
+            {
+              "Id": "Input",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O){{ModId}}_Flytrap",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "Output",
+              "ItemId": "(O){{ModId}}_FlytrapTincture",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 2880
         },
-        "{{ModId}}_PitcherSeeds": {
-          "Id": "{{ModId}}_PitcherSeeds",
-          "ItemId": "(O){{ModId}}_PitcherSeeds",
-          "Price": 100,
-          "Condition": "SEASON summer"
-        },
-        "{{ModId}}_SundewSeeds": {
-          "Id": "{{ModId}}_SundewSeeds",
-          "ItemId": "(O){{ModId}}_SundewSeeds",
-          "Price": 60,
-          "Condition": "SEASON summer fall"
+        "{{ModId}}_PitcherElixir": {
+          "Id": "{{ModId}}_PitcherElixir",
+          "Triggers": [
+            {
+              "Id": "Input",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O){{ModId}}_Pitcher",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "Output",
+              "ItemId": "(O){{ModId}}_PitcherElixir",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 2880
         }
-      }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModId}}_FlytrapTincture",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "{{ModId}}_PitcherElixir",
+          "ToPosition": "Top"
+        }
+      ]
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [
+        "(BC)15",
+        "OutputRules"
+      ],
+      "Entries": {
+        "{{ModId}}_SundewSyrup": {
+          "Id": "{{ModId}}_SundewSyrup",
+          "Triggers": [
+            {
+              "Id": "Input",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O){{ModId}}_Sundew",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "Output",
+              "ItemId": "(O){{ModId}}_SundewSyrup",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 2880
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "{{ModId}}_SundewSyrup",
+          "ToPosition": "Top"
+        }
+      ]
     }
   ]
 }
