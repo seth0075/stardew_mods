@@ -1,0 +1,12 @@
+{
+  "Name": "Carnivorous Crops",
+  "Author": "CarnivorousCrops",
+  "Version": "1.0.0",
+  "Description": "Adds three carnivorous flower crops, two giant crops, and a Botanical Extractor.",
+  "UniqueID": "CarnivorousCrops.ContentPack",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.0.0"
+  },
+  "MinimumApiVersion": "4.0.0"
+}

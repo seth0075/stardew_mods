@@ -1,0 +1,55 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_ProteinBait": {
+          "Name": "{{ModId}}_ProteinBait",
+          "DisplayName": "Protein Bait",
+          "Description": "Attracts beetles, ants, wasps and predatory insects.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 20,
+          "Edibility": -300,
+          "ContextTags": [ "insect_bait" ],
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 12
+        },
+        "{{ModId}}_SweetBait": {
+          "Name": "{{ModId}}_SweetBait",
+          "DisplayName": "Sweet Bait",
+          "Description": "Attracts butterflies, bees, moths and other pollinators.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 20,
+          "Edibility": -300,
+          "ContextTags": [ "insect_bait" ],
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 13
+        },
+        "{{ModId}}_StickyBait": {
+          "Name": "{{ModId}}_StickyBait",
+          "DisplayName": "Sticky Bait",
+          "Description": "Attracts flies, mosquitoes, dragonflies and other small insects.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 20,
+          "Edibility": -300,
+          "ContextTags": [ "insect_bait" ],
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 14
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "{{ModId}}_ProteinBait": "{{ModId}}_FlytrapExtract 1 684 5/Home/{{ModId}}_ProteinBait 5/false/default/Protein Bait",
+        "{{ModId}}_SweetBait": "{{ModId}}_PitcherNectar 1 245 2/Home/{{ModId}}_SweetBait 5/false/default/Sweet Bait",
+        "{{ModId}}_StickyBait": "{{ModId}}_SundewResin 1 92 5/Home/{{ModId}}_StickyBait 5/false/default/Sticky Bait"
+      }
+    }
+  ]
+}
