@@ -7,5 +7,6 @@ public class ModEntry : Mod
     public override void Entry(IModHelper helper)
     {
         ObjectCategoryPatches.Apply(this.ModManifest.UniqueID);
+        BugNetPatches.Apply(this.ModManifest.UniqueID);
     }
 }

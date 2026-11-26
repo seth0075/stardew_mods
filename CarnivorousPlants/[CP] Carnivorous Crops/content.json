@@ -17,6 +17,27 @@
       "FromFile": "assets/giant_crops.png"
     },
     {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/tools",
+      "FromFile": "assets/tools.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Tools",
+      "Entries": {
+        "{{ModId}}_BugNet": {
+          "ClassName": "GenericTool",
+          "Name": "{{ModId}}_BugNet",
+          "DisplayName": "Bug Net",
+          "Description": "A net with a slot for insect bait.",
+          "Texture": "Mods/{{ModId}}/tools",
+          "SpriteIndex": 0,
+          "MenuSpriteIndex": 0,
+          "AttachmentSlots": 1
+        }
+      }
+    },
+    {
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {

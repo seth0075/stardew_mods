@@ -10,9 +10,9 @@
           "Description": "Attracts beetles, ants, wasps and predatory insects.",
           "Type": "Basic",
           "Category": 0,
-          "Price": 20,
+          "Price": 1,
           "Edibility": -300,
-          "ContextTags": [ "insect_bait" ],
+          "ContextTags": ["insect_bait"],
           "Texture": "Mods/{{ModId}}/objects",
           "SpriteIndex": 12
         },
@@ -22,9 +22,9 @@
           "Description": "Attracts butterflies, bees, moths and other pollinators.",
           "Type": "Basic",
           "Category": 0,
-          "Price": 20,
+          "Price": 1,
           "Edibility": -300,
-          "ContextTags": [ "insect_bait" ],
+          "ContextTags": ["insect_bait"],
           "Texture": "Mods/{{ModId}}/objects",
           "SpriteIndex": 13
         },
@@ -34,9 +34,9 @@
           "Description": "Attracts flies, mosquitoes, dragonflies and other small insects.",
           "Type": "Basic",
           "Category": 0,
-          "Price": 20,
+          "Price": 1,
           "Edibility": -300,
-          "ContextTags": [ "insect_bait" ],
+          "ContextTags": ["insect_bait"],
           "Texture": "Mods/{{ModId}}/objects",
           "SpriteIndex": 14
         }
