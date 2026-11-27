@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <EnableHarmony>true</EnableHarmony>
+    <RootNamespace>CarnivorousPlants.Core</RootNamespace>
+    <AssemblyName>InsectValley.Core</AssemblyName>
+
+    <!-- Deployment keeps Carnivorous Crops separate from the single Insect Valley mod. -->
+    <EnableModDeploy>false</EnableModDeploy>
+    <EnableModZip>false</EnableModZip>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.*" />
+    <InternalsVisibleTo Include="InsectValley.Tests" />
+  </ItemGroup>
+
+  <Target Name="DeployMods" AfterTargets="Build" Condition="'$(GameModsPath)' != ''">
+    <PropertyGroup>
+      <ParentDir>$([System.IO.Path]::GetFullPath('$(MSBuildProjectDirectory)\..'))</ParentDir>
+      <InsectValleyDeployDir>$(GameModsPath)\InsectValley</InsectValleyDeployDir>
+      <CropsDeployDir>$(GameModsPath)\[CP] Carnivorous Crops</CropsDeployDir>
+    </PropertyGroup>
+    <ItemGroup>
+      <CropsPackFiles Include="$(ParentDir)\[CP] Carnivorous Crops\**\*" />
+      <CoreFiles Include="$(TargetDir)InsectValley.Core.dll;$(MSBuildProjectDirectory)\manifest.json" />
+      <InsectValleyAssets Include="$(MSBuildProjectDirectory)\assets\**\*" />
+      <InsectValleyData Include="$(MSBuildProjectDirectory)\data\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(CropsPackFiles)" DestinationFiles="@(CropsPackFiles->'$(CropsDeployDir)\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(CoreFiles)" DestinationFolder="$(InsectValleyDeployDir)" />
+    <Copy SourceFiles="@(InsectValleyAssets)" DestinationFiles="@(InsectValleyAssets->'$(InsectValleyDeployDir)\assets\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(InsectValleyData)" DestinationFiles="@(InsectValleyData->'$(InsectValleyDeployDir)\data\%(RecursiveDir)%(Filename)%(Extension)')" />
+  </Target>
+
+</Project>

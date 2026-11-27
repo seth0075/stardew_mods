@@ -1,0 +1,135 @@
+{
+  "InsectValley.Core_ProteinBait": {
+    "Name": "InsectValley.Core_ProteinBait",
+    "DisplayName": "Protein Bait",
+    "Description": "Attracts beetles, ants, wasps and predatory insects.",
+    "Type": "Basic",
+    "Category": 0,
+    "Price": 1,
+    "Edibility": -300,
+    "ContextTags": [
+      "insect_bait"
+    ],
+    "CustomFields": {
+      "InsectValley.Core/CatchesInsectTypes": "beetle,ant,wasp,mantis,true bug,arachnid,centipede,crustacean,isopod,mollusk",
+      "InsectValley.Core/CanCatchRare": "false",
+      "InsectValley.Core/CanCatchLegendary": "false"
+    },
+    "Texture": "Mods/InsectValley.Core/bait",
+    "SpriteIndex": 0
+  },
+  "InsectValley.Core_SweetBait": {
+    "Name": "InsectValley.Core_SweetBait",
+    "DisplayName": "Sweet Bait",
+    "Description": "Attracts butterflies, bees, moths and other pollinators.",
+    "Type": "Basic",
+    "Category": 0,
+    "Price": 1,
+    "Edibility": -300,
+    "ContextTags": [
+      "insect_bait"
+    ],
+    "CustomFields": {
+      "InsectValley.Core/CatchesInsectTypes": "butterfly,bee,moth,cicada,grasshopper,cricket,stick insect,termite",
+      "InsectValley.Core/CanCatchRare": "false",
+      "InsectValley.Core/CanCatchLegendary": "false"
+    },
+    "Texture": "Mods/InsectValley.Core/bait",
+    "SpriteIndex": 1
+  },
+  "InsectValley.Core_StickyBait": {
+    "Name": "InsectValley.Core_StickyBait",
+    "DisplayName": "Sticky Bait",
+    "Description": "Attracts flies, mosquitoes, dragonflies and other small insects.",
+    "Type": "Basic",
+    "Category": 0,
+    "Price": 1,
+    "Edibility": -300,
+    "ContextTags": [
+      "insect_bait"
+    ],
+    "CustomFields": {
+      "InsectValley.Core/CatchesInsectTypes": "fly,dragonfly,lacewing,planthopper,scorpionfly",
+      "InsectValley.Core/CanCatchRare": "false",
+      "InsectValley.Core/CanCatchLegendary": "false"
+    },
+    "Texture": "Mods/InsectValley.Core/bait",
+    "SpriteIndex": 2
+  },
+  "InsectValley.Core_AromaticBait": {
+    "Name": "InsectValley.Core_AromaticBait",
+    "DisplayName": "Aromatic Bait",
+    "Description": "A fragrant botanical mixture that attracts butterflies, bees, moths, cicadas, grasshoppers, crickets, stick insects and termites, including rare species.",
+    "Type": "Basic",
+    "Category": 0,
+    "Price": 1,
+    "Edibility": -300,
+    "ContextTags": [
+      "insect_bait"
+    ],
+    "CustomFields": {
+      "InsectValley.Core/CatchesInsectTypes": "butterfly,bee,moth,cicada,grasshopper,cricket,stick insect,termite",
+      "InsectValley.Core/CanCatchRare": "true",
+      "InsectValley.Core/CanCatchLegendary": "false"
+    },
+    "Texture": "Mods/InsectValley.Core/bait",
+    "SpriteIndex": 3
+  },
+  "InsectValley.Core_AdhesiveBait": {
+    "Name": "InsectValley.Core_AdhesiveBait",
+    "DisplayName": "Adhesive Bait",
+    "Description": "A tenacious bait that attracts flies, mosquitoes and other small insects, including rare species.",
+    "Type": "Basic",
+    "Category": 0,
+    "Price": 1,
+    "Edibility": -300,
+    "ContextTags": [
+      "insect_bait"
+    ],
+    "CustomFields": {
+      "InsectValley.Core/CatchesInsectTypes": "fly,dragonfly,lacewing,planthopper,scorpionfly",
+      "InsectValley.Core/CanCatchRare": "true",
+      "InsectValley.Core/CanCatchLegendary": "false"
+    },
+    "Texture": "Mods/InsectValley.Core/bait",
+    "SpriteIndex": 4
+  },
+  "InsectValley.Core_VenomBait": {
+    "Name": "InsectValley.Core_VenomBait",
+    "DisplayName": "Venom Bait",
+    "Description": "A potent bait that attracts beetles, ants, wasps and other predators, including rare species.",
+    "Type": "Basic",
+    "Category": 0,
+    "Price": 1,
+    "Edibility": -300,
+    "ContextTags": [
+      "insect_bait"
+    ],
+    "CustomFields": {
+      "InsectValley.Core/CatchesInsectTypes": "beetle,ant,wasp,mantis,true bug,arachnid,centipede,crustacean,isopod,mollusk",
+      "InsectValley.Core/CanCatchRare": "true",
+      "InsectValley.Core/CanCatchLegendary": "false"
+    },
+    "Texture": "Mods/InsectValley.Core/bait",
+    "SpriteIndex": 5
+  },
+  "InsectValley.Core_CelestialBait": {
+    "Name": "InsectValley.Core_CelestialBait",
+    "DisplayName": "Celestial Bait",
+    "Description": "A luminous bait that attracts all kinds of insects, including rare and legendary species.",
+    "Type": "Basic",
+    "Category": 0,
+    "Price": 1,
+    "Edibility": -300,
+    "ContextTags": [
+      "insect_bait"
+    ],
+    "CustomFields": {
+      "InsectValley.Core/CatchesInsectTypes": "*",
+      "InsectValley.Core/CanCatchRare": "true",
+      "InsectValley.Core/CanCatchLegendary": "true"
+    },
+    "Texture": "Mods/InsectValley.Core/bait",
+    "SpriteIndex": 6
+  }
+}

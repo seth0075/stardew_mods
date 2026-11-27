@@ -1,0 +1,22 @@
+{
+  "InsectValley.Core_BugNet": {
+    "ClassName": "GenericTool",
+    "Name": "InsectValley.Core_BugNet",
+    "DisplayName": "Bug Net",
+    "Description": "A net with a slot for insect bait.",
+    "Texture": "Mods/InsectValley.Core/tools",
+    "SpriteIndex": 1,
+    "MenuSpriteIndex": 0,
+    "AttachmentSlots": 1
+  },
+  "InsectValley.Core_IridiumBugNet": {
+    "ClassName": "GenericTool",
+    "Name": "InsectValley.Core_IridiumBugNet",
+    "DisplayName": "Iridium Bug Net",
+    "Description": "An iridium net with a slot for insect bait.",
+    "Texture": "Mods/InsectValley.Core/iridium_bug_net",
+    "SpriteIndex": 1,
+    "MenuSpriteIndex": 0,
+    "AttachmentSlots": 1
+  }
+}

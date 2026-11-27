@@ -10,7 +10,7 @@ namespace CarnivorousPlants.Core;
 
 internal static class InsectDataCache
 {
-    private const string FieldPrefix = "CarnivorousCrops.ContentPack/";
+    private const string FieldPrefix = "InsectValley.Core/";
     private static readonly HashSet<string> LoggedDataErrors = new(StringComparer.Ordinal);
     private static readonly List<InsectData> AllInsects = new();
     private static readonly List<InsectData> InsectsForCurrentSeason = new();

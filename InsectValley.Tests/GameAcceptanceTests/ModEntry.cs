@@ -10,9 +10,10 @@ namespace CarnivorousPlants.GameAcceptanceTests;
 
 public sealed class ModEntry : Mod
 {
-    private const string ModItemPrefix = "CarnivorousCrops.ContentPack_";
+    private const string CropItemPrefix = "CarnivorousCrops.ContentPack_";
+    private const string InsectItemPrefix = "InsectValley.Core_";
     private const string ObjectPrefix = "(O)";
-    private const string ObjectCustomFieldPrefix = "CarnivorousCrops.ContentPack/";
+    private const string ObjectCustomFieldPrefix = "InsectValley.Core/";
     private bool _hasRun;
 
     public override void Entry(IModHelper helper)
@@ -63,14 +64,14 @@ public sealed class ModEntry : Mod
         );
         Require(insectCount == 268, $"Expected 268 loaded insect items, found {insectCount}.");
 
-        Item monarch = CreateItem(ObjectPrefix + ModItemPrefix + "InsectMonarchButterfly");
+        Item monarch = CreateItem(ObjectPrefix + InsectItemPrefix + "InsectMonarchButterfly");
         Require(monarch.HasContextTag("carnivorousplants_insect"), "Monarch Butterfly is missing its insect tag.");
         Require(
             monarch.GetContextTags().Contains("carnivorousplants_insect"),
             "The loaded Monarch Butterfly doesn't expose its insect context tag."
         );
 
-        Item proteinBait = CreateItem(ObjectPrefix + ModItemPrefix + "ProteinBait");
+        Item proteinBait = CreateItem(ObjectPrefix + InsectItemPrefix + "ProteinBait");
         Require(proteinBait.HasContextTag("insect_bait"), "Protein Bait is missing its bait tag.");
     }
 
@@ -93,16 +94,16 @@ public sealed class ModEntry : Mod
             ["WaterwheelPlantSeeds"] = ("WaterwheelPlant", "summer,fall", new[] { 2, 3, 3, 4, 4 }, 6)
         };
 
-        Require(Game1.cropData.Count(key => key.Key.StartsWith(ModItemPrefix, StringComparison.Ordinal)) == expectedCrops.Count,
+        Require(Game1.cropData.Count(key => key.Key.StartsWith(CropItemPrefix, StringComparison.Ordinal)) == expectedCrops.Count,
             "The loaded crop data has an unexpected number of Carnivorous Crops entries.");
 
         foreach (var (seedId, expected) in expectedCrops)
         {
-            string qualifiedSeedId = ModItemPrefix + seedId;
+            string qualifiedSeedId = CropItemPrefix + seedId;
             if (!Game1.cropData.TryGetValue(qualifiedSeedId, out var crop) || crop is null)
                 throw new InvalidOperationException($"Missing crop data for {qualifiedSeedId}.");
 
-            Require(crop.HarvestItemId == ModItemPrefix + expected.Harvest, $"Wrong harvest item for {qualifiedSeedId}.");
+            Require(crop.HarvestItemId == CropItemPrefix + expected.Harvest, $"Wrong harvest item for {qualifiedSeedId}.");
             Require(string.Join(",", crop.Seasons) == expected.Seasons, $"Wrong growing seasons for {qualifiedSeedId}.");
             Require(crop.DaysInPhase.SequenceEqual(expected.Phases), $"Wrong growth schedule for {qualifiedSeedId}.");
             Require(crop.RegrowDays == expected.RegrowDays, $"Wrong regrow period for {qualifiedSeedId}.");
@@ -142,7 +143,7 @@ public sealed class ModEntry : Mod
         var actualOutputs = new Dictionary<string, (string Input, int Minutes)>(StringComparer.Ordinal);
 
         AddMachineOutputs(
-            "(BC)" + ModItemPrefix + "BotanicalExtractor",
+            "(BC)" + CropItemPrefix + "BotanicalExtractor",
             actualOutputs
         );
         AddMachineOutputs("(BC)12", actualOutputs);
@@ -153,8 +154,8 @@ public sealed class ModEntry : Mod
 
         foreach (var (output, expected) in expectedOutputs)
         {
-            string qualifiedOutputId = ObjectPrefix + ModItemPrefix + output;
-            string qualifiedInputId = ObjectPrefix + ModItemPrefix + expected.Input;
+            string qualifiedOutputId = ObjectPrefix + CropItemPrefix + output;
+            string qualifiedInputId = ObjectPrefix + CropItemPrefix + expected.Input;
             Require(actualOutputs.TryGetValue(qualifiedOutputId, out var actual), $"Missing machine output {qualifiedOutputId}.");
             Require(actual.Input == qualifiedInputId, $"Wrong input configured for {qualifiedOutputId}.");
             Require(actual.Minutes == expected.Minutes, $"Wrong processing time configured for {qualifiedOutputId}.");
@@ -177,7 +178,7 @@ public sealed class ModEntry : Mod
         {
             foreach (var output in rule.OutputItem)
             {
-                if (!output.ItemId.StartsWith(ObjectPrefix + ModItemPrefix, StringComparison.Ordinal))
+                if (!output.ItemId.StartsWith(ObjectPrefix + CropItemPrefix, StringComparison.Ordinal))
                     continue;
 
                 var trigger = rule.Triggers.FirstOrDefault(item =>
@@ -196,11 +197,11 @@ public sealed class ModEntry : Mod
 
     private static void CheckBugNetAttachmentRules()
     {
-        SObject bait = CreateObject(ObjectPrefix + ModItemPrefix + "ProteinBait");
-        SObject insect = CreateObject(ObjectPrefix + ModItemPrefix + "InsectMonarchButterfly");
+        SObject bait = CreateObject(ObjectPrefix + InsectItemPrefix + "ProteinBait");
+        SObject insect = CreateObject(ObjectPrefix + InsectItemPrefix + "InsectMonarchButterfly");
 
-        CheckNet("(T)" + ModItemPrefix + "BugNet", bait, insect);
-        CheckNet("(T)" + ModItemPrefix + "IridiumBugNet", bait, insect);
+        CheckNet("(T)" + InsectItemPrefix + "BugNet", bait, insect);
+        CheckNet("(T)" + InsectItemPrefix + "IridiumBugNet", bait, insect);
     }
 
     private static void CheckNet(string itemId, SObject bait, SObject insect)
@@ -235,7 +236,7 @@ public sealed class ModEntry : Mod
 
         foreach (string insectId in legendaryIds)
         {
-            string itemId = ModItemPrefix + insectId;
+            string itemId = InsectItemPrefix + insectId;
             if (!Game1.objectData.TryGetValue(itemId, out var data) || data is null)
                 throw new InvalidOperationException($"Missing legendary insect '{itemId}'.");
 

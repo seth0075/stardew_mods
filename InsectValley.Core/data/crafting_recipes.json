@@ -1,0 +1,9 @@
+{
+  "InsectValley.Core_ProteinBait": "CarnivorousCrops.ContentPack_FlytrapExtract 1 684 5/Home/InsectValley.Core_ProteinBait 5/false/default/Protein Bait",
+  "InsectValley.Core_SweetBait": "CarnivorousCrops.ContentPack_PitcherNectar 1 245 2/Home/InsectValley.Core_SweetBait 5/false/default/Sweet Bait",
+  "InsectValley.Core_StickyBait": "CarnivorousCrops.ContentPack_SundewResin 1 92 5/Home/InsectValley.Core_StickyBait 5/false/default/Sticky Bait",
+  "InsectValley.Core_AromaticBait": "CarnivorousCrops.ContentPack_TrumpetEssence 1 340 2/Home/InsectValley.Core_AromaticBait 5/false/default/Aromatic Bait",
+  "InsectValley.Core_AdhesiveBait": "CarnivorousCrops.ContentPack_ButterwortMucilage 1 766 2/Home/InsectValley.Core_AdhesiveBait 5/false/default/Adhesive Bait",
+  "InsectValley.Core_VenomBait": "CarnivorousCrops.ContentPack_CobraSecretion 1 684 5/Home/InsectValley.Core_VenomBait 10/false/default/Venom Bait",
+  "InsectValley.Core_CelestialBait": "CarnivorousCrops.ContentPack_AstralEssence 1 InsectValley.Core_ProteinBait 1 InsectValley.Core_SweetBait 1 InsectValley.Core_StickyBait 1 InsectValley.Core_AromaticBait 1 InsectValley.Core_AdhesiveBait 1 InsectValley.Core_VenomBait 1/Home/InsectValley.Core_CelestialBait 1/false/default/Celestial Bait"
+}

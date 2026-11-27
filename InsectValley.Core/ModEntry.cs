@@ -7,6 +7,9 @@ public class ModEntry : Mod
 {
     public override void Entry(IModHelper helper)
     {
+        var content = new InsectValleyContent(helper);
+        helper.Events.Content.AssetRequested += content.OnAssetRequested;
+
         helper.ConsoleCommands.Add(
             "bugnet_pool",
             "Show the insects currently eligible for the held bug net and its attached bait.",

@@ -10,7 +10,7 @@ A Python utility that searches the iNaturalist API for insects and compiles data
 
 ```bash
 # 1. Navigate to the folder
-cd CarnivorousPlants/iNaturalist-Scripts
+cd iNaturalist-Scripts
 
 # 2. Create virtual environment (recommended, one-time only)
 py -m venv venv

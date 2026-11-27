@@ -1,0 +1,15 @@
+{
+  "Name": "Insect Valley",
+  "Author": "CarnivorousCrops",
+  "Version": "1.0.0",
+  "Description": "Adds insects, insect bait, and bug catching. Requires Carnivorous Crops.",
+  "UniqueID": "InsectValley.Core",
+  "EntryDll": "InsectValley.Core.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    {
+      "UniqueID": "CarnivorousCrops.ContentPack",
+      "IsRequired": true
+    }
+  ]
+}

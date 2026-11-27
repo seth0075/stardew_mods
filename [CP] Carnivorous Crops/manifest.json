@@ -2,7 +2,7 @@
   "Name": "Carnivorous Crops",
   "Author": "CarnivorousCrops",
   "Version": "1.0.0",
-  "Description": "Adds three carnivorous flower crops, two giant crops, and a Botanical Extractor.",
+  "Description": "Adds carnivorous crops, giant crops, the Botanical Extractor, and plant-based artisan goods.",
   "UniqueID": "CarnivorousCrops.ContentPack",
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher",

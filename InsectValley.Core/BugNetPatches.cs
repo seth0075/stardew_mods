@@ -8,8 +8,8 @@ namespace CarnivorousPlants.Core;
 
 internal static class BugNetPatches
 {
-    private const string BugNetId = "(T)CarnivorousCrops.ContentPack_BugNet";
-    private const string IridiumBugNetId = "(T)CarnivorousCrops.ContentPack_IridiumBugNet";
+    private const string BugNetId = "(T)InsectValley.Core_BugNet";
+    private const string IridiumBugNetId = "(T)InsectValley.Core_IridiumBugNet";
     private const int SwingSpriteIndex = 1;
     private static IMonitor _monitor = null!;
 

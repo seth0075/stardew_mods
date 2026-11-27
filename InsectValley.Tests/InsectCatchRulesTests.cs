@@ -3,7 +3,7 @@ using System.Linq;
 using CarnivorousPlants.Core;
 using Xunit;
 
-namespace CarnivorousPlants.Tests;
+namespace InsectValley.Tests;
 
 public sealed class InsectCatchRulesTests
 {

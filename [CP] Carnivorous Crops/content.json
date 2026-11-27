@@ -8,11 +8,6 @@
     },
     {
       "Action": "Load",
-      "Target": "Mods/{{ModId}}/insects",
-      "FromFile": "assets/insects.png"
-    },
-    {
-      "Action": "Load",
       "Target": "Mods/{{ModId}}/crops",
       "FromFile": "assets/crops.png"
     },
@@ -20,42 +15,6 @@
       "Action": "Load",
       "Target": "Mods/{{ModId}}/giant_crops",
       "FromFile": "assets/giant_crops.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Mods/{{ModId}}/tools",
-      "FromFile": "assets/bug_net_tool.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Mods/{{ModId}}/iridium_bug_net",
-      "FromFile": "assets/iridium_bug_net_tool.png"
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Tools",
-      "Entries": {
-        "{{ModId}}_BugNet": {
-          "ClassName": "GenericTool",
-          "Name": "{{ModId}}_BugNet",
-          "DisplayName": "Bug Net",
-          "Description": "A net with a slot for insect bait.",
-          "Texture": "Mods/{{ModId}}/tools",
-          "SpriteIndex": 1,
-          "MenuSpriteIndex": 0,
-          "AttachmentSlots": 1
-        },
-        "{{ModId}}_IridiumBugNet": {
-          "ClassName": "GenericTool",
-          "Name": "{{ModId}}_IridiumBugNet",
-          "DisplayName": "Iridium Bug Net",
-          "Description": "An iridium net with a slot for insect bait.",
-          "Texture": "Mods/{{ModId}}/iridium_bug_net",
-          "SpriteIndex": 1,
-          "MenuSpriteIndex": 0,
-          "AttachmentSlots": 1
-        }
-      }
     },
     {
       "Action": "EditData",
@@ -136,7 +95,7 @@
           "Price": 125,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 15
+          "SpriteIndex": 12
         },
         "{{ModId}}_TrumpetSeeds": {
           "Name": "{{ModId}}_TrumpetSeeds",
@@ -147,7 +106,7 @@
           "Price": 90,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 16
+          "SpriteIndex": 13
         },
         "{{ModId}}_ButterwortLeaf": {
           "Name": "{{ModId}}_ButterwortLeaf",
@@ -158,7 +117,7 @@
           "Price": 140,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 20
+          "SpriteIndex": 16
         },
         "{{ModId}}_ButterwortSeeds": {
           "Name": "{{ModId}}_ButterwortSeeds",
@@ -169,7 +128,7 @@
           "Price": 110,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 21
+          "SpriteIndex": 17
         },
         "{{ModId}}_CobraHood": {
           "Name": "{{ModId}}_CobraHood",
@@ -180,7 +139,7 @@
           "Price": 550,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 25
+          "SpriteIndex": 20
         },
         "{{ModId}}_CobraSeeds": {
           "Name": "{{ModId}}_CobraSeeds",
@@ -191,7 +150,7 @@
           "Price": 150,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 26
+          "SpriteIndex": 21
         },
         "{{ModId}}_AstralBlossom": {
           "Name": "{{ModId}}_AstralBlossom",
@@ -202,7 +161,7 @@
           "Price": 1500,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 30
+          "SpriteIndex": 24
         },
         "{{ModId}}_AstralSeeds": {
           "Name": "{{ModId}}_AstralSeeds",
@@ -213,7 +172,7 @@
           "Price": 750,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 31
+          "SpriteIndex": 25
         },
         "{{ModId}}_AustralianPitcher": {
           "Name": "{{ModId}}_AustralianPitcher",
@@ -224,7 +183,7 @@
           "Price": 190,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 35
+          "SpriteIndex": 28
         },
         "{{ModId}}_AustralianPitcherSeeds": {
           "Name": "{{ModId}}_AustralianPitcherSeeds",
@@ -235,7 +194,7 @@
           "Price": 125,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 36
+          "SpriteIndex": 29
         },
         "{{ModId}}_SunPitcher": {
           "Name": "{{ModId}}_SunPitcher",
@@ -246,7 +205,7 @@
           "Price": 225,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 38
+          "SpriteIndex": 31
         },
         "{{ModId}}_SunPitcherSeeds": {
           "Name": "{{ModId}}_SunPitcherSeeds",
@@ -257,7 +216,7 @@
           "Price": 150,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 39
+          "SpriteIndex": 32
         },
         "{{ModId}}_RainbowPlant": {
           "Name": "{{ModId}}_RainbowPlant",
@@ -268,7 +227,7 @@
           "Price": 325,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 41
+          "SpriteIndex": 34
         },
         "{{ModId}}_RainbowPlantSeeds": {
           "Name": "{{ModId}}_RainbowPlantSeeds",
@@ -279,7 +238,7 @@
           "Price": 90,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 42
+          "SpriteIndex": 35
         },
         "{{ModId}}_Bladderwort": {
           "Name": "{{ModId}}_Bladderwort",
@@ -290,7 +249,7 @@
           "Price": 275,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 44
+          "SpriteIndex": 37
         },
         "{{ModId}}_BladderwortSeeds": {
           "Name": "{{ModId}}_BladderwortSeeds",
@@ -301,7 +260,7 @@
           "Price": 75,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 45
+          "SpriteIndex": 38
         },
         "{{ModId}}_DewyPine": {
           "Name": "{{ModId}}_DewyPine",
@@ -312,7 +271,7 @@
           "Price": 450,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 47
+          "SpriteIndex": 40
         },
         "{{ModId}}_DewyPineSeeds": {
           "Name": "{{ModId}}_DewyPineSeeds",
@@ -323,7 +282,7 @@
           "Price": 125,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 48
+          "SpriteIndex": 41
         },
         "{{ModId}}_WaterwheelPlant": {
           "Name": "{{ModId}}_WaterwheelPlant",
@@ -334,7 +293,7 @@
           "Price": 525,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 50
+          "SpriteIndex": 43
         },
         "{{ModId}}_WaterwheelPlantSeeds": {
           "Name": "{{ModId}}_WaterwheelPlantSeeds",
@@ -345,7 +304,7 @@
           "Price": 150,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 51
+          "SpriteIndex": 44
         }
       }
     },
@@ -803,14 +762,6 @@
     {
       "Action": "Include",
       "FromFile": "data/crafting_recipes.json"
-    },
-    {
-      "Action": "Include",
-      "FromFile": "data/bait.json"
-    },
-    {
-      "Action": "Include",
-      "FromFile": "data/insects.json"
     }
   ]
 }

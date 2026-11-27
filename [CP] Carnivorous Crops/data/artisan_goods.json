@@ -79,7 +79,7 @@
           "Price": 325,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 17
+          "SpriteIndex": 14
         },
         "{{ModId}}_TrumpetCordial": {
           "Name": "{{ModId}}_TrumpetCordial",
@@ -90,7 +90,7 @@
           "Price": 475,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 18
+          "SpriteIndex": 15
         },
         "{{ModId}}_ButterwortMucilage": {
           "Name": "{{ModId}}_ButterwortMucilage",
@@ -101,7 +101,7 @@
           "Price": 350,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 22
+          "SpriteIndex": 18
         },
         "{{ModId}}_ButterwortJelly": {
           "Name": "{{ModId}}_ButterwortJelly",
@@ -112,7 +112,7 @@
           "Price": 450,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 23
+          "SpriteIndex": 19
         },
         "{{ModId}}_CobraSecretion": {
           "Name": "{{ModId}}_CobraSecretion",
@@ -123,7 +123,7 @@
           "Price": 1100,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 27
+          "SpriteIndex": 22
         },
         "{{ModId}}_CobraDistillate": {
           "Name": "{{ModId}}_CobraDistillate",
@@ -134,7 +134,7 @@
           "Price": 1450,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 28
+          "SpriteIndex": 23
         },
         "{{ModId}}_AstralEssence": {
           "Name": "{{ModId}}_AstralEssence",
@@ -145,7 +145,7 @@
           "Price": 3500,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 32
+          "SpriteIndex": 26
         },
         "{{ModId}}_CelestialElixir": {
           "Name": "{{ModId}}_CelestialElixir",
@@ -156,7 +156,7 @@
           "Price": 5000,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 33
+          "SpriteIndex": 27
         },
         "{{ModId}}_CephalotusTincture": {
           "Name": "{{ModId}}_CephalotusTincture",
@@ -167,7 +167,7 @@
           "Price": 575,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 37
+          "SpriteIndex": 30
         },
         "{{ModId}}_SolarElixir": {
           "Name": "{{ModId}}_SolarElixir",
@@ -178,7 +178,7 @@
           "Price": 650,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 40
+          "SpriteIndex": 33
         },
         "{{ModId}}_IridescentElixir": {
           "Name": "{{ModId}}_IridescentElixir",
@@ -189,7 +189,7 @@
           "Price": 850,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 43
+          "SpriteIndex": 36
         },
         "{{ModId}}_BladderwortTincture": {
           "Name": "{{ModId}}_BladderwortTincture",
@@ -200,7 +200,7 @@
           "Price": 700,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 46
+          "SpriteIndex": 39
         },
         "{{ModId}}_DewdropElixir": {
           "Name": "{{ModId}}_DewdropElixir",
@@ -211,7 +211,7 @@
           "Price": 1050,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 49
+          "SpriteIndex": 42
         },
         "{{ModId}}_AquaticTincture": {
           "Name": "{{ModId}}_AquaticTincture",
@@ -222,7 +222,7 @@
           "Price": 1200,
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
-          "SpriteIndex": 52
+          "SpriteIndex": 45
         }
       }
     }

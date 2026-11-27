@@ -1,18 +1,31 @@
 # stardew_mods
 
-## CarnivorousPlants
+## Carnivorous Crops and Insect Valley
 
-Install by copying the single `CarnivorousPlants` folder into `Stardew Valley\Mods`. It contains:
+The project ships as two mods:
 
-- `[CP] Carnivorous Crops` - Content Patcher pack (crops, items, machines, bait). Requires Content Patcher.
-- `CarnivorousPlants.Core` - C# SMAPI mod (insect and bait category labels, bug net attachments, and insect catching).
+- `[CP] Carnivorous Crops` is a Content Patcher pack containing the carnivorous crops, giant crops, Botanical Extractor, and plant-based artisan goods. It requires Content Patcher.
+- `InsectValley` is a single SMAPI mod containing its code, data, and assets. It adds insects, bait, bug nets, and bug catching, and requires Carnivorous Crops.
 
-Running `dotnet build` in `CarnivorousPlants\CarnivorousPlants.Core` compiles the DLL and deploys the whole folder to `Mods\CarnivorousPlants`. For a distributable copy, zip the deployed `Mods\CarnivorousPlants` folder, since the source folder has no DLL next to its manifest.
+Install `[CP] Carnivorous Crops` and `InsectValley` as separate folders in `Stardew Valley\Mods`. Insect Valley declares Carnivorous Crops as a required dependency because its bait recipes use that mod's artisan goods. When upgrading, remove the old `Mods\CarnivorousPlants` folder and any previous split `Mods\InsectValley` folder before copying in the new installation.
 
-Run `dotnet test CarnivorousPlants\CarnivorousPlants.Tests\CarnivorousPlants.Tests.csproj` to verify crop schedules and harvests, artisan machine outputs, insect availability metadata, bait restrictions, and catch rarity/location rules.
+Build the companion mod with:
 
-For in-game acceptance checks, build `CarnivorousPlants\CarnivorousPlants.Tests\GameAcceptanceTests\CarnivorousPlants.GameAcceptanceTests.csproj`, then copy its output `CarnivorousPlants.GameAcceptanceTests.dll` and `manifest.json` into a new `Mods\CarnivorousPlants.GameAcceptanceTests` folder. Launch SMAPI with the main mod and Content Patcher enabled, then load a save. The harness checks the game-loaded crop, insect, bait, and machine data and the bug-net attachment patch; results appear in the SMAPI log as `PASS`, `FAIL`, and a final summary. These checks are read-only and can be removed by deleting the test mod folder after the run.
+```powershell
+dotnet build InsectValley.Core\InsectValley.Core.csproj
+```
 
-The Bug Net and Iridium Bug Net each have one bait slot and use the scythe swing animation and sound. Each swing consumes one attached bait and attempts a catch using the current location, season, time, insect rarity, and bait type. If no insects match, the bait is still consumed; if the inventory is full, the insect drops nearby. When a baited bug net is selected, the HUD shows the remaining bait count and each catchable insect's per-swing catch chance in the top-left corner. For testing, use an item spawner to obtain `(T)CarnivorousCrops.ContentPack_BugNet` or `(T)CarnivorousCrops.ContentPack_IridiumBugNet`; while holding one, run `bugnet_pool` in the SMAPI console to list candidate insects after location, season, time, and bait-type filters, along with rarity restrictions.
+When `GameModsPath` is set, the build deploys the crop pack and Insect Valley into separate mod folders. For a release, package `[CP] Carnivorous Crops` separately from the `InsectValley` folder, which contains one SMAPI manifest and DLL alongside Insect Valley's data and assets.
 
-The pack also defines 268 insect and other bug items, including all 80 entries from the [New Horizons bug list](https://nookipedia.com/wiki/Bug/New_Horizons). Each has a sell value and namespaced `CustomFields` for rarity (`common`, `rare`, or `legendary`), catch locations, seasons, active time range, and relative `CatchWeight`. Common outdoor species provide at least three catches for every bait family at any time of year or day; rare and legendary species retain their more restricted availability. The core mod normalizes catch weights among eligible insects and applies the bait's rarity rules. Their `carnivorousplants_insect` context tag identifies the Insect group; the core mod displays its category label, including for non-insect bugs.
+Run the unit tests with:
+
+```powershell
+dotnet test CarnivorousCrops.Tests\CarnivorousCrops.Tests.csproj
+dotnet test InsectValley.Tests\InsectValley.Tests.csproj
+```
+
+For in-game acceptance checks, build `InsectValley.Tests\GameAcceptanceTests\CarnivorousPlants.GameAcceptanceTests.csproj`, then copy its output DLL and `manifest.json` into a new `Mods\CarnivorousPlants.GameAcceptanceTests` folder. Launch SMAPI with Content Patcher, Carnivorous Crops, and Insect Valley enabled, then load a save. The harness checks crop data, artisan machine outputs, insect and bait data, and bug-net attachments; results appear in the SMAPI log as `PASS`, `FAIL`, and a final summary. These checks are read-only.
+
+The Bug Net and Iridium Bug Net each have one bait slot and use the scythe swing animation and sound. Each swing consumes one attached bait and attempts a catch using the current location, season, time, insect rarity, and bait type. If no insects match, bait is still consumed; if the inventory is full, the insect drops nearby. While holding a baited bug net, the HUD shows remaining bait and per-swing catch chances. For testing, use an item spawner to obtain `(T)InsectValley.Core_BugNet` or `(T)InsectValley.Core_IridiumBugNet`; run `bugnet_pool` in the SMAPI console to list eligible insects.
+
+Insect Valley defines 268 insects and seven bait types. Bait recipes use artisan goods from Carnivorous Crops. Insect and bait IDs use the `InsectValley.Core` namespace, so existing saves or content that refer to their former `CarnivorousCrops.ContentPack` IDs may need those items replaced or references updated.

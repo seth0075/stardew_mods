@@ -1,9 +1,0 @@
-{
-  "Name": "Carnivorous Crops (Code)",
-  "Author": "CarnivorousCrops",
-  "Version": "1.0.0",
-  "Description": "C# companion for Carnivorous Crops: insect bait category and bug net.",
-  "UniqueID": "CarnivorousPlants.Core",
-  "EntryDll": "CarnivorousPlants.Core.dll",
-  "MinimumApiVersion": "4.0.0"
-}
