@@ -1,4 +1,5 @@
 using HarmonyLib;
+using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Tools;
 using SObject = StardewValley.Object;
@@ -10,14 +11,16 @@ internal static class BugNetPatches
     private const string BugNetId = "(T)CarnivorousCrops.ContentPack_BugNet";
     private const string IridiumBugNetId = "(T)CarnivorousCrops.ContentPack_IridiumBugNet";
     private const int SwingSpriteIndex = 1;
+    private static IMonitor _monitor = null!;
 
     private static bool IsBugNet(Tool? tool)
     {
         return tool?.QualifiedItemId is BugNetId or IridiumBugNetId;
     }
 
-    public static void Apply(string harmonyId)
+    public static void Apply(string harmonyId, IMonitor monitor)
     {
+        _monitor = monitor;
         var harmony = new Harmony(harmonyId);
         harmony.Patch(
             original: AccessTools.Method(typeof(Tool), "canThisBeAttached", new[] { typeof(SObject), typeof(int) }),
@@ -50,7 +53,7 @@ internal static class BugNetPatches
         return false;
     }
 
-    private static bool BeginUsing(Tool __instance, Farmer who, ref bool __result)
+    private static bool BeginUsing(Tool __instance, GameLocation location, int x, int y, Farmer who, ref bool __result)
     {
         if (!IsBugNet(__instance))
             return true;
@@ -75,6 +78,8 @@ internal static class BugNetPatches
         who.FarmerSprite.animateOnce(animation, interval, 6);
         if (__instance.PlayUseSounds && who.ShouldHandleAnimationSound())
             who.playNearbySoundLocal("swordswipe");
+
+        InsectCatchService.TryCatch(__instance, location, who, _monitor);
 
         __result = false;
         return false;

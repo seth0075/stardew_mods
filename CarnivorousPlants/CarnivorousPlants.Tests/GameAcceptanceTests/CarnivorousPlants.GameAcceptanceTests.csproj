@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <EnableModDeploy>false</EnableModDeploy>
+    <EnableModZip>false</EnableModZip>
+    <RootNamespace>CarnivorousPlants.GameAcceptanceTests</RootNamespace>
+    <AssemblyName>CarnivorousPlants.GameAcceptanceTests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.*" />
+    <None Update="manifest.json" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>

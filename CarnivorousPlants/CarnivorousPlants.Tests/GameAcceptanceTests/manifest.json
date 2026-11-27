@@ -1,0 +1,19 @@
+{
+  "Name": "Carnivorous Crops Game Acceptance Tests",
+  "Author": "CarnivorousCrops",
+  "Version": "1.0.0",
+  "Description": "Runs read-only smoke tests against Carnivorous Crops in a loaded game.",
+  "UniqueID": "CarnivorousPlants.GameAcceptanceTests",
+  "EntryDll": "CarnivorousPlants.GameAcceptanceTests.dll",
+  "MinimumApiVersion": "4.0.0",
+  "Dependencies": [
+    {
+      "UniqueID": "CarnivorousPlants.Core",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true
+    }
+  ]
+}

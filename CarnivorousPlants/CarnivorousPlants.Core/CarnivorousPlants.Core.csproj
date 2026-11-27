@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.*" />
+    <InternalsVisibleTo Include="CarnivorousPlants.Tests" />
   </ItemGroup>
 
   <Target Name="DeployParent" AfterTargets="Build" Condition="'$(GameModsPath)' != ''">
