@@ -12,9 +12,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 0
         },
@@ -26,9 +24,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 1
         },
@@ -40,9 +36,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 2
         },
@@ -54,9 +48,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 3
         },
@@ -68,9 +60,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 4
         },
@@ -82,9 +72,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 5
         },
@@ -96,9 +84,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 6
         },
@@ -110,9 +96,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 7
         },
@@ -124,9 +108,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 8
         },
@@ -138,9 +120,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 9
         },
@@ -152,9 +132,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 10
         },
@@ -166,9 +144,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 11
         },
@@ -180,9 +156,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 12
         },
@@ -194,9 +168,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 13
         },
@@ -208,9 +180,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 14
         },
@@ -222,9 +192,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 15
         },
@@ -236,9 +204,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 16
         },
@@ -250,9 +216,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 17
         },
@@ -264,9 +228,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 18
         },
@@ -278,9 +240,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 19
         },
@@ -292,9 +252,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 20
         },
@@ -306,9 +264,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 21
         },
@@ -320,9 +276,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 22
         },
@@ -334,9 +288,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 23
         },
@@ -348,9 +300,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 24
         },
@@ -362,9 +312,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 25
         },
@@ -376,9 +324,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 26
         },
@@ -390,9 +336,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 27
         },
@@ -404,9 +348,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 28
         },
@@ -418,9 +360,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 29
         },
@@ -432,9 +372,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 30
         },
@@ -446,9 +384,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 31
         },
@@ -460,9 +396,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 32
         },
@@ -474,9 +408,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 33
         },
@@ -488,9 +420,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 34
         },
@@ -502,9 +432,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 35
         },
@@ -516,9 +444,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 36
         },
@@ -530,9 +456,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 37
         },
@@ -544,9 +468,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 38
         },
@@ -558,9 +480,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 39
         },
@@ -572,9 +492,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 40
         },
@@ -586,9 +504,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 41
         },
@@ -600,9 +516,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 42
         },
@@ -614,9 +528,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 43
         },
@@ -628,9 +540,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 44
         },
@@ -642,9 +552,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 45
         },
@@ -656,9 +564,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 46
         },
@@ -670,9 +576,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 47
         },
@@ -684,9 +588,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 48
         },
@@ -698,9 +600,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 49
         },
@@ -712,9 +612,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 50
         },
@@ -726,9 +624,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 51
         },
@@ -740,9 +636,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 52
         },
@@ -754,9 +648,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 53
         },
@@ -768,9 +660,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 54
         },
@@ -782,9 +672,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 55
         },
@@ -796,9 +684,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 56
         },
@@ -810,9 +696,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 57
         },
@@ -824,9 +708,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 58
         },
@@ -838,9 +720,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 59
         },
@@ -852,9 +732,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 60
         },
@@ -866,9 +744,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 61
         },
@@ -880,9 +756,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 62
         },
@@ -894,9 +768,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 63
         },
@@ -908,9 +780,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 64
         },
@@ -922,9 +792,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 65
         },
@@ -936,9 +804,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 66
         },
@@ -950,9 +816,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 67
         },
@@ -964,9 +828,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 68
         },
@@ -978,9 +840,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 69
         },
@@ -992,9 +852,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 70
         },
@@ -1006,9 +864,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 71
         },
@@ -1020,9 +876,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 72
         },
@@ -1034,9 +888,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 73
         },
@@ -1048,9 +900,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 74
         },
@@ -1062,9 +912,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 75
         },
@@ -1076,9 +924,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 76
         },
@@ -1090,9 +936,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 77
         },
@@ -1104,9 +948,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 78
         },
@@ -1118,9 +960,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 79
         },
@@ -1132,9 +972,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 80
         },
@@ -1146,9 +984,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 81
         },
@@ -1160,9 +996,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 82
         },
@@ -1174,9 +1008,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 83
         },
@@ -1188,9 +1020,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 84
         },
@@ -1202,9 +1032,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 85
         },
@@ -1216,9 +1044,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 86
         },
@@ -1230,9 +1056,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 87
         },
@@ -1244,9 +1068,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 88
         },
@@ -1258,9 +1080,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 89
         },
@@ -1272,9 +1092,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 90
         },
@@ -1286,9 +1104,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 91
         },
@@ -1300,9 +1116,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 92
         },
@@ -1314,9 +1128,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 93
         },
@@ -1328,9 +1140,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 94
         },
@@ -1342,9 +1152,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 95
         },
@@ -1356,9 +1164,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 96
         },
@@ -1370,9 +1176,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 97
         },
@@ -1384,9 +1188,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 98
         },
@@ -1398,9 +1200,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 99
         },
@@ -1412,9 +1212,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 100
         },
@@ -1426,9 +1224,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 101
         },
@@ -1440,9 +1236,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 102
         },
@@ -1454,9 +1248,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 103
         },
@@ -1468,9 +1260,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 104
         },
@@ -1482,9 +1272,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 105
         },
@@ -1496,9 +1284,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 106
         },
@@ -1510,9 +1296,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 107
         },
@@ -1524,9 +1308,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 108
         },
@@ -1538,9 +1320,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 109
         },
@@ -1552,9 +1332,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 110
         },
@@ -1566,9 +1344,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 111
         },
@@ -1580,9 +1356,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 112
         },
@@ -1594,9 +1368,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 113
         },
@@ -1608,9 +1380,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 114
         },
@@ -1622,9 +1392,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 115
         },
@@ -1636,9 +1404,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 116
         },
@@ -1650,9 +1416,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 117
         },
@@ -1664,9 +1428,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 118
         },
@@ -1678,9 +1440,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 119
         },
@@ -1692,9 +1452,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 120
         },
@@ -1706,9 +1464,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 121
         },
@@ -1720,9 +1476,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 122
         },
@@ -1734,9 +1488,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 123
         },
@@ -1748,9 +1500,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 124
         },
@@ -1762,9 +1512,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 125
         },
@@ -1776,9 +1524,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 126
         },
@@ -1790,11 +1536,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 127
+          "SpriteIndex": 128
         },
         "{{ModId}}_InsectEmeraldAshBorer": {
           "Name": "{{ModId}}_InsectEmeraldAshBorer",
@@ -1804,11 +1548,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 128
+          "SpriteIndex": 143
         },
         "{{ModId}}_InsectGiantjewelbeetle": {
           "Name": "{{ModId}}_InsectGiantjewelbeetle",
@@ -1818,11 +1560,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 129
+          "SpriteIndex": 130
         },
         "{{ModId}}_InsectFirecoloredBeetles": {
           "Name": "{{ModId}}_InsectFirecoloredBeetles",
@@ -1832,11 +1572,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 130
+          "SpriteIndex": 131
         },
         "{{ModId}}_InsectTexasIroncladBeetle": {
           "Name": "{{ModId}}_InsectTexasIroncladBeetle",
@@ -1846,11 +1584,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 131
+          "SpriteIndex": 145
         },
         "{{ModId}}_InsectDiabolicalIroncladBeetle": {
           "Name": "{{ModId}}_InsectDiabolicalIroncladBeetle",
@@ -1860,9 +1596,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 132
         },
@@ -1874,11 +1608,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 133
+          "SpriteIndex": 146
         },
         "{{ModId}}_InsectSixspottedTigerBeetle": {
           "Name": "{{ModId}}_InsectSixspottedTigerBeetle",
@@ -1888,11 +1620,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 134
+          "SpriteIndex": 127
         },
         "{{ModId}}_InsectCoralPinkSandDunesTigerBeetle": {
           "Name": "{{ModId}}_InsectCoralPinkSandDunesTigerBeetle",
@@ -1902,11 +1632,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 135
+          "SpriteIndex": 138
         },
         "{{ModId}}_InsectTrilobiteBeetle": {
           "Name": "{{ModId}}_InsectTrilobiteBeetle",
@@ -1916,11 +1644,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 136
+          "SpriteIndex": 139
         },
         "{{ModId}}_InsectSpanishFly": {
           "Name": "{{ModId}}_InsectSpanishFly",
@@ -1930,11 +1656,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 137
+          "SpriteIndex": 129
         },
         "{{ModId}}_InsectJewelBeetles": {
           "Name": "{{ModId}}_InsectJewelBeetles",
@@ -1944,11 +1668,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 138
+          "SpriteIndex": 133
         },
         "{{ModId}}_InsectEuropeanStagBeetle": {
           "Name": "{{ModId}}_InsectEuropeanStagBeetle",
@@ -1958,11 +1680,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 139
+          "SpriteIndex": 134
         },
         "{{ModId}}_InsectGiantYellowStagBeetle": {
           "Name": "{{ModId}}_InsectGiantYellowStagBeetle",
@@ -1972,11 +1692,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 140
+          "SpriteIndex": 136
         },
         "{{ModId}}_InsectOxBeetles": {
           "Name": "{{ModId}}_InsectOxBeetles",
@@ -1986,11 +1704,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 141
+          "SpriteIndex": 135
         },
         "{{ModId}}_InsectfivehornedRhinocerosBeetle": {
           "Name": "{{ModId}}_InsectfivehornedRhinocerosBeetle",
@@ -2000,11 +1716,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 142
+          "SpriteIndex": 137
         },
         "{{ModId}}_InsectEyedClickBeetles": {
           "Name": "{{ModId}}_InsectEyedClickBeetles",
@@ -2014,11 +1728,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 143
+          "SpriteIndex": 142
         },
         "{{ModId}}_InsectGlowingClickBeetles": {
           "Name": "{{ModId}}_InsectGlowingClickBeetles",
@@ -2028,9 +1740,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 144
         },
@@ -2042,11 +1752,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 145
+          "SpriteIndex": 140
         },
         "{{ModId}}_InsectGiraffeWeevil": {
           "Name": "{{ModId}}_InsectGiraffeWeevil",
@@ -2056,11 +1764,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 146
+          "SpriteIndex": 141
         },
         "{{ModId}}_InsectGlasswing": {
           "Name": "{{ModId}}_InsectGlasswing",
@@ -2070,25 +1776,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 147
-        },
-        "{{ModId}}_InsectAnnasHummingbird": {
-          "Name": "{{ModId}}_InsectAnnasHummingbird",
-          "DisplayName": "Anna's Hummingbird",
-          "Description": "Scientific: Calypte anna",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 148
         },
         "{{ModId}}_InsectBeautifulDemoiselle": {
           "Name": "{{ModId}}_InsectBeautifulDemoiselle",
@@ -2098,9 +1788,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 149
         },
@@ -2112,9 +1800,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 150
         },
@@ -2126,9 +1812,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 151
         },
@@ -2140,9 +1824,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 152
         },
@@ -2154,25 +1836,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 153
-        },
-        "{{ModId}}_InsectBlushingAmanitas": {
-          "Name": "{{ModId}}_InsectBlushingAmanitas",
-          "DisplayName": "Blushing Amanitas",
-          "Description": "Scientific: Amanita rubescens",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 154
         },
         "{{ModId}}_Insectamberphantom": {
           "Name": "{{ModId}}_Insectamberphantom",
@@ -2182,39 +1848,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 155
-        },
-        "{{ModId}}_InsectIndianpipes": {
-          "Name": "{{ModId}}_InsectIndianpipes",
-          "DisplayName": "Indian pipes",
-          "Description": "Scientific: Monotropa",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 156
-        },
-        "{{ModId}}_Insectautumnolive": {
-          "Name": "{{ModId}}_Insectautumnolive",
-          "DisplayName": "autumn olive",
-          "Description": "Scientific: Elaeagnus umbellata",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 157
         },
         "{{ModId}}_InsectBluePansy": {
           "Name": "{{ModId}}_InsectBluePansy",
@@ -2224,9 +1860,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 158
         },
@@ -2238,9 +1872,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 159
         },
@@ -2252,9 +1884,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 160
         },
@@ -2266,9 +1896,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 161
         },
@@ -2280,9 +1908,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 162
         },
@@ -2294,9 +1920,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 163
         },
@@ -2308,9 +1932,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 164
         },
@@ -2322,25 +1944,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 165
-        },
-        "{{ModId}}_InsectCrimsonRosella": {
-          "Name": "{{ModId}}_InsectCrimsonRosella",
-          "DisplayName": "Crimson Rosella",
-          "Description": "Scientific: Platycercus elegans",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 166
         },
         "{{ModId}}_InsectEmeraldpatchedCattleheart": {
           "Name": "{{ModId}}_InsectEmeraldpatchedCattleheart",
@@ -2350,9 +1956,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 167
         },
@@ -2364,9 +1968,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 168
         },
@@ -2378,9 +1980,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 169
         },
@@ -2392,9 +1992,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 170
         },
@@ -2406,9 +2004,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 171
         },
@@ -2420,9 +2016,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 172
         },
@@ -2434,25 +2028,9 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 173
-        },
-        "{{ModId}}_InsectGreatBlueHeron": {
-          "Name": "{{ModId}}_InsectGreatBlueHeron",
-          "DisplayName": "Great Blue Heron",
-          "Description": "Scientific: Ardea herodias",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 174
         },
         "{{ModId}}_InsectMeliboeus": {
           "Name": "{{ModId}}_InsectMeliboeus",
@@ -2462,9 +2040,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 175
         },
@@ -2476,9 +2052,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 176
         },
@@ -2490,9 +2064,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 177
         },
@@ -2504,9 +2076,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 178
         },
@@ -2518,9 +2088,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 179
         },
@@ -2532,9 +2100,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 180
         },
@@ -2546,9 +2112,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 181
         },
@@ -2560,9 +2124,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 182
         },
@@ -2574,9 +2136,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 183
         },
@@ -2588,9 +2148,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 184
         },
@@ -2602,9 +2160,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 185
         },
@@ -2616,9 +2172,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 186
         },
@@ -2630,9 +2184,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 187
         },
@@ -2644,9 +2196,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 188
         },
@@ -2658,9 +2208,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 189
         },
@@ -2672,9 +2220,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 190
         },
@@ -2686,9 +2232,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 191
         },
@@ -2700,9 +2244,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 192
         },
@@ -2714,9 +2256,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 193
         },
@@ -2728,9 +2268,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 194
         },
@@ -2742,9 +2280,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 195
         },
@@ -2756,9 +2292,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 196
         },
@@ -2770,9 +2304,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 197
         },
@@ -2784,9 +2316,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 198
         },
@@ -2798,9 +2328,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 199
         },
@@ -2812,9 +2340,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 200
         },
@@ -2826,9 +2352,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 201
         },
@@ -2840,9 +2364,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 202
         },
@@ -2854,9 +2376,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 203
         },
@@ -2868,9 +2388,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 204
         },
@@ -2882,9 +2400,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 205
         },
@@ -2896,9 +2412,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 206
         },
@@ -2910,9 +2424,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 207
         },
@@ -2924,9 +2436,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 208
         },
@@ -2938,9 +2448,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 209
         },
@@ -2952,9 +2460,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 210
         },
@@ -2966,9 +2472,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 211
         },
@@ -2980,9 +2484,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 212
         },
@@ -2994,9 +2496,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 213
         },
@@ -3008,9 +2508,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 214
         },
@@ -3022,9 +2520,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 215
         },
@@ -3036,9 +2532,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 216
         },
@@ -3050,9 +2544,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 217
         },
@@ -3064,9 +2556,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 218
         },
@@ -3078,9 +2568,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 219
         },
@@ -3092,9 +2580,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 220
         },
@@ -3106,9 +2592,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 221
         },
@@ -3120,9 +2604,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 222
         },
@@ -3134,9 +2616,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 223
         },
@@ -3148,9 +2628,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 224
         },
@@ -3162,9 +2640,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 225
         },
@@ -3176,9 +2652,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 226
         },
@@ -3190,9 +2664,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 227
         },
@@ -3204,9 +2676,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 228
         },
@@ -3218,9 +2688,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 229
         },
@@ -3232,9 +2700,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 230
         },
@@ -3246,9 +2712,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 231
         },
@@ -3260,9 +2724,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 232
         },
@@ -3274,9 +2736,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 233
         },
@@ -3288,9 +2748,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 234
         },
@@ -3302,9 +2760,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 235
         },
@@ -3316,9 +2772,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 236
         },
@@ -3330,9 +2784,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 237
         },
@@ -3344,9 +2796,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 238
         },
@@ -3358,9 +2808,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 239
         },
@@ -3372,9 +2820,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 240
         },
@@ -3386,9 +2832,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 241
         },
@@ -3400,9 +2844,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 242
         },
@@ -3414,9 +2856,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 243
         },
@@ -3428,9 +2868,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 244
         },
@@ -3442,9 +2880,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 245
         },
@@ -3456,9 +2892,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 246
         },
@@ -3470,9 +2904,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 247
         },
@@ -3484,9 +2916,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 248
         },
@@ -3498,9 +2928,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 249
         },
@@ -3512,9 +2940,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 250
         },
@@ -3526,9 +2952,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 251
         },
@@ -3540,9 +2964,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 252
         },
@@ -3554,9 +2976,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 253
         },
@@ -3568,9 +2988,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 254
         },
@@ -3582,9 +3000,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 255
         },
@@ -3596,9 +3012,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 256
         },
@@ -3610,9 +3024,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 257
         },
@@ -3624,9 +3036,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 258
         },
@@ -3638,9 +3048,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 259
         },
@@ -3652,9 +3060,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 260
         },
@@ -3666,9 +3072,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 261
         },
@@ -3680,9 +3084,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 262
         },
@@ -3694,9 +3096,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 263
         },
@@ -3708,9 +3108,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 264
         },
@@ -3722,9 +3120,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 265
         },
@@ -3736,9 +3132,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 266
         },
@@ -3750,9 +3144,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 267
         },
@@ -3764,9 +3156,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 268
         },
@@ -3778,9 +3168,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 269
         },
@@ -3792,9 +3180,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 270
         },
@@ -3806,9 +3192,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 271
         },
@@ -3820,9 +3204,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 272
         },
@@ -3834,9 +3216,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 273
         },
@@ -3848,9 +3228,7 @@
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
-          "ContextTags": [
-            "carnivorousplants_insect"
-          ],
+          "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 274
         }
