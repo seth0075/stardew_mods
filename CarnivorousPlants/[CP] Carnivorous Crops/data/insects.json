@@ -3147,6 +3147,78 @@
           "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 274
+        },
+        "{{ModId}}_InsectGlowingCaveButterfly": {
+          "Name": "{{ModId}}_InsectGlowingCaveButterfly",
+          "DisplayName": "Glowing Cave Butterfly",
+          "Description": "A luminous butterfly said to drift through the deepest caves.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": ["carnivorousplants_insect"],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 275
+        },
+        "{{ModId}}_InsectLavaButterfly": {
+          "Name": "{{ModId}}_InsectLavaButterfly",
+          "DisplayName": "Lava Butterfly",
+          "Description": "Its wings burn with the heat of molten stone.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": ["carnivorousplants_insect"],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 276
+        },
+        "{{ModId}}_InsectIceButterfly": {
+          "Name": "{{ModId}}_InsectIceButterfly",
+          "DisplayName": "Ice Butterfly",
+          "Description": "A frostbound butterfly whose wings never thaw.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": ["carnivorousplants_insect"],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 277
+        },
+        "{{ModId}}_InsectDesertButterfly": {
+          "Name": "{{ModId}}_InsectDesertButterfly",
+          "DisplayName": "Desert Butterfly",
+          "Description": "An ancient desert spirit marked with the symbols of a forgotten kingdom.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": ["carnivorousplants_insect"],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 278
+        },
+        "{{ModId}}_InsectVoidMoth": {
+          "Name": "{{ModId}}_InsectVoidMoth",
+          "DisplayName": "Void Moth",
+          "Description": "A dusky moth marked with a ghostly skull.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": ["carnivorousplants_insect"],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 279
+        },
+        "{{ModId}}_InsectPrismaticButterfly": {
+          "Name": "{{ModId}}_InsectPrismaticButterfly",
+          "DisplayName": "Prismatic Butterfly",
+          "Description": "Its shifting wings shimmer with every color of the rainbow.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": ["carnivorousplants_insect"],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 280
         }
       }
     }
