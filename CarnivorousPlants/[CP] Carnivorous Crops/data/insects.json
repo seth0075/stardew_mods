@@ -1422,7 +1422,7 @@
         },
         "{{ModId}}_InsectBloodynosedBeetle": {
           "Name": "{{ModId}}_InsectBloodynosedBeetle",
-          "DisplayName": "Bloody-nosed Beetle",
+          "DisplayName": "Bloody-Nosed Beetle",
           "Description": "Scientific: Timarcha tenebricosa",
           "Type": "Basic",
           "Category": 0,
@@ -1434,7 +1434,7 @@
         },
         "{{ModId}}_InsectFrogleggedleafbeetle": {
           "Name": "{{ModId}}_InsectFrogleggedleafbeetle",
-          "DisplayName": "Frog-legged leaf beetle",
+          "DisplayName": "Frog-Legged Leaf Beetle",
           "Description": "Scientific: Sagra femorata",
           "Type": "Basic",
           "Category": 0,
@@ -1494,7 +1494,7 @@
         },
         "{{ModId}}_InsectMuskbeetle": {
           "Name": "{{ModId}}_InsectMuskbeetle",
-          "DisplayName": "Musk beetle",
+          "DisplayName": "Musk Beetle",
           "Description": "Scientific: Aromia moschata",
           "Type": "Basic",
           "Category": 0,
@@ -1530,7 +1530,7 @@
         },
         "{{ModId}}_Insectsunbeetle": {
           "Name": "{{ModId}}_Insectsunbeetle",
-          "DisplayName": "sun beetle",
+          "DisplayName": "Sun Beetle",
           "Description": "Scientific: Pachnoda marginata",
           "Type": "Basic",
           "Category": 0,
@@ -1554,7 +1554,7 @@
         },
         "{{ModId}}_InsectGiantjewelbeetle": {
           "Name": "{{ModId}}_InsectGiantjewelbeetle",
-          "DisplayName": "Giant jewel beetle",
+          "DisplayName": "Giant Jewel Beetle",
           "Description": "Scientific: Sternocera orissa",
           "Type": "Basic",
           "Category": 0,
@@ -1566,7 +1566,7 @@
         },
         "{{ModId}}_InsectFirecoloredBeetles": {
           "Name": "{{ModId}}_InsectFirecoloredBeetles",
-          "DisplayName": "Fire-colored Beetles",
+          "DisplayName": "Fire-Colored Beetle",
           "Description": "Scientific: Pyrochroidae",
           "Type": "Basic",
           "Category": 0,
@@ -1602,7 +1602,7 @@
         },
         "{{ModId}}_Insectbombardierbeetle": {
           "Name": "{{ModId}}_Insectbombardierbeetle",
-          "DisplayName": "bombardier beetle",
+          "DisplayName": "Bombardier Beetle",
           "Description": "Scientific: Pheropsophus verticalis",
           "Type": "Basic",
           "Category": 0,
@@ -1614,7 +1614,7 @@
         },
         "{{ModId}}_InsectSixspottedTigerBeetle": {
           "Name": "{{ModId}}_InsectSixspottedTigerBeetle",
-          "DisplayName": "Six-spotted Tiger Beetle",
+          "DisplayName": "Six-Spotted Tiger Beetle",
           "Description": "Scientific: Cicindela sexguttata",
           "Type": "Basic",
           "Category": 0,
@@ -1662,7 +1662,7 @@
         },
         "{{ModId}}_InsectJewelBeetles": {
           "Name": "{{ModId}}_InsectJewelBeetles",
-          "DisplayName": "Jewel Beetles",
+          "DisplayName": "Buprestid Beetle",
           "Description": "Scientific: Buprestidae",
           "Type": "Basic",
           "Category": 0,
@@ -1698,7 +1698,7 @@
         },
         "{{ModId}}_InsectOxBeetles": {
           "Name": "{{ModId}}_InsectOxBeetles",
-          "DisplayName": "Ox Beetles",
+          "DisplayName": "Ox Beetle",
           "Description": "Scientific: Strategus",
           "Type": "Basic",
           "Category": 0,
@@ -1710,7 +1710,7 @@
         },
         "{{ModId}}_InsectfivehornedRhinocerosBeetle": {
           "Name": "{{ModId}}_InsectfivehornedRhinocerosBeetle",
-          "DisplayName": "five-horned Rhinoceros Beetle",
+          "DisplayName": "Five-Horned Rhinoceros Beetle",
           "Description": "Scientific: Eupatorus gracilicornis",
           "Type": "Basic",
           "Category": 0,
@@ -1722,7 +1722,7 @@
         },
         "{{ModId}}_InsectEyedClickBeetles": {
           "Name": "{{ModId}}_InsectEyedClickBeetles",
-          "DisplayName": "Eyed Click Beetles",
+          "DisplayName": "Eyed Click Beetle",
           "Description": "Scientific: Alaus",
           "Type": "Basic",
           "Category": 0,
@@ -1734,7 +1734,7 @@
         },
         "{{ModId}}_InsectGlowingClickBeetles": {
           "Name": "{{ModId}}_InsectGlowingClickBeetles",
-          "DisplayName": "Glowing Click Beetles",
+          "DisplayName": "Glowing Click Beetle",
           "Description": "Scientific: Deilelater",
           "Type": "Basic",
           "Category": 0,
@@ -1746,7 +1746,7 @@
         },
         "{{ModId}}_InsectWartyLeafBeetles": {
           "Name": "{{ModId}}_InsectWartyLeafBeetles",
-          "DisplayName": "Warty Leaf Beetles",
+          "DisplayName": "Warty Leaf Beetle",
           "Description": "Scientific: Fulcidacini",
           "Type": "Basic",
           "Category": 0,
@@ -1842,7 +1842,7 @@
         },
         "{{ModId}}_Insectamberphantom": {
           "Name": "{{ModId}}_Insectamberphantom",
-          "DisplayName": "amber phantom",
+          "DisplayName": "Amber Phantom",
           "Description": "Scientific: Haetera piera",
           "Type": "Basic",
           "Category": 0,
@@ -1914,7 +1914,7 @@
         },
         "{{ModId}}_InsectFivebarSwordtail": {
           "Name": "{{ModId}}_InsectFivebarSwordtail",
-          "DisplayName": "Five-bar Swordtail",
+          "DisplayName": "Five-Bar Swordtail",
           "Description": "Scientific: Graphium antiphates",
           "Type": "Basic",
           "Category": 0,
@@ -1938,7 +1938,7 @@
         },
         "{{ModId}}_InsectPurplespottedFlitter": {
           "Name": "{{ModId}}_InsectPurplespottedFlitter",
-          "DisplayName": "Purple-spotted Flitter",
+          "DisplayName": "Purple-Spotted Flitter",
           "Description": "Scientific: Zographetus ogygia",
           "Type": "Basic",
           "Category": 0,
@@ -1950,7 +1950,7 @@
         },
         "{{ModId}}_InsectEmeraldpatchedCattleheart": {
           "Name": "{{ModId}}_InsectEmeraldpatchedCattleheart",
-          "DisplayName": "Emerald-patched Cattleheart",
+          "DisplayName": "Emerald-Patched Cattleheart",
           "Description": "Scientific: Parides sesostris",
           "Type": "Basic",
           "Category": 0,
@@ -1962,7 +1962,7 @@
         },
         "{{ModId}}_InsectPinkspottedCattleheart": {
           "Name": "{{ModId}}_InsectPinkspottedCattleheart",
-          "DisplayName": "Pink-spotted Cattleheart",
+          "DisplayName": "Pink-Spotted Cattleheart",
           "Description": "Scientific: Parides photinus",
           "Type": "Basic",
           "Category": 0,
@@ -2022,7 +2022,7 @@
         },
         "{{ModId}}_InsectBhutantreebrown": {
           "Name": "{{ModId}}_InsectBhutantreebrown",
-          "DisplayName": "Bhutan treebrown",
+          "DisplayName": "Bhutan Treebrown",
           "Description": "Scientific: Lethe margaritae",
           "Type": "Basic",
           "Category": 0,
@@ -2058,7 +2058,7 @@
         },
         "{{ModId}}_InsectPurplehairstreak": {
           "Name": "{{ModId}}_InsectPurplehairstreak",
-          "DisplayName": "Purple hairstreak",
+          "DisplayName": "Purple Hairstreak",
           "Description": "Scientific: Favonius quercus",
           "Type": "Basic",
           "Category": 0,
@@ -2070,7 +2070,7 @@
         },
         "{{ModId}}_InsectRedspottedPurple": {
           "Name": "{{ModId}}_InsectRedspottedPurple",
-          "DisplayName": "Red-spotted Purple",
+          "DisplayName": "Red-Spotted Purple",
           "Description": "Scientific: Limenitis arthemis astyanax",
           "Type": "Basic",
           "Category": 0,
@@ -2202,7 +2202,7 @@
         },
         "{{ModId}}_InsectDeathsheadHawkmoths": {
           "Name": "{{ModId}}_InsectDeathsheadHawkmoths",
-          "DisplayName": "Death's-head Hawkmoths",
+          "DisplayName": "Death's-Head Hawkmoth",
           "Description": "Scientific: Acherontia",
           "Type": "Basic",
           "Category": 0,
@@ -2238,7 +2238,7 @@
         },
         "{{ModId}}_InsectHummingbirdHawkmoths": {
           "Name": "{{ModId}}_InsectHummingbirdHawkmoths",
-          "DisplayName": "Hummingbird Hawkmoths",
+          "DisplayName": "Hummingbird Hawkmoth",
           "Description": "Scientific: Macroglossum",
           "Type": "Basic",
           "Category": 0,
@@ -2250,7 +2250,7 @@
         },
         "{{ModId}}_InsectWhitelinedSphinx": {
           "Name": "{{ModId}}_InsectWhitelinedSphinx",
-          "DisplayName": "White-lined Sphinx",
+          "DisplayName": "White-Lined Sphinx",
           "Description": "Scientific: Hyles lineata",
           "Type": "Basic",
           "Category": 0,
@@ -2322,7 +2322,7 @@
         },
         "{{ModId}}_InsectCinnabarmoth": {
           "Name": "{{ModId}}_InsectCinnabarmoth",
-          "DisplayName": "Cinnabar moth",
+          "DisplayName": "Cinnabar Moth",
           "Description": "Scientific: Tyria jacobaeae",
           "Type": "Basic",
           "Category": 0,
@@ -2346,7 +2346,7 @@
         },
         "{{ModId}}_InsectBrahminMoths": {
           "Name": "{{ModId}}_InsectBrahminMoths",
-          "DisplayName": "Brahmin Moths",
+          "DisplayName": "Brahmin Moth",
           "Description": "Scientific: Brahmaeidae",
           "Type": "Basic",
           "Category": 0,
@@ -2418,7 +2418,7 @@
         },
         "{{ModId}}_InsectBufftip": {
           "Name": "{{ModId}}_InsectBufftip",
-          "DisplayName": "Buff-tip",
+          "DisplayName": "Buff-Tip",
           "Description": "Scientific: Phalera bucephala",
           "Type": "Basic",
           "Category": 0,
@@ -2430,7 +2430,7 @@
         },
         "{{ModId}}_InsectFruitpiercingmoth": {
           "Name": "{{ModId}}_InsectFruitpiercingmoth",
-          "DisplayName": "Fruit-piercing moth",
+          "DisplayName": "Fruit-Piercing Moth",
           "Description": "Scientific: Oraesia excavata",
           "Type": "Basic",
           "Category": 0,
@@ -2454,7 +2454,7 @@
         },
         "{{ModId}}_InsectGhostMantises": {
           "Name": "{{ModId}}_InsectGhostMantises",
-          "DisplayName": "Ghost Mantises",
+          "DisplayName": "Ghost Mantis",
           "Description": "Scientific: Phyllocrania",
           "Type": "Basic",
           "Category": 0,
@@ -2466,7 +2466,7 @@
         },
         "{{ModId}}_InsectSpinyFlowerMantises": {
           "Name": "{{ModId}}_InsectSpinyFlowerMantises",
-          "DisplayName": "Spiny Flower Mantises",
+          "DisplayName": "Spiny Flower Mantis",
           "Description": "Scientific: Pseudocreobotra",
           "Type": "Basic",
           "Category": 0,
@@ -2598,7 +2598,7 @@
         },
         "{{ModId}}_InsectUnicornMantises": {
           "Name": "{{ModId}}_InsectUnicornMantises",
-          "DisplayName": "Unicorn Mantises",
+          "DisplayName": "Unicorn Mantis",
           "Description": "Scientific: Vatinae",
           "Type": "Basic",
           "Category": 0,
@@ -2670,7 +2670,7 @@
         },
         "{{ModId}}_Insectgiantredwingedgrasshopper": {
           "Name": "{{ModId}}_Insectgiantredwingedgrasshopper",
-          "DisplayName": "giant red-winged grasshopper",
+          "DisplayName": "Giant Red-Winged Grasshopper",
           "Description": "Scientific: Tropidacris cristata",
           "Type": "Basic",
           "Category": 0,
@@ -2682,7 +2682,7 @@
         },
         "{{ModId}}_InsectBluewingedGrasshopper": {
           "Name": "{{ModId}}_InsectBluewingedGrasshopper",
-          "DisplayName": "Blue-winged Grasshopper",
+          "DisplayName": "Blue-Winged Grasshopper",
           "Description": "Scientific: Oedipoda caerulescens",
           "Type": "Basic",
           "Category": 0,
@@ -2718,7 +2718,7 @@
         },
         "{{ModId}}_InsectWetaJerusalemCricketsandAllies": {
           "Name": "{{ModId}}_InsectWetaJerusalemCricketsandAllies",
-          "DisplayName": "Weta, Jerusalem Crickets, and Allies",
+          "DisplayName": "Common Weta",
           "Description": "Scientific: Stenopelmatoidea",
           "Type": "Basic",
           "Category": 0,
@@ -2730,7 +2730,7 @@
         },
         "{{ModId}}_InsectCamelCricketsCaveCricketsandCaveWetas": {
           "Name": "{{ModId}}_InsectCamelCricketsCaveCricketsandCaveWetas",
-          "DisplayName": "Camel Crickets, Cave Crickets, and Cave Wetas",
+          "DisplayName": "Cave Cricket",
           "Description": "Scientific: Rhaphidophoroidea",
           "Type": "Basic",
           "Category": 0,
@@ -2742,7 +2742,7 @@
         },
         "{{ModId}}_InsectDragonheadedKatydids": {
           "Name": "{{ModId}}_InsectDragonheadedKatydids",
-          "DisplayName": "Dragon-headed Katydids",
+          "DisplayName": "Dragon-Headed Katydid",
           "Description": "Scientific: Lesina",
           "Type": "Basic",
           "Category": 0,
@@ -2790,7 +2790,7 @@
         },
         "{{ModId}}_InsectHalfgreenOrchidBee": {
           "Name": "{{ModId}}_InsectHalfgreenOrchidBee",
-          "DisplayName": "Half-green Orchid Bee",
+          "DisplayName": "Half-Green Orchid Bee",
           "Description": "Scientific: Euglossa hemichlora",
           "Type": "Basic",
           "Category": 0,
@@ -2838,7 +2838,7 @@
         },
         "{{ModId}}_InsectRubytailedCuckooWasps": {
           "Name": "{{ModId}}_InsectRubytailedCuckooWasps",
-          "DisplayName": "Ruby-tailed Cuckoo Wasps",
+          "DisplayName": "Ruby-Tailed Cuckoo Wasp",
           "Description": "Scientific: Chrysis ignita",
           "Type": "Basic",
           "Category": 0,
@@ -2862,7 +2862,7 @@
         },
         "{{ModId}}_InsectLongtailedGiantIchneumonidWasp": {
           "Name": "{{ModId}}_InsectLongtailedGiantIchneumonidWasp",
-          "DisplayName": "Long-tailed Giant Ichneumonid Wasp",
+          "DisplayName": "Long-Tailed Giant Ichneumonid Wasp",
           "Description": "Scientific: Megarhyssa macrurus",
           "Type": "Basic",
           "Category": 0,
@@ -2898,7 +2898,7 @@
         },
         "{{ModId}}_InsectNorthAmericanHoneypotAnts": {
           "Name": "{{ModId}}_InsectNorthAmericanHoneypotAnts",
-          "DisplayName": "North American Honeypot Ants",
+          "DisplayName": "North American Honeypot Ant",
           "Description": "Scientific: Myrmecocystus",
           "Type": "Basic",
           "Category": 0,
@@ -2910,7 +2910,7 @@
         },
         "{{ModId}}_InsectTurtleAnts": {
           "Name": "{{ModId}}_InsectTurtleAnts",
-          "DisplayName": "Turtle Ants",
+          "DisplayName": "Turtle Ant",
           "Description": "Scientific: Cephalotes",
           "Type": "Basic",
           "Category": 0,
@@ -2922,7 +2922,7 @@
         },
         "{{ModId}}_InsectGoldentailedSpinyAnt": {
           "Name": "{{ModId}}_InsectGoldentailedSpinyAnt",
-          "DisplayName": "Golden-tailed Spiny Ant",
+          "DisplayName": "Golden-Tailed Spiny Ant",
           "Description": "Scientific: Polyrhachis ammon",
           "Type": "Basic",
           "Category": 0,
@@ -2934,7 +2934,7 @@
         },
         "{{ModId}}_InsectGlobebearingTreehopper": {
           "Name": "{{ModId}}_InsectGlobebearingTreehopper",
-          "DisplayName": "Globe-bearing Treehopper",
+          "DisplayName": "Globe-Bearing Treehopper",
           "Description": "Scientific: Bocydium globulare",
           "Type": "Basic",
           "Category": 0,
@@ -2970,7 +2970,7 @@
         },
         "{{ModId}}_InsectAntmimickingTreehopper": {
           "Name": "{{ModId}}_InsectAntmimickingTreehopper",
-          "DisplayName": "Ant-mimicking Treehopper",
+          "DisplayName": "Ant-Mimicking Treehopper",
           "Description": "Scientific: Cyphonia clavata",
           "Type": "Basic",
           "Category": 0,
@@ -2982,7 +2982,7 @@
         },
         "{{ModId}}_InsectBloodredLanternfly": {
           "Name": "{{ModId}}_InsectBloodredLanternfly",
-          "DisplayName": "Blood-red Lanternfly",
+          "DisplayName": "Blood-Red Lanternfly",
           "Description": "Scientific: Pyrops hamdjahi",
           "Type": "Basic",
           "Category": 0,
@@ -3006,7 +3006,7 @@
         },
         "{{ModId}}_InsectRedbandedLeafhopper": {
           "Name": "{{ModId}}_InsectRedbandedLeafhopper",
-          "DisplayName": "Red-banded Leafhopper",
+          "DisplayName": "Red-Banded Leafhopper",
           "Description": "Scientific: Graphocephala coccinea",
           "Type": "Basic",
           "Category": 0,
@@ -3030,7 +3030,7 @@
         },
         "{{ModId}}_InsectGreenLacewings": {
           "Name": "{{ModId}}_InsectGreenLacewings",
-          "DisplayName": "Green Lacewings",
+          "DisplayName": "Green Lacewing",
           "Description": "Scientific: Chrysopidae",
           "Type": "Basic",
           "Category": 0,
@@ -3042,7 +3042,7 @@
         },
         "{{ModId}}_InsectPeriodicalCicadas": {
           "Name": "{{ModId}}_InsectPeriodicalCicadas",
-          "DisplayName": "Periodical Cicadas",
+          "DisplayName": "Periodical Cicada",
           "Description": "Scientific: Magicicada",
           "Type": "Basic",
           "Category": 0,
@@ -3054,7 +3054,7 @@
         },
         "{{ModId}}_InsectWheelBugs": {
           "Name": "{{ModId}}_InsectWheelBugs",
-          "DisplayName": "Wheel Bugs",
+          "DisplayName": "Wheel Bug",
           "Description": "Scientific: Arilus",
           "Type": "Basic",
           "Category": 0,
@@ -3066,7 +3066,7 @@
         },
         "{{ModId}}_InsectRedspottedPlantBug": {
           "Name": "{{ModId}}_InsectRedspottedPlantBug",
-          "DisplayName": "Red-spotted Plant Bug",
+          "DisplayName": "Red-Spotted Plant Bug",
           "Description": "Scientific: Deraeocoris ruber",
           "Type": "Basic",
           "Category": 0,
@@ -3126,7 +3126,7 @@
         },
         "{{ModId}}_Insectrailroadworms": {
           "Name": "{{ModId}}_Insectrailroadworms",
-          "DisplayName": "railroad worms",
+          "DisplayName": "Railroad Worm",
           "Description": "Scientific: Phrixothrix",
           "Type": "Basic",
           "Category": 0,
@@ -3138,7 +3138,7 @@
         },
         "{{ModId}}_InsectEmeraldMoths": {
           "Name": "{{ModId}}_InsectEmeraldMoths",
-          "DisplayName": "Emerald Moths",
+          "DisplayName": "Emerald Moth",
           "Description": "Scientific: Geometrinae",
           "Type": "Basic",
           "Category": 0,
