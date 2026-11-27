@@ -69,6 +69,160 @@
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
           "SpriteIndex": 11
+        },
+        "{{ModId}}_TrumpetEssence": {
+          "Name": "{{ModId}}_TrumpetEssence",
+          "DisplayName": "Trumpet Essence",
+          "Description": "A fragrant golden essence that attracts elusive insects.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 325,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 17
+        },
+        "{{ModId}}_TrumpetCordial": {
+          "Name": "{{ModId}}_TrumpetCordial",
+          "DisplayName": "Trumpet Cordial",
+          "Description": "A rich crimson cordial with a delicate floral fragrance.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 475,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 18
+        },
+        "{{ModId}}_ButterwortMucilage": {
+          "Name": "{{ModId}}_ButterwortMucilage",
+          "DisplayName": "Butterwort Mucilage",
+          "Description": "A smooth, adhesive botanical secretion.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 350,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 22
+        },
+        "{{ModId}}_ButterwortJelly": {
+          "Name": "{{ModId}}_ButterwortJelly",
+          "DisplayName": "Butterwort Jelly",
+          "Description": "A translucent violet jelly with a subtle floral fragrance.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 450,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 23
+        },
+        "{{ModId}}_CobraSecretion": {
+          "Name": "{{ModId}}_CobraSecretion",
+          "DisplayName": "Cobra Secretion",
+          "Description": "A concentrated green secretion with a remarkably pungent aroma.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1100,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 27
+        },
+        "{{ModId}}_CobraDistillate": {
+          "Name": "{{ModId}}_CobraDistillate",
+          "DisplayName": "Cobra Distillate",
+          "Description": "A potent crimson botanical distillate.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1450,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 28
+        },
+        "{{ModId}}_AstralEssence": {
+          "Name": "{{ModId}}_AstralEssence",
+          "DisplayName": "Astral Essence",
+          "Description": "A luminous essence containing traces of ancient celestial magic.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 3500,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 32
+        },
+        "{{ModId}}_CelestialElixir": {
+          "Name": "{{ModId}}_CelestialElixir",
+          "DisplayName": "Celestial Elixir",
+          "Description": "A mysterious elixir that shimmers like the night sky.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 5000,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 33
+        },
+        "{{ModId}}_CephalotusTincture": {
+          "Name": "{{ModId}}_CephalotusTincture",
+          "DisplayName": "Cephalotus Tincture",
+          "Description": "A rich burgundy botanical tincture with an earthy fragrance.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 575,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 37
+        },
+        "{{ModId}}_SolarElixir": {
+          "Name": "{{ModId}}_SolarElixir",
+          "DisplayName": "Solar Elixir",
+          "Description": "A brilliant amber elixir reminiscent of the warmth of sunlight.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 650,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 40
+        },
+        "{{ModId}}_IridescentElixir": {
+          "Name": "{{ModId}}_IridescentElixir",
+          "DisplayName": "Iridescent Elixir",
+          "Description": "A shimmering violet elixir that reflects different colors in the light.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 850,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 43
+        },
+        "{{ModId}}_BladderwortTincture": {
+          "Name": "{{ModId}}_BladderwortTincture",
+          "DisplayName": "Bladderwort Tincture",
+          "Description": "A delicate golden tincture with a subtle floral fragrance.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 700,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 46
+        },
+        "{{ModId}}_DewdropElixir": {
+          "Name": "{{ModId}}_DewdropElixir",
+          "DisplayName": "Dewdrop Elixir",
+          "Description": "A golden-green elixir that glistens like droplets of morning dew.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1050,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 49
+        },
+        "{{ModId}}_AquaticTincture": {
+          "Name": "{{ModId}}_AquaticTincture",
+          "DisplayName": "Aquatic Tincture",
+          "Description": "A shimmering turquoise tincture with a remarkably fresh fragrance.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1200,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 52
         }
       }
     }

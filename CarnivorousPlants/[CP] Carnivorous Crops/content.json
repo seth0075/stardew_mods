@@ -64,7 +64,7 @@
         "{{ModId}}_Flytrap": {
           "Name": "{{ModId}}_Flytrap",
           "DisplayName": "Flytrap Head",
-          "Description": "A vivid green trap with a crimson interior.",
+          "Description": "A curious snapping trap lined with sharp, tooth-like bristles.",
           "Type": "Basic",
           "Category": -80,
           "Price": 180,
@@ -86,7 +86,7 @@
         "{{ModId}}_Pitcher": {
           "Name": "{{ModId}}_Pitcher",
           "DisplayName": "Pitcher Pod",
-          "Description": "An exotic pitcher with a colorful rim.",
+          "Description": "A colorful hanging pitcher filled with fragrant digestive fluid.",
           "Type": "Basic",
           "Category": -80,
           "Price": 220,
@@ -108,7 +108,7 @@
         "{{ModId}}_Sundew": {
           "Name": "{{ModId}}_Sundew",
           "DisplayName": "Sundew Tentacle",
-          "Description": "A crimson spiral covered in glistening dew.",
+          "Description": "A delicate crimson tendril covered in sticky, glistening droplets.",
           "Type": "Basic",
           "Category": -80,
           "Price": 150,
@@ -126,6 +126,226 @@
           "Edibility": -300,
           "Texture": "Mods/{{ModId}}/objects",
           "SpriteIndex": 5
+        },
+        "{{ModId}}_TrumpetTube": {
+          "Name": "{{ModId}}_TrumpetTube",
+          "DisplayName": "Trumpet Pitcher Tube",
+          "Description": "A tall, hollow leaf crowned with a striking white and crimson hood.",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 125,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 15
+        },
+        "{{ModId}}_TrumpetSeeds": {
+          "Name": "{{ModId}}_TrumpetSeeds",
+          "DisplayName": "Trumpet Pitcher Seeds",
+          "Description": "Plant in spring or summer. Takes 14 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 90,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 16
+        },
+        "{{ModId}}_ButterwortLeaf": {
+          "Name": "{{ModId}}_ButterwortLeaf",
+          "DisplayName": "Butterwort Leaf",
+          "Description": "A pale green leaf coated in a slippery, adhesive secretion.",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 140,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 20
+        },
+        "{{ModId}}_ButterwortSeeds": {
+          "Name": "{{ModId}}_ButterwortSeeds",
+          "DisplayName": "Butterwort Seeds",
+          "Description": "Plant in spring or fall. Takes 12 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 110,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 21
+        },
+        "{{ModId}}_CobraHood": {
+          "Name": "{{ModId}}_CobraHood",
+          "DisplayName": "Cobra Hood",
+          "Description": "A curved pitcher resembling a rearing cobra, complete with a forked tongue.",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 550,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 25
+        },
+        "{{ModId}}_CobraSeeds": {
+          "Name": "{{ModId}}_CobraSeeds",
+          "DisplayName": "Cobra Lily Seeds",
+          "Description": "Plant in summer or fall. Takes 18 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 150,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 26
+        },
+        "{{ModId}}_AstralBlossom": {
+          "Name": "{{ModId}}_AstralBlossom",
+          "DisplayName": "Astral Blossom",
+          "Description": "An otherworldly blossom that pulses with mysterious celestial energy.",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 1500,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 30
+        },
+        "{{ModId}}_AstralSeeds": {
+          "Name": "{{ModId}}_AstralSeeds",
+          "DisplayName": "Astral Maw Seeds",
+          "Description": "A rare reward. Plant in spring, summer, or fall. Takes 28 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 750,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 31
+        },
+        "{{ModId}}_AustralianPitcher": {
+          "Name": "{{ModId}}_AustralianPitcher",
+          "DisplayName": "Australian Pitcher",
+          "Description": "A squat burgundy pitcher with prominent teeth and a striped protective lid.",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 190,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 35
+        },
+        "{{ModId}}_AustralianPitcherSeeds": {
+          "Name": "{{ModId}}_AustralianPitcherSeeds",
+          "DisplayName": "Australian Pitcher Seeds",
+          "Description": "Plant in spring or fall. Takes 16 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 125,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 36
+        },
+        "{{ModId}}_SunPitcher": {
+          "Name": "{{ModId}}_SunPitcher",
+          "DisplayName": "Sun Pitcher",
+          "Description": "An elegant funnel-shaped pitcher with a bright nectar-producing spoon.",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 225,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 38
+        },
+        "{{ModId}}_SunPitcherSeeds": {
+          "Name": "{{ModId}}_SunPitcherSeeds",
+          "DisplayName": "Sun Pitcher Seeds",
+          "Description": "Plant in summer. Takes 18 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 150,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 39
+        },
+        "{{ModId}}_RainbowPlant": {
+          "Name": "{{ModId}}_RainbowPlant",
+          "DisplayName": "Rainbow Plant",
+          "Description": "Slender, glistening leaves accompanied by delicate violet flowers.",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 325,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 41
+        },
+        "{{ModId}}_RainbowPlantSeeds": {
+          "Name": "{{ModId}}_RainbowPlantSeeds",
+          "DisplayName": "Rainbow Plant Seeds",
+          "Description": "Plant in spring or summer. Takes 12 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 90,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 42
+        },
+        "{{ModId}}_Bladderwort": {
+          "Name": "{{ModId}}_Bladderwort",
+          "DisplayName": "Bladderwort",
+          "Description": "A delicate flowering plant equipped with tiny suction traps.",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 275,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 44
+        },
+        "{{ModId}}_BladderwortSeeds": {
+          "Name": "{{ModId}}_BladderwortSeeds",
+          "DisplayName": "Bladderwort Seeds",
+          "Description": "Plant in spring or summer. Takes 10 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 75,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 45
+        },
+        "{{ModId}}_DewyPine": {
+          "Name": "{{ModId}}_DewyPine",
+          "DisplayName": "Dewy Pine",
+          "Description": "Needle-like leaves covered in sparkling droplets of adhesive dew.",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 450,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 47
+        },
+        "{{ModId}}_DewyPineSeeds": {
+          "Name": "{{ModId}}_DewyPineSeeds",
+          "DisplayName": "Dewy Pine Seeds",
+          "Description": "Plant in summer. Takes 14 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 125,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 48
+        },
+        "{{ModId}}_WaterwheelPlant": {
+          "Name": "{{ModId}}_WaterwheelPlant",
+          "DisplayName": "Waterwheel Plant",
+          "Description": "A branching aquatic plant with whorls of tiny snapping traps.",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 525,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 50
+        },
+        "{{ModId}}_WaterwheelPlantSeeds": {
+          "Name": "{{ModId}}_WaterwheelPlantSeeds",
+          "DisplayName": "Waterwheel Plant Seeds",
+          "Description": "Plant in summer or fall. Takes 16 days to mature.",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 150,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 51
         }
       }
     },
@@ -182,6 +402,175 @@
           "HarvestItemId": "{{ModId}}_Sundew",
           "Texture": "Mods/{{ModId}}/crops",
           "SpriteIndex": 2
+        },
+        "{{ModId}}_TrumpetSeeds": {
+          "Seasons": [
+            "spring",
+            "summer"
+          ],
+          "DaysInPhase": [
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "RegrowDays": 5,
+          "HarvestItemId": "{{ModId}}_TrumpetTube",
+          "Texture": "Mods/{{ModId}}/crops",
+          "SpriteIndex": 3
+        },
+        "{{ModId}}_ButterwortSeeds": {
+          "Seasons": [
+            "spring",
+            "fall"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            3,
+            4
+          ],
+          "RegrowDays": 4,
+          "HarvestItemId": "{{ModId}}_ButterwortLeaf",
+          "Texture": "Mods/{{ModId}}/crops",
+          "SpriteIndex": 4
+        },
+        "{{ModId}}_CobraSeeds": {
+          "Seasons": [
+            "summer",
+            "fall"
+          ],
+          "DaysInPhase": [
+            2,
+            3,
+            3,
+            4,
+            6
+          ],
+          "RegrowDays": -1,
+          "HarvestItemId": "{{ModId}}_CobraHood",
+          "Texture": "Mods/{{ModId}}/crops",
+          "SpriteIndex": 5
+        },
+        "{{ModId}}_AstralSeeds": {
+          "Seasons": [
+            "spring",
+            "summer",
+            "fall"
+          ],
+          "DaysInPhase": [
+            3,
+            5,
+            5,
+            7,
+            8
+          ],
+          "RegrowDays": 14,
+          "HarvestItemId": "{{ModId}}_AstralBlossom",
+          "Texture": "Mods/{{ModId}}/crops",
+          "SpriteIndex": 6
+        },
+        "{{ModId}}_AustralianPitcherSeeds": {
+          "Seasons": [
+            "spring",
+            "fall"
+          ],
+          "DaysInPhase": [
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "RegrowDays": -1,
+          "HarvestItemId": "{{ModId}}_AustralianPitcher",
+          "Texture": "Mods/{{ModId}}/crops",
+          "SpriteIndex": 7
+        },
+        "{{ModId}}_SunPitcherSeeds": {
+          "Seasons": [
+            "summer"
+          ],
+          "DaysInPhase": [
+            2,
+            3,
+            4,
+            4,
+            5
+          ],
+          "RegrowDays": 5,
+          "HarvestItemId": "{{ModId}}_SunPitcher",
+          "Texture": "Mods/{{ModId}}/crops",
+          "SpriteIndex": 8
+        },
+        "{{ModId}}_RainbowPlantSeeds": {
+          "Seasons": [
+            "spring",
+            "summer"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            3,
+            4
+          ],
+          "RegrowDays": -1,
+          "HarvestItemId": "{{ModId}}_RainbowPlant",
+          "Texture": "Mods/{{ModId}}/crops",
+          "SpriteIndex": 9
+        },
+        "{{ModId}}_BladderwortSeeds": {
+          "Seasons": [
+            "spring",
+            "summer"
+          ],
+          "DaysInPhase": [
+            1,
+            2,
+            2,
+            2,
+            3
+          ],
+          "RegrowDays": -1,
+          "HarvestItemId": "{{ModId}}_Bladderwort",
+          "Texture": "Mods/{{ModId}}/crops",
+          "SpriteIndex": 10
+        },
+        "{{ModId}}_DewyPineSeeds": {
+          "Seasons": [
+            "summer"
+          ],
+          "DaysInPhase": [
+            2,
+            2,
+            3,
+            3,
+            4
+          ],
+          "RegrowDays": 5,
+          "HarvestItemId": "{{ModId}}_DewyPine",
+          "Texture": "Mods/{{ModId}}/crops",
+          "SpriteIndex": 11
+        },
+        "{{ModId}}_WaterwheelPlantSeeds": {
+          "Seasons": [
+            "summer",
+            "fall"
+          ],
+          "DaysInPhase": [
+            2,
+            3,
+            3,
+            4,
+            4
+          ],
+          "RegrowDays": 6,
+          "HarvestItemId": "{{ModId}}_WaterwheelPlant",
+          "Texture": "Mods/{{ModId}}/crops",
+          "SpriteIndex": 12
         }
       }
     },
@@ -189,8 +578,8 @@
       "Action": "EditData",
       "Target": "Data/GiantCrops",
       "Entries": {
-        "{{ModId}}_GiantFlytrap": {
-          "FromItemId": "(O){{ModId}}_Flytrap",
+        "{{ModId}}_GiantPitcher": {
+          "FromItemId": "(O){{ModId}}_Pitcher",
           "Texture": "Mods/{{ModId}}/giant_crops",
           "TexturePosition": {
             "X": 0,
@@ -204,15 +593,15 @@
           "Health": 3,
           "HarvestItems": [
             {
-              "Id": "{{ModId}}_Flytrap",
-              "ItemId": "(O){{ModId}}_Flytrap",
+              "Id": "{{ModId}}_Pitcher",
+              "ItemId": "(O){{ModId}}_Pitcher",
               "MinStack": 15,
               "MaxStack": 21
             }
           ]
         },
-        "{{ModId}}_GiantPitcher": {
-          "FromItemId": "(O){{ModId}}_Pitcher",
+        "{{ModId}}_GiantTrumpet": {
+          "FromItemId": "(O){{ModId}}_TrumpetTube",
           "Texture": "Mods/{{ModId}}/giant_crops",
           "TexturePosition": {
             "X": 48,
@@ -226,8 +615,74 @@
           "Health": 3,
           "HarvestItems": [
             {
-              "Id": "{{ModId}}_Pitcher",
-              "ItemId": "(O){{ModId}}_Pitcher",
+              "Id": "{{ModId}}_TrumpetTube",
+              "ItemId": "(O){{ModId}}_TrumpetTube",
+              "MinStack": 15,
+              "MaxStack": 21
+            }
+          ]
+        },
+        "{{ModId}}_GiantCobra": {
+          "FromItemId": "(O){{ModId}}_CobraHood",
+          "Texture": "Mods/{{ModId}}/giant_crops",
+          "TexturePosition": {
+            "X": 144,
+            "Y": 0
+          },
+          "TileSize": {
+            "X": 3,
+            "Y": 3
+          },
+          "Chance": 0.01,
+          "Health": 3,
+          "HarvestItems": [
+            {
+              "Id": "{{ModId}}_CobraHood",
+              "ItemId": "(O){{ModId}}_CobraHood",
+              "MinStack": 15,
+              "MaxStack": 21
+            }
+          ]
+        },
+        "{{ModId}}_GiantAstral": {
+          "FromItemId": "(O){{ModId}}_AstralBlossom",
+          "Texture": "Mods/{{ModId}}/giant_crops",
+          "TexturePosition": {
+            "X": 192,
+            "Y": 0
+          },
+          "TileSize": {
+            "X": 3,
+            "Y": 3
+          },
+          "Chance": 0.01,
+          "Health": 3,
+          "HarvestItems": [
+            {
+              "Id": "{{ModId}}_AstralBlossom",
+              "ItemId": "(O){{ModId}}_AstralBlossom",
+              "MinStack": 15,
+              "MaxStack": 21
+            }
+          ]
+        },
+        "{{ModId}}_GiantButterwort": {
+          "FromItemId": "(O){{ModId}}_ButterwortLeaf",
+          "Texture": "Mods/{{ModId}}/giant_crops",
+          "TexturePosition": {
+            "X": 96,
+            "Y": 0
+          },
+          "TileSize": {
+            "X": 3,
+            "Y": 3
+          },
+          "Chance": 0.01,
+          "Health": 3,
+          "HarvestItems": [
+            {
+              "Id": "{{ModId}}_ButterwortLeaf",
+              "ItemId": "(O){{ModId}}_ButterwortLeaf",
               "MinStack": 15,
               "MaxStack": 21
             }
@@ -259,6 +714,80 @@
           "Id": "{{ModId}}_SundewSeeds",
           "ItemId": "(O){{ModId}}_SundewSeeds",
           "Price": 60,
+          "Condition": "SEASON summer fall"
+        },
+        "{{ModId}}_TrumpetSeeds": {
+          "Id": "{{ModId}}_TrumpetSeeds",
+          "ItemId": "(O){{ModId}}_TrumpetSeeds",
+          "Price": 180,
+          "Condition": "SEASON spring summer"
+        },
+        "{{ModId}}_ButterwortSeeds": {
+          "Id": "{{ModId}}_ButterwortSeeds",
+          "ItemId": "(O){{ModId}}_ButterwortSeeds",
+          "Price": 220,
+          "Condition": "SEASON spring fall"
+        },
+        "{{ModId}}_CobraSeeds": {
+          "Id": "{{ModId}}_CobraSeeds",
+          "ItemId": "(O){{ModId}}_CobraSeeds",
+          "Price": 300,
+          "Condition": "SEASON summer fall"
+        },
+        "{{ModId}}_AustralianPitcherSeeds": {
+          "Id": "{{ModId}}_AustralianPitcherSeeds",
+          "ItemId": "(O){{ModId}}_AustralianPitcherSeeds",
+          "Price": 250,
+          "Condition": "SEASON spring fall"
+        },
+        "{{ModId}}_SunPitcherSeeds": {
+          "Id": "{{ModId}}_SunPitcherSeeds",
+          "ItemId": "(O){{ModId}}_SunPitcherSeeds",
+          "Price": 300,
+          "Condition": "SEASON summer"
+        },
+        "{{ModId}}_RainbowPlantSeeds": {
+          "Id": "{{ModId}}_RainbowPlantSeeds",
+          "ItemId": "(O){{ModId}}_RainbowPlantSeeds",
+          "Price": 180,
+          "Condition": "SEASON spring summer"
+        },
+        "{{ModId}}_BladderwortSeeds": {
+          "Id": "{{ModId}}_BladderwortSeeds",
+          "ItemId": "(O){{ModId}}_BladderwortSeeds",
+          "Price": 150,
+          "Condition": "SEASON spring summer"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "DesertTrade",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_DewyPineSeeds": {
+          "Id": "{{ModId}}_DewyPineSeeds",
+          "ItemId": "(O){{ModId}}_DewyPineSeeds",
+          "Price": 250,
+          "Condition": "SEASON summer"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "FishShop",
+        "Items"
+      ],
+      "Entries": {
+        "{{ModId}}_WaterwheelPlantSeeds": {
+          "Id": "{{ModId}}_WaterwheelPlantSeeds",
+          "ItemId": "(O){{ModId}}_WaterwheelPlantSeeds",
+          "Price": 300,
           "Condition": "SEASON summer fall"
         }
       }

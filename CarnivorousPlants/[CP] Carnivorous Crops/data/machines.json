@@ -87,6 +87,216 @@
                 }
               ],
               "MinutesUntilReady": 1080
+            },
+            {
+              "Id": "{{ModId}}_TrumpetEssence",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_TrumpetTube",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_TrumpetEssence",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_ButterwortMucilage",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_ButterwortLeaf",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_ButterwortMucilage",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_CobraSecretion",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_CobraHood",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_CobraSecretion",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 2880
+            },
+            {
+              "Id": "{{ModId}}_AstralEssence",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_AstralBlossom",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_AstralEssence",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 4320
+            },
+            {
+              "Id": "{{ModId}}_CephalotusTincture",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_AustralianPitcher",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_CephalotusTincture",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 2880
+            },
+            {
+              "Id": "{{ModId}}_SolarElixir",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_SunPitcher",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_SolarElixir",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 2880
+            },
+            {
+              "Id": "{{ModId}}_IridescentElixir",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_RainbowPlant",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_IridescentElixir",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 2880
+            },
+            {
+              "Id": "{{ModId}}_BladderwortTincture",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Bladderwort",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_BladderwortTincture",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 2160
+            },
+            {
+              "Id": "{{ModId}}_DewdropElixir",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_DewyPine",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_DewdropElixir",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 2880
+            },
+            {
+              "Id": "{{ModId}}_AquaticTincture",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_WaterwheelPlant",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_AquaticTincture",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "IncrementMachineParentSheetIndex": 1
+                }
+              ],
+              "MinutesUntilReady": 2880
             }
           ],
           "ShowNextIndexWhenReady": true
@@ -140,6 +350,66 @@
             }
           ],
           "MinutesUntilReady": 2880
+        },
+        "{{ModId}}_TrumpetCordial": {
+          "Id": "{{ModId}}_TrumpetCordial",
+          "Triggers": [
+            {
+              "Id": "Input",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O){{ModId}}_TrumpetTube",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "Output",
+              "ItemId": "(O){{ModId}}_TrumpetCordial",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 2880
+        },
+        "{{ModId}}_CobraDistillate": {
+          "Id": "{{ModId}}_CobraDistillate",
+          "Triggers": [
+            {
+              "Id": "Input",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O){{ModId}}_CobraHood",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "Output",
+              "ItemId": "(O){{ModId}}_CobraDistillate",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 4320
+        },
+        "{{ModId}}_CelestialElixir": {
+          "Id": "{{ModId}}_CelestialElixir",
+          "Triggers": [
+            {
+              "Id": "Input",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O){{ModId}}_AstralBlossom",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "Output",
+              "ItemId": "(O){{ModId}}_CelestialElixir",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 10080
         }
       },
       "MoveEntries": [
@@ -149,6 +419,18 @@
         },
         {
           "Id": "{{ModId}}_PitcherElixir",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "{{ModId}}_TrumpetCordial",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "{{ModId}}_CobraDistillate",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "{{ModId}}_CelestialElixir",
           "ToPosition": "Top"
         }
       ]
@@ -180,11 +462,35 @@
             }
           ],
           "MinutesUntilReady": 2880
+        },
+        "{{ModId}}_ButterwortJelly": {
+          "Id": "{{ModId}}_ButterwortJelly",
+          "Triggers": [
+            {
+              "Id": "Input",
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemId": "(O){{ModId}}_ButterwortLeaf",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "Id": "Output",
+              "ItemId": "(O){{ModId}}_ButterwortJelly",
+              "MinStack": 1,
+              "MaxStack": 1
+            }
+          ],
+          "MinutesUntilReady": 2880
         }
       },
       "MoveEntries": [
         {
           "Id": "{{ModId}}_SundewSyrup",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "{{ModId}}_ButterwortJelly",
           "ToPosition": "Top"
         }
       ]
