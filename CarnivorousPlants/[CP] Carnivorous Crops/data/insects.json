@@ -1,0 +1,3860 @@
+﻿{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_InsectMonarchButterfly": {
+          "Name": "{{ModId}}_InsectMonarchButterfly",
+          "DisplayName": "Monarch Butterfly",
+          "Description": "An orange butterfly with dark-edged wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 0
+        },
+        "{{ModId}}_InsectSwallowtailButterfly": {
+          "Name": "{{ModId}}_InsectSwallowtailButterfly",
+          "DisplayName": "Tiger Butterfly",
+          "Description": "A pale yellow butterfly with patterned wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 1
+        },
+        "{{ModId}}_InsectWhiteButterfly": {
+          "Name": "{{ModId}}_InsectWhiteButterfly",
+          "DisplayName": "Common Butterfly",
+          "Description": "A small butterfly with pale wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 2
+        },
+        "{{ModId}}_InsectOwlButterfly": {
+          "Name": "{{ModId}}_InsectOwlButterfly",
+          "DisplayName": "Owl Butterfly",
+          "Description": "A brown butterfly with eye-like wing markings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 3
+        },
+        "{{ModId}}_InsectLunaMoth": {
+          "Name": "{{ModId}}_InsectLunaMoth",
+          "DisplayName": "Luna Moth",
+          "Description": "A moth with delicate green wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 4
+        },
+        "{{ModId}}_InsectBrownMoth": {
+          "Name": "{{ModId}}_InsectBrownMoth",
+          "DisplayName": "Moth",
+          "Description": "A moth with patterned brown wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 5
+        },
+        "{{ModId}}_InsectBlueButterfly": {
+          "Name": "{{ModId}}_InsectBlueButterfly",
+          "DisplayName": "Emperor Butterfly",
+          "Description": "A butterfly with brilliant blue wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 6
+        },
+        "{{ModId}}_InsectRedButterfly": {
+          "Name": "{{ModId}}_InsectRedButterfly",
+          "DisplayName": "Red Butterfly",
+          "Description": "A butterfly with vivid red wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 7
+        },
+        "{{ModId}}_InsectStagBeetle": {
+          "Name": "{{ModId}}_InsectStagBeetle",
+          "DisplayName": "Stag Beetle",
+          "Description": "A dark beetle with impressive mandibles.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 8
+        },
+        "{{ModId}}_InsectRhinocerosBeetle": {
+          "Name": "{{ModId}}_InsectRhinocerosBeetle",
+          "DisplayName": "Horned Dynastid",
+          "Description": "A sturdy beetle with a curved horn.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 9
+        },
+        "{{ModId}}_InsectGreenScarab": {
+          "Name": "{{ModId}}_InsectGreenScarab",
+          "DisplayName": "Green Scarab",
+          "Description": "A scarab with a shiny green shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 10
+        },
+        "{{ModId}}_InsectBlueScarab": {
+          "Name": "{{ModId}}_InsectBlueScarab",
+          "DisplayName": "Blue Scarab",
+          "Description": "A scarab with a shiny blue shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 11
+        },
+        "{{ModId}}_InsectLadybug": {
+          "Name": "{{ModId}}_InsectLadybug",
+          "DisplayName": "Ladybug",
+          "Description": "A familiar red beetle with dark spots.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 12
+        },
+        "{{ModId}}_InsectOrangeLadybug": {
+          "Name": "{{ModId}}_InsectOrangeLadybug",
+          "DisplayName": "Orange Ladybug",
+          "Description": "A spotted beetle with an orange shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 13
+        },
+        "{{ModId}}_InsectJewelBeetle": {
+          "Name": "{{ModId}}_InsectJewelBeetle",
+          "DisplayName": "Jewel Beetle",
+          "Description": "A beetle with a glossy green shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 14
+        },
+        "{{ModId}}_InsectLonghornBeetle": {
+          "Name": "{{ModId}}_InsectLonghornBeetle",
+          "DisplayName": "Longhorn Beetle",
+          "Description": "A patterned beetle with long antennae.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 15
+        },
+        "{{ModId}}_InsectFirefly": {
+          "Name": "{{ModId}}_InsectFirefly",
+          "DisplayName": "Firefly",
+          "Description": "A beetle with a glowing tail.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 16
+        },
+        "{{ModId}}_InsectHoneybee": {
+          "Name": "{{ModId}}_InsectHoneybee",
+          "DisplayName": "Honeybee",
+          "Description": "A striped bee with pale wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 17
+        },
+        "{{ModId}}_InsectWasp": {
+          "Name": "{{ModId}}_InsectWasp",
+          "DisplayName": "Wasp",
+          "Description": "A slender insect with yellow stripes.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 18
+        },
+        "{{ModId}}_InsectBumblebee": {
+          "Name": "{{ModId}}_InsectBumblebee",
+          "DisplayName": "Bumblebee",
+          "Description": "A round, fuzzy bee.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 19
+        },
+        "{{ModId}}_InsectStripedBee": {
+          "Name": "{{ModId}}_InsectStripedBee",
+          "DisplayName": "Striped Bee",
+          "Description": "A bee with a striped body and pale wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 20
+        },
+        "{{ModId}}_InsectRedAnt": {
+          "Name": "{{ModId}}_InsectRedAnt",
+          "DisplayName": "Red Ant",
+          "Description": "A small ant with a reddish body.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 21
+        },
+        "{{ModId}}_InsectBlackAnt": {
+          "Name": "{{ModId}}_InsectBlackAnt",
+          "DisplayName": "Ant",
+          "Description": "A small ant with a dark body.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 22
+        },
+        "{{ModId}}_InsectTermite": {
+          "Name": "{{ModId}}_InsectTermite",
+          "DisplayName": "Termite",
+          "Description": "A small, pale-bodied insect.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 23
+        },
+        "{{ModId}}_InsectPrayingMantis": {
+          "Name": "{{ModId}}_InsectPrayingMantis",
+          "DisplayName": "Mantis",
+          "Description": "A green insect with folded front legs.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 24
+        },
+        "{{ModId}}_InsectGreenGrasshopper": {
+          "Name": "{{ModId}}_InsectGreenGrasshopper",
+          "DisplayName": "Grasshopper",
+          "Description": "A green grasshopper with powerful hind legs.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 25
+        },
+        "{{ModId}}_InsectBrownCricket": {
+          "Name": "{{ModId}}_InsectBrownCricket",
+          "DisplayName": "Cricket",
+          "Description": "A brown cricket with long antennae.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 26
+        },
+        "{{ModId}}_InsectKatydid": {
+          "Name": "{{ModId}}_InsectKatydid",
+          "DisplayName": "Katydid",
+          "Description": "A green insect with leaf-like wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 27
+        },
+        "{{ModId}}_InsectFieldCricket": {
+          "Name": "{{ModId}}_InsectFieldCricket",
+          "DisplayName": "Field Cricket",
+          "Description": "A sturdy cricket with long antennae.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 28
+        },
+        "{{ModId}}_InsectBlueDragonfly": {
+          "Name": "{{ModId}}_InsectBlueDragonfly",
+          "DisplayName": "Blue Dragonfly",
+          "Description": "A blue dragonfly with wide wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 29
+        },
+        "{{ModId}}_InsectRedDragonfly": {
+          "Name": "{{ModId}}_InsectRedDragonfly",
+          "DisplayName": "Red Dragonfly",
+          "Description": "A red dragonfly with wide wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 30
+        },
+        "{{ModId}}_InsectBlueDamselfly": {
+          "Name": "{{ModId}}_InsectBlueDamselfly",
+          "DisplayName": "Damselfly",
+          "Description": "A slender blue insect with folded wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 31
+        },
+        "{{ModId}}_InsectDarkCicada": {
+          "Name": "{{ModId}}_InsectDarkCicada",
+          "DisplayName": "Dark Cicada",
+          "Description": "A dark cicada with patterned wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 32
+        },
+        "{{ModId}}_InsectBrownCicada": {
+          "Name": "{{ModId}}_InsectBrownCicada",
+          "DisplayName": "Brown Cicada",
+          "Description": "A brown cicada with patterned wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 33
+        },
+        "{{ModId}}_InsectHousefly": {
+          "Name": "{{ModId}}_InsectHousefly",
+          "DisplayName": "Fly",
+          "Description": "A common gray fly with red eyes.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 34
+        },
+        "{{ModId}}_InsectBluebottleFly": {
+          "Name": "{{ModId}}_InsectBluebottleFly",
+          "DisplayName": "Bluebottle Fly",
+          "Description": "A fly with a metallic blue body.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 35
+        },
+        "{{ModId}}_InsectMosquito": {
+          "Name": "{{ModId}}_InsectMosquito",
+          "DisplayName": "Mosquito",
+          "Description": "A tiny insect with long, delicate legs.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 36
+        },
+        "{{ModId}}_InsectGrayFly": {
+          "Name": "{{ModId}}_InsectGrayFly",
+          "DisplayName": "Gray Fly",
+          "Description": "A gray fly with broad wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 37
+        },
+        "{{ModId}}_InsectGreenStinkBug": {
+          "Name": "{{ModId}}_InsectGreenStinkBug",
+          "DisplayName": "Stinkbug",
+          "Description": "A green insect with a shield-shaped body.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 38
+        },
+        "{{ModId}}_InsectBrownStinkBug": {
+          "Name": "{{ModId}}_InsectBrownStinkBug",
+          "DisplayName": "Brown Stink Bug",
+          "Description": "A brown insect with a shield-shaped body.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 39
+        },
+        "{{ModId}}_InsectStickInsect": {
+          "Name": "{{ModId}}_InsectStickInsect",
+          "DisplayName": "Walking Stick",
+          "Description": "A slender insect that resembles a twig.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 40
+        },
+        "{{ModId}}_InsectDivingBeetle": {
+          "Name": "{{ModId}}_InsectDivingBeetle",
+          "DisplayName": "Diving Beetle",
+          "Description": "A dark water beetle with a streamlined shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 41
+        },
+        "{{ModId}}_InsectWaterBeetle": {
+          "Name": "{{ModId}}_InsectWaterBeetle",
+          "DisplayName": "Water Beetle",
+          "Description": "A greenish beetle with a smooth shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 42
+        },
+        "{{ModId}}_InsectGiantWaterBug": {
+          "Name": "{{ModId}}_InsectGiantWaterBug",
+          "DisplayName": "Giant Water Bug",
+          "Description": "A broad-bodied aquatic insect.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 43
+        },
+        "{{ModId}}_InsectBlueBeetle": {
+          "Name": "{{ModId}}_InsectBlueBeetle",
+          "DisplayName": "Blue Beetle",
+          "Description": "A small beetle with a bright blue shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 44
+        },
+        "{{ModId}}_InsectBrownBeetle": {
+          "Name": "{{ModId}}_InsectBrownBeetle",
+          "DisplayName": "Brown Beetle",
+          "Description": "A beetle with a long brown shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 45
+        },
+        "{{ModId}}_InsectOrangeFly": {
+          "Name": "{{ModId}}_InsectOrangeFly",
+          "DisplayName": "Orange Fly",
+          "Description": "A small fly with an orange body.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 46
+        },
+        "{{ModId}}_InsectPaleFly": {
+          "Name": "{{ModId}}_InsectPaleFly",
+          "DisplayName": "Pale Fly",
+          "Description": "A small fly with pale wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 47
+        },
+        "{{ModId}}_InsectPinkMoth": {
+          "Name": "{{ModId}}_InsectPinkMoth",
+          "DisplayName": "Pink Moth",
+          "Description": "A moth with pink and green wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 48
+        },
+        "{{ModId}}_InsectGrayMoth": {
+          "Name": "{{ModId}}_InsectGrayMoth",
+          "DisplayName": "Gray Moth",
+          "Description": "A moth with gray and orange wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 49
+        },
+        "{{ModId}}_InsectRedFirefly": {
+          "Name": "{{ModId}}_InsectRedFirefly",
+          "DisplayName": "Red Firefly",
+          "Description": "A dark firefly with red markings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 50
+        },
+        "{{ModId}}_InsectLeafInsect": {
+          "Name": "{{ModId}}_InsectLeafInsect",
+          "DisplayName": "Walking Leaf",
+          "Description": "A green insect that resembles a leaf.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 51
+        },
+        "{{ModId}}_InsectCopperMoth": {
+          "Name": "{{ModId}}_InsectCopperMoth",
+          "DisplayName": "Copper Moth",
+          "Description": "A moth with warm copper-colored wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 52
+        },
+        "{{ModId}}_InsectSpottedBlueButterfly": {
+          "Name": "{{ModId}}_InsectSpottedBlueButterfly",
+          "DisplayName": "Spotted Blue Butterfly",
+          "Description": "A blue butterfly with orange spots.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 53
+        },
+        "{{ModId}}_InsectOrangeMoth": {
+          "Name": "{{ModId}}_InsectOrangeMoth",
+          "DisplayName": "Orange Moth",
+          "Description": "A moth with orange and brown wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 54
+        },
+        "{{ModId}}_InsectYellowWasp": {
+          "Name": "{{ModId}}_InsectYellowWasp",
+          "DisplayName": "Yellow Wasp",
+          "Description": "A dark wasp with bright yellow markings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 55
+        },
+        "{{ModId}}_InsectYellowButterfly": {
+          "Name": "{{ModId}}_InsectYellowButterfly",
+          "DisplayName": "Yellow Butterfly",
+          "Description": "A butterfly with bright yellow wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 56
+        },
+        "{{ModId}}_InsectPeacockButterfly": {
+          "Name": "{{ModId}}_InsectPeacockButterfly",
+          "DisplayName": "Peacock Butterfly",
+          "Description": "A dark butterfly with colorful eye-spots.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 57
+        },
+        "{{ModId}}_InsectCommonBluebottle": {
+          "Name": "{{ModId}}_InsectCommonBluebottle",
+          "DisplayName": "Common Bluebottle",
+          "Description": "A dark butterfly with bright blue wing bands.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 58
+        },
+        "{{ModId}}_InsectPaperKiteButterfly": {
+          "Name": "{{ModId}}_InsectPaperKiteButterfly",
+          "DisplayName": "Paper Kite Butterfly",
+          "Description": "A pale butterfly with dark wing veins.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 59
+        },
+        "{{ModId}}_InsectGreatPurpleEmperor": {
+          "Name": "{{ModId}}_InsectGreatPurpleEmperor",
+          "DisplayName": "Great Purple Emperor",
+          "Description": "A dark purple butterfly with pale markings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 60
+        },
+        "{{ModId}}_InsectAgriasButterfly": {
+          "Name": "{{ModId}}_InsectAgriasButterfly",
+          "DisplayName": "Agrias Butterfly",
+          "Description": "A colorful butterfly with red and blue wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 61
+        },
+        "{{ModId}}_InsectRajahBrookesBirdwing": {
+          "Name": "{{ModId}}_InsectRajahBrookesBirdwing",
+          "DisplayName": "Rajah Brooke's Birdwing",
+          "Description": "A dark butterfly with vivid green wing markings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 62
+        },
+        "{{ModId}}_InsectQueenAlexandrasBirdwing": {
+          "Name": "{{ModId}}_InsectQueenAlexandrasBirdwing",
+          "DisplayName": "Queen Alexandra's Birdwing",
+          "Description": "A large butterfly with turquoise-green wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 63
+        },
+        "{{ModId}}_InsectAtlasMoth": {
+          "Name": "{{ModId}}_InsectAtlasMoth",
+          "DisplayName": "Atlas Moth",
+          "Description": "A large moth with rust-colored patterned wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 64
+        },
+        "{{ModId}}_InsectMadagascanSunsetMoth": {
+          "Name": "{{ModId}}_InsectMadagascanSunsetMoth",
+          "DisplayName": "Madagascan Sunset Moth",
+          "Description": "A dark moth with colorful wing bands.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 65
+        },
+        "{{ModId}}_InsectLongLocust": {
+          "Name": "{{ModId}}_InsectLongLocust",
+          "DisplayName": "Long Locust",
+          "Description": "A slender brown locust.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 66
+        },
+        "{{ModId}}_InsectMigratoryLocust": {
+          "Name": "{{ModId}}_InsectMigratoryLocust",
+          "DisplayName": "Migratory Locust",
+          "Description": "A brown and green locust.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 67
+        },
+        "{{ModId}}_InsectRiceGrasshopper": {
+          "Name": "{{ModId}}_InsectRiceGrasshopper",
+          "DisplayName": "Rice Grasshopper",
+          "Description": "A slender green grasshopper.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 68
+        },
+        "{{ModId}}_InsectBellCricket": {
+          "Name": "{{ModId}}_InsectBellCricket",
+          "DisplayName": "Bell Cricket",
+          "Description": "A dark cricket with long antennae.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 69
+        },
+        "{{ModId}}_InsectOrchidMantis": {
+          "Name": "{{ModId}}_InsectOrchidMantis",
+          "DisplayName": "Orchid Mantis",
+          "Description": "A pink and white mantis.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 70
+        },
+        "{{ModId}}_InsectRobustCicada": {
+          "Name": "{{ModId}}_InsectRobustCicada",
+          "DisplayName": "Robust Cicada",
+          "Description": "A stocky cicada with patterned wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 71
+        },
+        "{{ModId}}_InsectGiantCicada": {
+          "Name": "{{ModId}}_InsectGiantCicada",
+          "DisplayName": "Giant Cicada",
+          "Description": "A large, dark cicada.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 72
+        },
+        "{{ModId}}_InsectWalkerCicada": {
+          "Name": "{{ModId}}_InsectWalkerCicada",
+          "DisplayName": "Walker Cicada",
+          "Description": "A green and brown cicada.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 73
+        },
+        "{{ModId}}_InsectEveningCicada": {
+          "Name": "{{ModId}}_InsectEveningCicada",
+          "DisplayName": "Evening Cicada",
+          "Description": "A brown cicada with pale wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 74
+        },
+        "{{ModId}}_InsectCicadaShell": {
+          "Name": "{{ModId}}_InsectCicadaShell",
+          "DisplayName": "Cicada Shell",
+          "Description": "An empty cicada exoskeleton.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 75
+        },
+        "{{ModId}}_InsectDarnerDragonfly": {
+          "Name": "{{ModId}}_InsectDarnerDragonfly",
+          "DisplayName": "Darner Dragonfly",
+          "Description": "A dragonfly with a blue-green body.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 76
+        },
+        "{{ModId}}_InsectBandedDragonfly": {
+          "Name": "{{ModId}}_InsectBandedDragonfly",
+          "DisplayName": "Banded Dragonfly",
+          "Description": "A dragonfly with a banded body.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 77
+        },
+        "{{ModId}}_InsectMoleCricket": {
+          "Name": "{{ModId}}_InsectMoleCricket",
+          "DisplayName": "Mole Cricket",
+          "Description": "A brown cricket with digging forelegs.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 78
+        },
+        "{{ModId}}_InsectPondskater": {
+          "Name": "{{ModId}}_InsectPondskater",
+          "DisplayName": "Pondskater",
+          "Description": "A slender water bug with long legs.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 79
+        },
+        "{{ModId}}_InsectManFacedStinkBug": {
+          "Name": "{{ModId}}_InsectManFacedStinkBug",
+          "DisplayName": "Man-Faced Stink Bug",
+          "Description": "A shield-shaped bug with face-like markings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 80
+        },
+        "{{ModId}}_InsectTigerBeetle": {
+          "Name": "{{ModId}}_InsectTigerBeetle",
+          "DisplayName": "Tiger Beetle",
+          "Description": "A green beetle with patterned wings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 81
+        },
+        "{{ModId}}_InsectViolinBeetle": {
+          "Name": "{{ModId}}_InsectViolinBeetle",
+          "DisplayName": "Violin Beetle",
+          "Description": "A flat brown beetle with an unusual shape.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 82
+        },
+        "{{ModId}}_InsectCitrusLongHornedBeetle": {
+          "Name": "{{ModId}}_InsectCitrusLongHornedBeetle",
+          "DisplayName": "Citrus Long-Horned Beetle",
+          "Description": "A dark spotted beetle with long antennae.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 83
+        },
+        "{{ModId}}_InsectRosaliaBatesiBeetle": {
+          "Name": "{{ModId}}_InsectRosaliaBatesiBeetle",
+          "DisplayName": "Rosalia Batesi Beetle",
+          "Description": "A blue beetle with dark spots and long antennae.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 84
+        },
+        "{{ModId}}_InsectBlueWeevilBeetle": {
+          "Name": "{{ModId}}_InsectBlueWeevilBeetle",
+          "DisplayName": "Blue Weevil Beetle",
+          "Description": "A blue beetle with a short snout.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 85
+        },
+        "{{ModId}}_InsectDungBeetle": {
+          "Name": "{{ModId}}_InsectDungBeetle",
+          "DisplayName": "Dung Beetle",
+          "Description": "A round brown beetle.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 86
+        },
+        "{{ModId}}_InsectEarthBoringDungBeetle": {
+          "Name": "{{ModId}}_InsectEarthBoringDungBeetle",
+          "DisplayName": "Earth-Boring Dung Beetle",
+          "Description": "A dark blue beetle with a rounded shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 87
+        },
+        "{{ModId}}_InsectScarabBeetle": {
+          "Name": "{{ModId}}_InsectScarabBeetle",
+          "DisplayName": "Scarab Beetle",
+          "Description": "A beetle with a golden shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 88
+        },
+        "{{ModId}}_InsectDroneBeetle": {
+          "Name": "{{ModId}}_InsectDroneBeetle",
+          "DisplayName": "Drone Beetle",
+          "Description": "A small beetle with a brown shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 89
+        },
+        "{{ModId}}_InsectGoliathBeetle": {
+          "Name": "{{ModId}}_InsectGoliathBeetle",
+          "DisplayName": "Goliath Beetle",
+          "Description": "A large dark beetle with pale markings.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 90
+        },
+        "{{ModId}}_InsectSawStag": {
+          "Name": "{{ModId}}_InsectSawStag",
+          "DisplayName": "Saw Stag",
+          "Description": "A brown stag beetle with curved jaws.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 91
+        },
+        "{{ModId}}_InsectMiyamaStag": {
+          "Name": "{{ModId}}_InsectMiyamaStag",
+          "DisplayName": "Miyama Stag",
+          "Description": "A brown stag beetle with branched jaws.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 92
+        },
+        "{{ModId}}_InsectGiantStag": {
+          "Name": "{{ModId}}_InsectGiantStag",
+          "DisplayName": "Giant Stag",
+          "Description": "A large dark stag beetle.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 93
+        },
+        "{{ModId}}_InsectRainbowStag": {
+          "Name": "{{ModId}}_InsectRainbowStag",
+          "DisplayName": "Rainbow Stag",
+          "Description": "A colorful stag beetle with a metallic shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 94
+        },
+        "{{ModId}}_InsectCyclommatusStag": {
+          "Name": "{{ModId}}_InsectCyclommatusStag",
+          "DisplayName": "Cyclommatus Stag",
+          "Description": "A bronze stag beetle with long jaws.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 95
+        },
+        "{{ModId}}_InsectGoldenStag": {
+          "Name": "{{ModId}}_InsectGoldenStag",
+          "DisplayName": "Golden Stag",
+          "Description": "A golden stag beetle with dark jaws.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 96
+        },
+        "{{ModId}}_InsectGiraffeStag": {
+          "Name": "{{ModId}}_InsectGiraffeStag",
+          "DisplayName": "Giraffe Stag",
+          "Description": "A brown stag beetle with exceptionally long jaws.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 97
+        },
+        "{{ModId}}_InsectHornedAtlas": {
+          "Name": "{{ModId}}_InsectHornedAtlas",
+          "DisplayName": "Horned Atlas",
+          "Description": "A brown beetle with prominent horns.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 98
+        },
+        "{{ModId}}_InsectHornedElephant": {
+          "Name": "{{ModId}}_InsectHornedElephant",
+          "DisplayName": "Horned Elephant",
+          "Description": "A golden-brown beetle with a horn.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 99
+        },
+        "{{ModId}}_InsectHornedHercules": {
+          "Name": "{{ModId}}_InsectHornedHercules",
+          "DisplayName": "Horned Hercules",
+          "Description": "A spotted beetle with a long horn.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 100
+        },
+        "{{ModId}}_InsectBagworm": {
+          "Name": "{{ModId}}_InsectBagworm",
+          "DisplayName": "Bagworm",
+          "Description": "A caterpillar sheltered in a case of twigs.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 101
+        },
+        "{{ModId}}_InsectHermitCrab": {
+          "Name": "{{ModId}}_InsectHermitCrab",
+          "DisplayName": "Hermit Crab",
+          "Description": "A small crab carrying a spiral shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 102
+        },
+        "{{ModId}}_InsectWharfRoach": {
+          "Name": "{{ModId}}_InsectWharfRoach",
+          "DisplayName": "Wharf Roach",
+          "Description": "A gray coastal isopod with a segmented body.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 103
+        },
+        "{{ModId}}_InsectFlea": {
+          "Name": "{{ModId}}_InsectFlea",
+          "DisplayName": "Flea",
+          "Description": "A tiny brown insect with strong hind legs.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 104
+        },
+        "{{ModId}}_InsectSnail": {
+          "Name": "{{ModId}}_InsectSnail",
+          "DisplayName": "Snail",
+          "Description": "A soft-bodied creature with a spiral shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 105
+        },
+        "{{ModId}}_InsectPillBug": {
+          "Name": "{{ModId}}_InsectPillBug",
+          "DisplayName": "Pill Bug",
+          "Description": "A rounded gray isopod with a segmented shell.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 106
+        },
+        "{{ModId}}_InsectCentipede": {
+          "Name": "{{ModId}}_InsectCentipede",
+          "DisplayName": "Centipede",
+          "Description": "A long, segmented creature with many legs.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 107
+        },
+        "{{ModId}}_InsectSpider": {
+          "Name": "{{ModId}}_InsectSpider",
+          "DisplayName": "Spider",
+          "Description": "A small brown arachnid.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 108
+        },
+        "{{ModId}}_InsectTarantula": {
+          "Name": "{{ModId}}_InsectTarantula",
+          "DisplayName": "Tarantula",
+          "Description": "A large, dark and fuzzy spider.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 109
+        },
+        "{{ModId}}_InsectScorpion": {
+          "Name": "{{ModId}}_InsectScorpion",
+          "DisplayName": "Scorpion",
+          "Description": "An arachnid with claws and a curved tail.",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{ModId}}/insects",
+          "SpriteIndex": 110
+        },
+        "{{ModId}}_InsectGoldenJewelScarab": {
+          "Name": "{{ModId}}_InsectGoldenJewelScarab",
+          "DisplayName": "Golden Jewel Scarab",
+          "Description": "Scientific: Chrysina resplendens",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 111
+        },
+        "{{ModId}}_InsectRainbowLeafBeetle": {
+          "Name": "{{ModId}}_InsectRainbowLeafBeetle",
+          "DisplayName": "Rainbow Leaf Beetle",
+          "Description": "Scientific: Chrysolina cerealis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 112
+        },
+        "{{ModId}}_InsectGoldenTortoiseBeetle": {
+          "Name": "{{ModId}}_InsectGoldenTortoiseBeetle",
+          "DisplayName": "Golden Tortoise Beetle",
+          "Description": "Scientific: Charidotella sexpunctata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 113
+        },
+        "{{ModId}}_InsectArgusTortoiseBeetle": {
+          "Name": "{{ModId}}_InsectArgusTortoiseBeetle",
+          "DisplayName": "Argus Tortoise Beetle",
+          "Description": "Scientific: Chelymorpha cassidea",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 114
+        },
+        "{{ModId}}_InsectClavateTortoiseBeetle": {
+          "Name": "{{ModId}}_InsectClavateTortoiseBeetle",
+          "DisplayName": "Clavate Tortoise Beetle",
+          "Description": "Scientific: Helocassis clavata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 115
+        },
+        "{{ModId}}_InsectPicassoBug": {
+          "Name": "{{ModId}}_InsectPicassoBug",
+          "DisplayName": "Picasso Bug",
+          "Description": "Scientific: Sphaerocoris annulus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 116
+        },
+        "{{ModId}}_InsectRosemaryBeetle": {
+          "Name": "{{ModId}}_InsectRosemaryBeetle",
+          "DisplayName": "Rosemary Beetle",
+          "Description": "Scientific: Chrysolina americana",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 117
+        },
+        "{{ModId}}_InsectBloodynosedBeetle": {
+          "Name": "{{ModId}}_InsectBloodynosedBeetle",
+          "DisplayName": "Bloody-nosed Beetle",
+          "Description": "Scientific: Timarcha tenebricosa",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 118
+        },
+        "{{ModId}}_InsectFrogleggedleafbeetle": {
+          "Name": "{{ModId}}_InsectFrogleggedleafbeetle",
+          "DisplayName": "Frog-legged leaf beetle",
+          "Description": "Scientific: Sagra femorata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 119
+        },
+        "{{ModId}}_InsectTitanBeetle": {
+          "Name": "{{ModId}}_InsectTitanBeetle",
+          "DisplayName": "Titan Beetle",
+          "Description": "Scientific: Titanus giganteus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 120
+        },
+        "{{ModId}}_InsectGiantCactusLonghornBeetle": {
+          "Name": "{{ModId}}_InsectGiantCactusLonghornBeetle",
+          "DisplayName": "Giant Cactus Longhorn Beetle",
+          "Description": "Scientific: Moneilema gigas",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 121
+        },
+        "{{ModId}}_InsectHarlequinBeetle": {
+          "Name": "{{ModId}}_InsectHarlequinBeetle",
+          "DisplayName": "Harlequin Beetle",
+          "Description": "Scientific: Acrocinus longimanus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 122
+        },
+        "{{ModId}}_InsectBandedAlderBorer": {
+          "Name": "{{ModId}}_InsectBandedAlderBorer",
+          "DisplayName": "Banded Alder Borer",
+          "Description": "Scientific: Rosalia funebris",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 123
+        },
+        "{{ModId}}_InsectMuskbeetle": {
+          "Name": "{{ModId}}_InsectMuskbeetle",
+          "DisplayName": "Musk beetle",
+          "Description": "Scientific: Aromia moschata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 124
+        },
+        "{{ModId}}_InsectGiantFlowerBeetle": {
+          "Name": "{{ModId}}_InsectGiantFlowerBeetle",
+          "DisplayName": "Giant Flower Beetle",
+          "Description": "Scientific: Mecynorrhinella torquata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 125
+        },
+        "{{ModId}}_InsectFiddlerBeetle": {
+          "Name": "{{ModId}}_InsectFiddlerBeetle",
+          "DisplayName": "Fiddler Beetle",
+          "Description": "Scientific: Eupoecila australasiae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 126
+        },
+        "{{ModId}}_Insectsunbeetle": {
+          "Name": "{{ModId}}_Insectsunbeetle",
+          "DisplayName": "sun beetle",
+          "Description": "Scientific: Pachnoda marginata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 127
+        },
+        "{{ModId}}_InsectEmeraldAshBorer": {
+          "Name": "{{ModId}}_InsectEmeraldAshBorer",
+          "DisplayName": "Emerald Ash Borer",
+          "Description": "Scientific: Agrilus planipennis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 128
+        },
+        "{{ModId}}_InsectGiantjewelbeetle": {
+          "Name": "{{ModId}}_InsectGiantjewelbeetle",
+          "DisplayName": "Giant jewel beetle",
+          "Description": "Scientific: Sternocera orissa",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 129
+        },
+        "{{ModId}}_InsectFirecoloredBeetles": {
+          "Name": "{{ModId}}_InsectFirecoloredBeetles",
+          "DisplayName": "Fire-colored Beetles",
+          "Description": "Scientific: Pyrochroidae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 130
+        },
+        "{{ModId}}_InsectTexasIroncladBeetle": {
+          "Name": "{{ModId}}_InsectTexasIroncladBeetle",
+          "DisplayName": "Texas Ironclad Beetle",
+          "Description": "Scientific: Zopherus nodulosus haldemani",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 131
+        },
+        "{{ModId}}_InsectDiabolicalIroncladBeetle": {
+          "Name": "{{ModId}}_InsectDiabolicalIroncladBeetle",
+          "DisplayName": "Diabolical Ironclad Beetle",
+          "Description": "Scientific: Phloeodes diabolicus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 132
+        },
+        "{{ModId}}_Insectbombardierbeetle": {
+          "Name": "{{ModId}}_Insectbombardierbeetle",
+          "DisplayName": "bombardier beetle",
+          "Description": "Scientific: Pheropsophus verticalis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 133
+        },
+        "{{ModId}}_InsectSixspottedTigerBeetle": {
+          "Name": "{{ModId}}_InsectSixspottedTigerBeetle",
+          "DisplayName": "Six-spotted Tiger Beetle",
+          "Description": "Scientific: Cicindela sexguttata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 134
+        },
+        "{{ModId}}_InsectCoralPinkSandDunesTigerBeetle": {
+          "Name": "{{ModId}}_InsectCoralPinkSandDunesTigerBeetle",
+          "DisplayName": "Coral Pink Sand Dunes Tiger Beetle",
+          "Description": "Scientific: Cicindela albissima",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 135
+        },
+        "{{ModId}}_InsectTrilobiteBeetle": {
+          "Name": "{{ModId}}_InsectTrilobiteBeetle",
+          "DisplayName": "Trilobite Beetle",
+          "Description": "Scientific: Platerodrilus paradoxus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 136
+        },
+        "{{ModId}}_InsectSpanishFly": {
+          "Name": "{{ModId}}_InsectSpanishFly",
+          "DisplayName": "Spanish Fly",
+          "Description": "Scientific: Lytta vesicatoria",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 137
+        },
+        "{{ModId}}_InsectJewelBeetles": {
+          "Name": "{{ModId}}_InsectJewelBeetles",
+          "DisplayName": "Jewel Beetles",
+          "Description": "Scientific: Buprestidae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 138
+        },
+        "{{ModId}}_InsectEuropeanStagBeetle": {
+          "Name": "{{ModId}}_InsectEuropeanStagBeetle",
+          "DisplayName": "European Stag Beetle",
+          "Description": "Scientific: Lucanus cervus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 139
+        },
+        "{{ModId}}_InsectGiantYellowStagBeetle": {
+          "Name": "{{ModId}}_InsectGiantYellowStagBeetle",
+          "DisplayName": "Giant Yellow Stag Beetle",
+          "Description": "Scientific: Odontolabis femoralis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 140
+        },
+        "{{ModId}}_InsectOxBeetles": {
+          "Name": "{{ModId}}_InsectOxBeetles",
+          "DisplayName": "Ox Beetles",
+          "Description": "Scientific: Strategus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 141
+        },
+        "{{ModId}}_InsectfivehornedRhinocerosBeetle": {
+          "Name": "{{ModId}}_InsectfivehornedRhinocerosBeetle",
+          "DisplayName": "five-horned Rhinoceros Beetle",
+          "Description": "Scientific: Eupatorus gracilicornis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 142
+        },
+        "{{ModId}}_InsectEyedClickBeetles": {
+          "Name": "{{ModId}}_InsectEyedClickBeetles",
+          "DisplayName": "Eyed Click Beetles",
+          "Description": "Scientific: Alaus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 143
+        },
+        "{{ModId}}_InsectGlowingClickBeetles": {
+          "Name": "{{ModId}}_InsectGlowingClickBeetles",
+          "DisplayName": "Glowing Click Beetles",
+          "Description": "Scientific: Deilelater",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 144
+        },
+        "{{ModId}}_InsectWartyLeafBeetles": {
+          "Name": "{{ModId}}_InsectWartyLeafBeetles",
+          "DisplayName": "Warty Leaf Beetles",
+          "Description": "Scientific: Fulcidacini",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 145
+        },
+        "{{ModId}}_InsectGiraffeWeevil": {
+          "Name": "{{ModId}}_InsectGiraffeWeevil",
+          "DisplayName": "Giraffe Weevil",
+          "Description": "Scientific: Trachelophorus giraffa",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 146
+        },
+        "{{ModId}}_InsectGlasswing": {
+          "Name": "{{ModId}}_InsectGlasswing",
+          "DisplayName": "Glasswing",
+          "Description": "Scientific: Acraea andromacha",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 147
+        },
+        "{{ModId}}_InsectAnnasHummingbird": {
+          "Name": "{{ModId}}_InsectAnnasHummingbird",
+          "DisplayName": "Anna's Hummingbird",
+          "Description": "Scientific: Calypte anna",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 148
+        },
+        "{{ModId}}_InsectBeautifulDemoiselle": {
+          "Name": "{{ModId}}_InsectBeautifulDemoiselle",
+          "DisplayName": "Beautiful Demoiselle",
+          "Description": "Scientific: Calopteryx virgo",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 149
+        },
+        "{{ModId}}_InsectRedLacewing": {
+          "Name": "{{ModId}}_InsectRedLacewing",
+          "DisplayName": "Red Lacewing",
+          "Description": "Scientific: Dysochrysa furcata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 150
+        },
+        "{{ModId}}_InsectLeopardLacewingButterfly": {
+          "Name": "{{ModId}}_InsectLeopardLacewingButterfly",
+          "DisplayName": "Leopard Lacewing Butterfly",
+          "Description": "Scientific: Cethosia cyane",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 151
+        },
+        "{{ModId}}_InsectMalayLacewing": {
+          "Name": "{{ModId}}_InsectMalayLacewing",
+          "DisplayName": "Malay Lacewing",
+          "Description": "Scientific: Cethosia hypsea hypsina",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 152
+        },
+        "{{ModId}}_InsectChorineasylphina": {
+          "Name": "{{ModId}}_InsectChorineasylphina",
+          "DisplayName": "Chorinea sylphina",
+          "Description": "Scientific: Chorinea sylphina",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 153
+        },
+        "{{ModId}}_InsectBlushingAmanitas": {
+          "Name": "{{ModId}}_InsectBlushingAmanitas",
+          "DisplayName": "Blushing Amanitas",
+          "Description": "Scientific: Amanita rubescens",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 154
+        },
+        "{{ModId}}_Insectamberphantom": {
+          "Name": "{{ModId}}_Insectamberphantom",
+          "DisplayName": "amber phantom",
+          "Description": "Scientific: Haetera piera",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 155
+        },
+        "{{ModId}}_InsectIndianpipes": {
+          "Name": "{{ModId}}_InsectIndianpipes",
+          "DisplayName": "Indian pipes",
+          "Description": "Scientific: Monotropa",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 156
+        },
+        "{{ModId}}_Insectautumnolive": {
+          "Name": "{{ModId}}_Insectautumnolive",
+          "DisplayName": "autumn olive",
+          "Description": "Scientific: Elaeagnus umbellata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 157
+        },
+        "{{ModId}}_InsectBluePansy": {
+          "Name": "{{ModId}}_InsectBluePansy",
+          "DisplayName": "Blue Pansy",
+          "Description": "Scientific: Junonia orithya",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 158
+        },
+        "{{ModId}}_InsectPeacockPansy": {
+          "Name": "{{ModId}}_InsectPeacockPansy",
+          "DisplayName": "Peacock Pansy",
+          "Description": "Scientific: Junonia almana",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 159
+        },
+        "{{ModId}}_InsectCommonBuckeye": {
+          "Name": "{{ModId}}_InsectCommonBuckeye",
+          "DisplayName": "Common Buckeye",
+          "Description": "Scientific: Junonia coenia",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 160
+        },
+        "{{ModId}}_InsectMalachite": {
+          "Name": "{{ModId}}_InsectMalachite",
+          "DisplayName": "Malachite",
+          "Description": "Scientific: Siproeta stelenes",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 161
+        },
+        "{{ModId}}_InsectTailedJay": {
+          "Name": "{{ModId}}_InsectTailedJay",
+          "DisplayName": "Tailed Jay",
+          "Description": "Scientific: Graphium agamemnon",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 162
+        },
+        "{{ModId}}_InsectFivebarSwordtail": {
+          "Name": "{{ModId}}_InsectFivebarSwordtail",
+          "DisplayName": "Five-bar Swordtail",
+          "Description": "Scientific: Graphium antiphates",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 163
+        },
+        "{{ModId}}_InsectZebraSwallowtail": {
+          "Name": "{{ModId}}_InsectZebraSwallowtail",
+          "DisplayName": "Zebra Swallowtail",
+          "Description": "Scientific: Eurytides marcellus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 164
+        },
+        "{{ModId}}_InsectPurplespottedFlitter": {
+          "Name": "{{ModId}}_InsectPurplespottedFlitter",
+          "DisplayName": "Purple-spotted Flitter",
+          "Description": "Scientific: Zographetus ogygia",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 165
+        },
+        "{{ModId}}_InsectCrimsonRosella": {
+          "Name": "{{ModId}}_InsectCrimsonRosella",
+          "DisplayName": "Crimson Rosella",
+          "Description": "Scientific: Platycercus elegans",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 166
+        },
+        "{{ModId}}_InsectEmeraldpatchedCattleheart": {
+          "Name": "{{ModId}}_InsectEmeraldpatchedCattleheart",
+          "DisplayName": "Emerald-patched Cattleheart",
+          "Description": "Scientific: Parides sesostris",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 167
+        },
+        "{{ModId}}_InsectPinkspottedCattleheart": {
+          "Name": "{{ModId}}_InsectPinkspottedCattleheart",
+          "DisplayName": "Pink-spotted Cattleheart",
+          "Description": "Scientific: Parides photinus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 168
+        },
+        "{{ModId}}_InsectBhutanGlory": {
+          "Name": "{{ModId}}_InsectBhutanGlory",
+          "DisplayName": "Bhutan Glory",
+          "Description": "Scientific: Bhutanitis lidderdalii",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 169
+        },
+        "{{ModId}}_InsectKaiseriHind": {
+          "Name": "{{ModId}}_InsectKaiseriHind",
+          "DisplayName": "Kaiser-i-Hind",
+          "Description": "Scientific: Teinopalpus imperialis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 170
+        },
+        "{{ModId}}_InsectApollo": {
+          "Name": "{{ModId}}_InsectApollo",
+          "DisplayName": "Apollo",
+          "Description": "Scientific: Parnassius apollo",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 171
+        },
+        "{{ModId}}_InsectSpanishFestoon": {
+          "Name": "{{ModId}}_InsectSpanishFestoon",
+          "DisplayName": "Spanish Festoon",
+          "Description": "Scientific: Zerynthia rumina",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 172
+        },
+        "{{ModId}}_InsectBhutantreebrown": {
+          "Name": "{{ModId}}_InsectBhutantreebrown",
+          "DisplayName": "Bhutan treebrown",
+          "Description": "Scientific: Lethe margaritae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 173
+        },
+        "{{ModId}}_InsectGreatBlueHeron": {
+          "Name": "{{ModId}}_InsectGreatBlueHeron",
+          "DisplayName": "Great Blue Heron",
+          "Description": "Scientific: Ardea herodias",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 174
+        },
+        "{{ModId}}_InsectMeliboeus": {
+          "Name": "{{ModId}}_InsectMeliboeus",
+          "DisplayName": "Meliboeus",
+          "Description": "Scientific: Meliboeus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 175
+        },
+        "{{ModId}}_InsectSunsetDaggerwing": {
+          "Name": "{{ModId}}_InsectSunsetDaggerwing",
+          "DisplayName": "Sunset Daggerwing",
+          "Description": "Scientific: Marpesia furcula",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 176
+        },
+        "{{ModId}}_InsectPurplehairstreak": {
+          "Name": "{{ModId}}_InsectPurplehairstreak",
+          "DisplayName": "Purple hairstreak",
+          "Description": "Scientific: Favonius quercus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 177
+        },
+        "{{ModId}}_InsectRedspottedPurple": {
+          "Name": "{{ModId}}_InsectRedspottedPurple",
+          "DisplayName": "Red-spotted Purple",
+          "Description": "Scientific: Limenitis arthemis astyanax",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 178
+        },
+        "{{ModId}}_InsectNorthAmericanLunaMoth": {
+          "Name": "{{ModId}}_InsectNorthAmericanLunaMoth",
+          "DisplayName": "North American Luna Moth",
+          "Description": "Scientific: Actias luna",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 179
+        },
+        "{{ModId}}_InsectAfricanMoonMoth": {
+          "Name": "{{ModId}}_InsectAfricanMoonMoth",
+          "DisplayName": "African Moon Moth",
+          "Description": "Scientific: Argema mimosae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 180
+        },
+        "{{ModId}}_InsectSpanishMoonMoth": {
+          "Name": "{{ModId}}_InsectSpanishMoonMoth",
+          "DisplayName": "Spanish Moon Moth",
+          "Description": "Scientific: Graellsia isabellae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 181
+        },
+        "{{ModId}}_InsectIndianMoonMoth": {
+          "Name": "{{ModId}}_InsectIndianMoonMoth",
+          "DisplayName": "Indian Moon Moth",
+          "Description": "Scientific: Actias selene",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 182
+        },
+        "{{ModId}}_InsectRosyMapleMoth": {
+          "Name": "{{ModId}}_InsectRosyMapleMoth",
+          "DisplayName": "Rosy Maple Moth",
+          "Description": "Scientific: Dryocampa rubicunda",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 183
+        },
+        "{{ModId}}_InsectPolyphemusMoth": {
+          "Name": "{{ModId}}_InsectPolyphemusMoth",
+          "DisplayName": "Polyphemus Moth",
+          "Description": "Scientific: Antheraea polyphemus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 184
+        },
+        "{{ModId}}_InsectCecropiaMoth": {
+          "Name": "{{ModId}}_InsectCecropiaMoth",
+          "DisplayName": "Cecropia Moth",
+          "Description": "Scientific: Hyalophora cecropia",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 185
+        },
+        "{{ModId}}_InsectPrometheaSilkmoth": {
+          "Name": "{{ModId}}_InsectPrometheaSilkmoth",
+          "DisplayName": "Promethea Silkmoth",
+          "Description": "Scientific: Callosamia promethea",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 186
+        },
+        "{{ModId}}_InsectImperialMoth": {
+          "Name": "{{ModId}}_InsectImperialMoth",
+          "DisplayName": "Imperial Moth",
+          "Description": "Scientific: Eacles imperialis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 187
+        },
+        "{{ModId}}_InsectRegalMoth": {
+          "Name": "{{ModId}}_InsectRegalMoth",
+          "DisplayName": "Regal Moth",
+          "Description": "Scientific: Citheronia regalis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 188
+        },
+        "{{ModId}}_InsectDeathsheadHawkmoths": {
+          "Name": "{{ModId}}_InsectDeathsheadHawkmoths",
+          "DisplayName": "Death's-head Hawkmoths",
+          "Description": "Scientific: Acherontia",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 189
+        },
+        "{{ModId}}_InsectOleanderHawkmoth": {
+          "Name": "{{ModId}}_InsectOleanderHawkmoth",
+          "DisplayName": "Oleander Hawkmoth",
+          "Description": "Scientific: Daphnis nerii",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 190
+        },
+        "{{ModId}}_InsectElephantHawkmoth": {
+          "Name": "{{ModId}}_InsectElephantHawkmoth",
+          "DisplayName": "Elephant Hawkmoth",
+          "Description": "Scientific: Deilephila elpenor",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 191
+        },
+        "{{ModId}}_InsectHummingbirdHawkmoths": {
+          "Name": "{{ModId}}_InsectHummingbirdHawkmoths",
+          "DisplayName": "Hummingbird Hawkmoths",
+          "Description": "Scientific: Macroglossum",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 192
+        },
+        "{{ModId}}_InsectWhitelinedSphinx": {
+          "Name": "{{ModId}}_InsectWhitelinedSphinx",
+          "DisplayName": "White-lined Sphinx",
+          "Description": "Scientific: Hyles lineata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 193
+        },
+        "{{ModId}}_InsectEyedHawkmoth": {
+          "Name": "{{ModId}}_InsectEyedHawkmoth",
+          "DisplayName": "Eyed Hawkmoth",
+          "Description": "Scientific: Smerinthus ocellata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 194
+        },
+        "{{ModId}}_InsectPandorusSphinx": {
+          "Name": "{{ModId}}_InsectPandorusSphinx",
+          "DisplayName": "Pandorus Sphinx",
+          "Description": "Scientific: Eumorpha pandorus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 195
+        },
+        "{{ModId}}_InsectLimeHawkmoth": {
+          "Name": "{{ModId}}_InsectLimeHawkmoth",
+          "DisplayName": "Lime Hawkmoth",
+          "Description": "Scientific: Mimas tiliae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 196
+        },
+        "{{ModId}}_InsectGardenTiger": {
+          "Name": "{{ModId}}_InsectGardenTiger",
+          "DisplayName": "Garden Tiger",
+          "Description": "Scientific: Arctia caja",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 197
+        },
+        "{{ModId}}_Insectscarletpimpernel": {
+          "Name": "{{ModId}}_Insectscarletpimpernel",
+          "DisplayName": "scarlet pimpernel",
+          "Description": "Scientific: Lysimachia arvensis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 198
+        },
+        "{{ModId}}_InsectGiantLeopardMoth": {
+          "Name": "{{ModId}}_InsectGiantLeopardMoth",
+          "DisplayName": "Giant Leopard Moth",
+          "Description": "Scientific: Hypercompe scribonia",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 199
+        },
+        "{{ModId}}_InsectCinnabarmoth": {
+          "Name": "{{ModId}}_InsectCinnabarmoth",
+          "DisplayName": "Cinnabar moth",
+          "Description": "Scientific: Tyria jacobaeae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 200
+        },
+        "{{ModId}}_InsectOrnateBellaMoth": {
+          "Name": "{{ModId}}_InsectOrnateBellaMoth",
+          "DisplayName": "Ornate Bella Moth",
+          "Description": "Scientific: Utetheisa ornatrix",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 201
+        },
+        "{{ModId}}_InsectBrahminMoths": {
+          "Name": "{{ModId}}_InsectBrahminMoths",
+          "DisplayName": "Brahmin Moths",
+          "Description": "Scientific: Brahmaeidae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 202
+        },
+        "{{ModId}}_InsectWhiteWitch": {
+          "Name": "{{ModId}}_InsectWhiteWitch",
+          "DisplayName": "White Witch",
+          "Description": "Scientific: Thysania agrippina",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 203
+        },
+        "{{ModId}}_InsectBlackWitch": {
+          "Name": "{{ModId}}_InsectBlackWitch",
+          "DisplayName": "Black Witch",
+          "Description": "Scientific: Ascalapha odorata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 204
+        },
+        "{{ModId}}_InsectGhostMoth": {
+          "Name": "{{ModId}}_InsectGhostMoth",
+          "DisplayName": "Ghost Moth",
+          "Description": "Scientific: Hepialus humuli",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 205
+        },
+        "{{ModId}}_InsectVenezuelanTroupial": {
+          "Name": "{{ModId}}_InsectVenezuelanTroupial",
+          "DisplayName": "Venezuelan Troupial",
+          "Description": "Scientific: Icterus icterus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 206
+        },
+        "{{ModId}}_InsectChineseTussarMoth": {
+          "Name": "{{ModId}}_InsectChineseTussarMoth",
+          "DisplayName": "Chinese Tussar Moth",
+          "Description": "Scientific: Antheraea pernyi",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 207
+        },
+        "{{ModId}}_InsectPepperedMoth": {
+          "Name": "{{ModId}}_InsectPepperedMoth",
+          "DisplayName": "Peppered Moth",
+          "Description": "Scientific: Biston betularia",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 208
+        },
+        "{{ModId}}_InsectBufftip": {
+          "Name": "{{ModId}}_InsectBufftip",
+          "DisplayName": "Buff-tip",
+          "Description": "Scientific: Phalera bucephala",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 209
+        },
+        "{{ModId}}_InsectFruitpiercingmoth": {
+          "Name": "{{ModId}}_InsectFruitpiercingmoth",
+          "DisplayName": "Fruit-piercing moth",
+          "Description": "Scientific: Oraesia excavata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 210
+        },
+        "{{ModId}}_InsectGiantDevilsFlowerMantis": {
+          "Name": "{{ModId}}_InsectGiantDevilsFlowerMantis",
+          "DisplayName": "Giant Devil's Flower Mantis",
+          "Description": "Scientific: Idolomantis diabolica",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 211
+        },
+        "{{ModId}}_InsectGhostMantises": {
+          "Name": "{{ModId}}_InsectGhostMantises",
+          "DisplayName": "Ghost Mantises",
+          "Description": "Scientific: Phyllocrania",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 212
+        },
+        "{{ModId}}_InsectSpinyFlowerMantises": {
+          "Name": "{{ModId}}_InsectSpinyFlowerMantises",
+          "DisplayName": "Spiny Flower Mantises",
+          "Description": "Scientific: Pseudocreobotra",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 213
+        },
+        "{{ModId}}_InsectIndianFlowerMantis": {
+          "Name": "{{ModId}}_InsectIndianFlowerMantis",
+          "DisplayName": "Indian Flower Mantis",
+          "Description": "Scientific: Creobroter pictipennis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 214
+        },
+        "{{ModId}}_InsectBandedFlowerMantis": {
+          "Name": "{{ModId}}_InsectBandedFlowerMantis",
+          "DisplayName": "Banded Flower Mantis",
+          "Description": "Scientific: Theopropus elegans",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 215
+        },
+        "{{ModId}}_InsectThistleMantis": {
+          "Name": "{{ModId}}_InsectThistleMantis",
+          "DisplayName": "Thistle Mantis",
+          "Description": "Scientific: Blepharopsis mendica",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 216
+        },
+        "{{ModId}}_InsectWanderingViolinMantis": {
+          "Name": "{{ModId}}_InsectWanderingViolinMantis",
+          "DisplayName": "Wandering Violin Mantis",
+          "Description": "Scientific: Gongylus gongylodes",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 217
+        },
+        "{{ModId}}_InsectGiantDeadLeafMantis": {
+          "Name": "{{ModId}}_InsectGiantDeadLeafMantis",
+          "DisplayName": "Giant Dead Leaf Mantis",
+          "Description": "Scientific: Deroplatys desiccata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 218
+        },
+        "{{ModId}}_InsectSoutheastAsianDeadLeafMantis": {
+          "Name": "{{ModId}}_InsectSoutheastAsianDeadLeafMantis",
+          "DisplayName": "Southeast Asian Dead Leaf Mantis",
+          "Description": "Scientific: Deroplatys lobata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 219
+        },
+        "{{ModId}}_InsectAfricanTwigMantis": {
+          "Name": "{{ModId}}_InsectAfricanTwigMantis",
+          "DisplayName": "African Twig Mantis",
+          "Description": "Scientific: Popa spurca",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 220
+        },
+        "{{ModId}}_InsectGlassMantis": {
+          "Name": "{{ModId}}_InsectGlassMantis",
+          "DisplayName": "Glass Mantis",
+          "Description": "Scientific: Sinomantis denticulata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 221
+        },
+        "{{ModId}}_InsectDragonMantis": {
+          "Name": "{{ModId}}_InsectDragonMantis",
+          "DisplayName": "Dragon Mantis",
+          "Description": "Scientific: Stenophylla lobivertex",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 222
+        },
+        "{{ModId}}_InsectJeweledFlowerMantis": {
+          "Name": "{{ModId}}_InsectJeweledFlowerMantis",
+          "DisplayName": "Jeweled Flower Mantis",
+          "Description": "Scientific: Creobroter gemmatus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 223
+        },
+        "{{ModId}}_InsectUnicornMantises": {
+          "Name": "{{ModId}}_InsectUnicornMantises",
+          "DisplayName": "Unicorn Mantises",
+          "Description": "Scientific: Vatinae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 224
+        },
+        "{{ModId}}_InsectSouthAmericanBoxerMantis": {
+          "Name": "{{ModId}}_InsectSouthAmericanBoxerMantis",
+          "DisplayName": "South American Boxer Mantis",
+          "Description": "Scientific: Acanthops falcata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 225
+        },
+        "{{ModId}}_InsectCoffee": {
+          "Name": "{{ModId}}_InsectCoffee",
+          "DisplayName": "Coffee",
+          "Description": "Scientific: Coffea arabica",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 226
+        },
+        "{{ModId}}_InsectEasternLubberGrasshopper": {
+          "Name": "{{ModId}}_InsectEasternLubberGrasshopper",
+          "DisplayName": "Eastern Lubber Grasshopper",
+          "Description": "Scientific: Romalea microptera",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 227
+        },
+        "{{ModId}}_InsectHorseLubberGrasshopper": {
+          "Name": "{{ModId}}_InsectHorseLubberGrasshopper",
+          "DisplayName": "Horse Lubber Grasshopper",
+          "Description": "Scientific: Romalea eques",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 228
+        },
+        "{{ModId}}_InsectRainbowGrasshopper": {
+          "Name": "{{ModId}}_InsectRainbowGrasshopper",
+          "DisplayName": "Rainbow Grasshopper",
+          "Description": "Scientific: Dactylotum bicolor",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 229
+        },
+        "{{ModId}}_InsectPaintedGrasshopper": {
+          "Name": "{{ModId}}_InsectPaintedGrasshopper",
+          "DisplayName": "Painted Grasshopper",
+          "Description": "Scientific: Poekilocerus pictus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 230
+        },
+        "{{ModId}}_Insectgiantredwingedgrasshopper": {
+          "Name": "{{ModId}}_Insectgiantredwingedgrasshopper",
+          "DisplayName": "giant red-winged grasshopper",
+          "Description": "Scientific: Tropidacris cristata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 231
+        },
+        "{{ModId}}_InsectBluewingedGrasshopper": {
+          "Name": "{{ModId}}_InsectBluewingedGrasshopper",
+          "DisplayName": "Blue-winged Grasshopper",
+          "Description": "Scientific: Oedipoda caerulescens",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 232
+        },
+        "{{ModId}}_InsectGiantWeta": {
+          "Name": "{{ModId}}_InsectGiantWeta",
+          "DisplayName": "Giant Weta",
+          "Description": "Scientific: Deinacrida",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 233
+        },
+        "{{ModId}}_InsectAucklandTreeWeta": {
+          "Name": "{{ModId}}_InsectAucklandTreeWeta",
+          "DisplayName": "Auckland Tree Weta",
+          "Description": "Scientific: Hemideina thoracica",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 234
+        },
+        "{{ModId}}_InsectWetaJerusalemCricketsandAllies": {
+          "Name": "{{ModId}}_InsectWetaJerusalemCricketsandAllies",
+          "DisplayName": "Weta, Jerusalem Crickets, and Allies",
+          "Description": "Scientific: Stenopelmatoidea",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 235
+        },
+        "{{ModId}}_InsectCamelCricketsCaveCricketsandCaveWetas": {
+          "Name": "{{ModId}}_InsectCamelCricketsCaveCricketsandCaveWetas",
+          "DisplayName": "Camel Crickets, Cave Crickets, and Cave Wetas",
+          "Description": "Scientific: Rhaphidophoroidea",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 236
+        },
+        "{{ModId}}_InsectDragonheadedKatydids": {
+          "Name": "{{ModId}}_InsectDragonheadedKatydids",
+          "DisplayName": "Dragon-headed Katydids",
+          "Description": "Scientific: Lesina",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 237
+        },
+        "{{ModId}}_Insectpinkfamily": {
+          "Name": "{{ModId}}_Insectpinkfamily",
+          "DisplayName": "pink family",
+          "Description": "Scientific: Caryophyllaceae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 238
+        },
+        "{{ModId}}_InsectMalaysianLadybird": {
+          "Name": "{{ModId}}_InsectMalaysianLadybird",
+          "DisplayName": "Malaysian Ladybird",
+          "Description": "Scientific: Chilocorus nigritus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 239
+        },
+        "{{ModId}}_InsectLordHoweIslandStickInsect": {
+          "Name": "{{ModId}}_InsectLordHoweIslandStickInsect",
+          "DisplayName": "Lord Howe Island Stick Insect",
+          "Description": "Scientific: Dryococelus australis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 240
+        },
+        "{{ModId}}_InsectPinkwingStickInsect": {
+          "Name": "{{ModId}}_InsectPinkwingStickInsect",
+          "DisplayName": "Pinkwing Stick Insect",
+          "Description": "Scientific: Sipyloidea chlorotica",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 241
+        },
+        "{{ModId}}_InsectVietnameseCentipede": {
+          "Name": "{{ModId}}_InsectVietnameseCentipede",
+          "DisplayName": "Vietnamese Centipede",
+          "Description": "Scientific: Scolopendra dehaani",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 242
+        },
+        "{{ModId}}_InsectHalfgreenOrchidBee": {
+          "Name": "{{ModId}}_InsectHalfgreenOrchidBee",
+          "DisplayName": "Half-green Orchid Bee",
+          "Description": "Scientific: Euglossa hemichlora",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 243
+        },
+        "{{ModId}}_InsectTeddyBearBee": {
+          "Name": "{{ModId}}_InsectTeddyBearBee",
+          "DisplayName": "Teddy Bear Bee",
+          "Description": "Scientific: Amegilla bombiformis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 244
+        },
+        "{{ModId}}_InsectVioletCarpenterBee": {
+          "Name": "{{ModId}}_InsectVioletCarpenterBee",
+          "DisplayName": "Violet Carpenter Bee",
+          "Description": "Scientific: Xylocopa violacea",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 245
+        },
+        "{{ModId}}_InsectWallacesGiantBee": {
+          "Name": "{{ModId}}_InsectWallacesGiantBee",
+          "DisplayName": "Wallace's Giant Bee",
+          "Description": "Scientific: Megachile pluto",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 246
+        },
+        "{{ModId}}_InsectRubytailedCuckooWasps": {
+          "Name": "{{ModId}}_InsectRubytailedCuckooWasps",
+          "DisplayName": "Ruby-tailed Cuckoo Wasps",
+          "Description": "Scientific: Chrysis ignita",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 247
+        },
+        "{{ModId}}_InsectEmeraldCockroachWasp": {
+          "Name": "{{ModId}}_InsectEmeraldCockroachWasp",
+          "DisplayName": "Emerald Cockroach Wasp",
+          "Description": "Scientific: Ampulex compressa",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 248
+        },
+        "{{ModId}}_InsectLongtailedGiantIchneumonidWasp": {
+          "Name": "{{ModId}}_InsectLongtailedGiantIchneumonidWasp",
+          "DisplayName": "Long-tailed Giant Ichneumonid Wasp",
+          "Description": "Scientific: Megarhyssa macrurus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 249
+        },
+        "{{ModId}}_InsectCommonEasternVelvetAnt": {
+          "Name": "{{ModId}}_InsectCommonEasternVelvetAnt",
+          "DisplayName": "Common Eastern Velvet Ant",
+          "Description": "Scientific: Dasymutilla occidentalis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 250
+        },
+        "{{ModId}}_InsectPandaAnt": {
+          "Name": "{{ModId}}_InsectPandaAnt",
+          "DisplayName": "Panda Ant",
+          "Description": "Scientific: Euspinolia militaris",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 251
+        },
+        "{{ModId}}_InsectNorthAmericanHoneypotAnts": {
+          "Name": "{{ModId}}_InsectNorthAmericanHoneypotAnts",
+          "DisplayName": "North American Honeypot Ants",
+          "Description": "Scientific: Myrmecocystus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 252
+        },
+        "{{ModId}}_InsectTurtleAnts": {
+          "Name": "{{ModId}}_InsectTurtleAnts",
+          "DisplayName": "Turtle Ants",
+          "Description": "Scientific: Cephalotes",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 253
+        },
+        "{{ModId}}_InsectGoldentailedSpinyAnt": {
+          "Name": "{{ModId}}_InsectGoldentailedSpinyAnt",
+          "DisplayName": "Golden-tailed Spiny Ant",
+          "Description": "Scientific: Polyrhachis ammon",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 254
+        },
+        "{{ModId}}_InsectGlobebearingTreehopper": {
+          "Name": "{{ModId}}_InsectGlobebearingTreehopper",
+          "DisplayName": "Globe-bearing Treehopper",
+          "Description": "Scientific: Bocydium globulare",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 255
+        },
+        "{{ModId}}_InsectThornTreehopper": {
+          "Name": "{{ModId}}_InsectThornTreehopper",
+          "DisplayName": "Thorn Treehopper",
+          "Description": "Scientific: Umbonia crassicornis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 256
+        },
+        "{{ModId}}_InsectBuffaloTreehopper": {
+          "Name": "{{ModId}}_InsectBuffaloTreehopper",
+          "DisplayName": "Buffalo Treehopper",
+          "Description": "Scientific: Stictocephala bisonia",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 257
+        },
+        "{{ModId}}_InsectAntmimickingTreehopper": {
+          "Name": "{{ModId}}_InsectAntmimickingTreehopper",
+          "DisplayName": "Ant-mimicking Treehopper",
+          "Description": "Scientific: Cyphonia clavata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 258
+        },
+        "{{ModId}}_InsectBloodredLanternfly": {
+          "Name": "{{ModId}}_InsectBloodredLanternfly",
+          "DisplayName": "Blood-red Lanternfly",
+          "Description": "Scientific: Pyrops hamdjahi",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 259
+        },
+        "{{ModId}}_InsectSpottedLanternfly": {
+          "Name": "{{ModId}}_InsectSpottedLanternfly",
+          "DisplayName": "Spotted Lanternfly",
+          "Description": "Scientific: Lycorma delicatula",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 260
+        },
+        "{{ModId}}_InsectLongnosedDolphins": {
+          "Name": "{{ModId}}_InsectLongnosedDolphins",
+          "DisplayName": "Long-nosed Dolphins",
+          "Description": "Scientific: Delphininae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 261
+        },
+        "{{ModId}}_InsectRedbandedLeafhopper": {
+          "Name": "{{ModId}}_InsectRedbandedLeafhopper",
+          "DisplayName": "Red-banded Leafhopper",
+          "Description": "Scientific: Graphocephala coccinea",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 262
+        },
+        "{{ModId}}_InsectBluebushCicada": {
+          "Name": "{{ModId}}_InsectBluebushCicada",
+          "DisplayName": "Bluebush Cicada",
+          "Description": "Scientific: Amica glauca",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 263
+        },
+        "{{ModId}}_InsectGreenLacewings": {
+          "Name": "{{ModId}}_InsectGreenLacewings",
+          "DisplayName": "Green Lacewings",
+          "Description": "Scientific: Chrysopidae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 264
+        },
+        "{{ModId}}_InsectPeriodicalCicadas": {
+          "Name": "{{ModId}}_InsectPeriodicalCicadas",
+          "DisplayName": "Periodical Cicadas",
+          "Description": "Scientific: Magicicada",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 265
+        },
+        "{{ModId}}_InsectWheelBugs": {
+          "Name": "{{ModId}}_InsectWheelBugs",
+          "DisplayName": "Wheel Bugs",
+          "Description": "Scientific: Arilus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 266
+        },
+        "{{ModId}}_InsectRedspottedPlantBug": {
+          "Name": "{{ModId}}_InsectRedspottedPlantBug",
+          "DisplayName": "Red-spotted Plant Bug",
+          "Description": "Scientific: Deraeocoris ruber",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 267
+        },
+        "{{ModId}}_Insectredoaks": {
+          "Name": "{{ModId}}_Insectredoaks",
+          "DisplayName": "red oaks",
+          "Description": "Scientific: Lobatae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 268
+        },
+        "{{ModId}}_InsectVariegatedFritillary": {
+          "Name": "{{ModId}}_InsectVariegatedFritillary",
+          "DisplayName": "Variegated Fritillary",
+          "Description": "Scientific: Euptoieta claudia",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 269
+        },
+        "{{ModId}}_InsectEbonyJewelwing": {
+          "Name": "{{ModId}}_InsectEbonyJewelwing",
+          "DisplayName": "Ebony Jewelwing",
+          "Description": "Scientific: Calopteryx maculata",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 270
+        },
+        "{{ModId}}_InsectMacleaysOwlfly": {
+          "Name": "{{ModId}}_InsectMacleaysOwlfly",
+          "DisplayName": "Macleay's Owlfly",
+          "Description": "Scientific: Ululodes macleayanus",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 271
+        },
+        "{{ModId}}_InsectCommonEuropeanScorpionfly": {
+          "Name": "{{ModId}}_InsectCommonEuropeanScorpionfly",
+          "DisplayName": "Common European Scorpionfly",
+          "Description": "Scientific: Panorpa communis",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 272
+        },
+        "{{ModId}}_Insectrailroadworms": {
+          "Name": "{{ModId}}_Insectrailroadworms",
+          "DisplayName": "railroad worms",
+          "Description": "Scientific: Phrixothrix",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 273
+        },
+        "{{ModId}}_InsectEmeraldMoths": {
+          "Name": "{{ModId}}_InsectEmeraldMoths",
+          "DisplayName": "Emerald Moths",
+          "Description": "Scientific: Geometrinae",
+          "Type": "Basic",
+          "Category": 0,
+          "Price": 1,
+          "Edibility": -300,
+          "ContextTags": [
+            "carnivorousplants_insect"
+          ],
+          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "SpriteIndex": 274
+        }
+      }
+    }
+  ]
+}

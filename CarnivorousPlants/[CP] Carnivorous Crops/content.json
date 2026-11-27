@@ -8,6 +8,11 @@
     },
     {
       "Action": "Load",
+      "Target": "Mods/{{ModId}}/insects",
+      "FromFile": "assets/insects.png"
+    },
+    {
+      "Action": "Load",
       "Target": "Mods/{{ModId}}/crops",
       "FromFile": "assets/crops.png"
     },
@@ -19,7 +24,12 @@
     {
       "Action": "Load",
       "Target": "Mods/{{ModId}}/tools",
-      "FromFile": "assets/tools.png"
+      "FromFile": "assets/bug_net_tool.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/iridium_bug_net",
+      "FromFile": "assets/iridium_bug_net_tool.png"
     },
     {
       "Action": "EditData",
@@ -31,7 +41,17 @@
           "DisplayName": "Bug Net",
           "Description": "A net with a slot for insect bait.",
           "Texture": "Mods/{{ModId}}/tools",
-          "SpriteIndex": 0,
+          "SpriteIndex": 1,
+          "MenuSpriteIndex": 0,
+          "AttachmentSlots": 1
+        },
+        "{{ModId}}_IridiumBugNet": {
+          "ClassName": "GenericTool",
+          "Name": "{{ModId}}_IridiumBugNet",
+          "DisplayName": "Iridium Bug Net",
+          "Description": "An iridium net with a slot for insect bait.",
+          "Texture": "Mods/{{ModId}}/iridium_bug_net",
+          "SpriteIndex": 1,
           "MenuSpriteIndex": 0,
           "AttachmentSlots": 1
         }
@@ -258,6 +278,10 @@
     {
       "Action": "Include",
       "FromFile": "data/bait.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/insects.json"
     }
   ]
 }
