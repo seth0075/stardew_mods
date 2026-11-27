@@ -9,6 +9,85 @@ namespace CarnivorousPlants.Core;
 
 internal static class InsectCatchService
 {
+    public static void LogCatchPool(Farmer farmer, IMonitor monitor)
+    {
+        Tool? net = farmer.CurrentTool;
+        if (!BugNetPatches.IsBugNet(net))
+        {
+            monitor.Log("Equip a bug net before running bugnet_pool.", LogLevel.Info);
+            return;
+        }
+
+        GameLocation location = farmer.currentLocation;
+        SObject? bait = net.attachments[0];
+        monitor.Log(
+            $"Bug net pool: season={Game1.currentSeason}, time={Game1.timeOfDay}, location={location.NameOrUniqueName}.",
+            LogLevel.Info
+        );
+
+        if (bait is null || !InsectBait.IsInsectBait(bait))
+        {
+            monitor.Log("No insect bait is attached; there is no catch pool.", LogLevel.Info);
+            return;
+        }
+
+        if (!TryReadBaitData(bait, monitor, out BaitCatchRules baitData))
+            return;
+
+        List<InsectData> eligibleInsects = GetEligibleInsects(location, baitData, monitor);
+        List<InsectData> catchableInsects = FilterCatchableByRarity(eligibleInsects, baitData);
+        int commonCount = eligibleInsects.Count(insect => insect.Rarity == InsectRarity.Common);
+        int rareCount = eligibleInsects.Count(insect => insect.Rarity == InsectRarity.Rare);
+        int legendaryCount = eligibleInsects.Count(insect => insect.Rarity == InsectRarity.Legendary);
+        int catchableCommonCount = catchableInsects.Count(insect => insect.Rarity == InsectRarity.Common);
+        int catchableRareCount = catchableInsects.Count(insect => insect.Rarity == InsectRarity.Rare);
+        int catchableLegendaryCount = catchableInsects.Count(insect => insect.Rarity == InsectRarity.Legendary);
+        monitor.Log(
+            $"Bait={bait.QualifiedItemId}, rare={baitData.CanCatchRare}, legendary={baitData.CanCatchLegendary}. "
+            + $"Candidates before rarity selection={eligibleInsects.Count} "
+            + $"(common={commonCount}, rare={rareCount}, legendary={legendaryCount}); "
+            + $"catchable pool={catchableInsects.Count} "
+            + $"(common={catchableCommonCount}, rare={catchableRareCount}, legendary={catchableLegendaryCount}).",
+            LogLevel.Info
+        );
+
+        if (eligibleInsects.Count == 0)
+        {
+            monitor.Log("No insects match this bait, season, location, and time; a swing still consumes bait.", LogLevel.Info);
+            return;
+        }
+
+        if (catchableInsects.Count == 0)
+        {
+            monitor.Log("The candidates are all rarities this bait cannot catch; a swing still consumes bait.", LogLevel.Info);
+            return;
+        }
+
+        foreach (InsectData insect in catchableInsects)
+        {
+            monitor.Log(
+                $"  {insect.ItemId}: type={insect.Type}, rarity={insect.Rarity}, "
+                + $"time={insect.StartTime}-{insect.EndTime}, weight={insect.Weight}.",
+                LogLevel.Info
+            );
+        }
+    }
+
+    public static List<CatchPoolEntry> GetCatchableInsects(Tool net, GameLocation location, IMonitor monitor)
+    {
+        if (net.attachments[0] is not SObject bait || !InsectBait.IsInsectBait(bait)
+            || !TryReadBaitData(bait, monitor, out BaitCatchRules baitData))
+        {
+            return new List<CatchPoolEntry>();
+        }
+
+        List<InsectData> eligible = GetEligibleInsects(location, baitData, monitor);
+        Dictionary<string, double> probabilities = InsectCatchRules.GetCatchProbabilities(eligible, baitData);
+        return FilterCatchableByRarity(eligible, baitData)
+            .Select(insect => new CatchPoolEntry(insect, probabilities[insect.ItemId]))
+            .ToList();
+    }
+
     public static void TryCatch(Tool net, GameLocation location, Farmer farmer, IMonitor monitor)
     {
         if (!farmer.IsLocalPlayer)
@@ -110,6 +189,17 @@ internal static class InsectCatchService
         return eligible;
     }
 
+    private static List<InsectData> FilterCatchableByRarity(
+        IEnumerable<InsectData> insects,
+        BaitCatchRules bait
+    )
+    {
+        return insects
+            .Where(insect => InsectCatchRules.CanCatchRarity(insect.Rarity, bait))
+            .OrderBy(insect => insect.ItemId, StringComparer.OrdinalIgnoreCase)
+            .ToList();
+    }
+
     private static InsectData SelectByWeight(List<InsectData> insects)
     {
         double totalWeight = insects.Sum(insect => insect.Weight);
@@ -126,3 +216,5 @@ internal static class InsectCatchService
     }
 
 }
+
+internal sealed record CatchPoolEntry(InsectData Insect, double Probability);

@@ -15,9 +15,9 @@
           "ContextTags": ["carnivorousplants_insect"],
           "CustomFields": {
             "CarnivorousCrops.ContentPack/InsectType": "butterfly",
-            "CarnivorousCrops.ContentPack/CatchLocations": "Forest, Town",
-            "CarnivorousCrops.ContentPack/CatchSeasons": "Winter, Spring",
-            "CarnivorousCrops.ContentPack/CatchTimes": "600-1800",
+            "CarnivorousCrops.ContentPack/CatchLocations": "Forest, Town, Outdoors",
+            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer, Fall, Winter",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
@@ -75,9 +75,9 @@
           "ContextTags": ["carnivorousplants_insect"],
           "CustomFields": {
             "CarnivorousCrops.ContentPack/InsectType": "butterfly",
-            "CarnivorousCrops.ContentPack/CatchLocations": "Beach, Ginger Island",
-            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer",
-            "CarnivorousCrops.ContentPack/CatchTimes": "600-1800",
+            "CarnivorousCrops.ContentPack/CatchLocations": "Beach, Ginger Island, Outdoors",
+            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer, Fall, Winter",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.15"
           },
@@ -195,9 +195,9 @@
           "ContextTags": ["carnivorousplants_insect"],
           "CustomFields": {
             "CarnivorousCrops.ContentPack/InsectType": "beetle",
-            "CarnivorousCrops.ContentPack/CatchLocations": "Beach, Forest",
-            "CarnivorousCrops.ContentPack/CatchSeasons": "Winter, Summer",
-            "CarnivorousCrops.ContentPack/CatchTimes": "600-1800",
+            "CarnivorousCrops.ContentPack/CatchLocations": "Beach, Forest, Outdoors",
+            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer, Fall, Winter",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.15"
           },
@@ -355,9 +355,9 @@
           "ContextTags": ["carnivorousplants_insect"],
           "CustomFields": {
             "CarnivorousCrops.ContentPack/InsectType": "bee",
-            "CarnivorousCrops.ContentPack/CatchLocations": "Town",
-            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Fall",
-            "CarnivorousCrops.ContentPack/CatchTimes": "600-1800",
+            "CarnivorousCrops.ContentPack/CatchLocations": "Town, Outdoors",
+            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer, Fall, Winter",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.35"
           },
@@ -375,9 +375,9 @@
           "ContextTags": ["carnivorousplants_insect"],
           "CustomFields": {
             "CarnivorousCrops.ContentPack/InsectType": "wasp",
-            "CarnivorousCrops.ContentPack/CatchLocations": "Ginger Island, Beach",
-            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer",
-            "CarnivorousCrops.ContentPack/CatchTimes": "600-1800",
+            "CarnivorousCrops.ContentPack/CatchLocations": "Ginger Island, Beach, Outdoors",
+            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer, Fall, Winter",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
@@ -435,9 +435,9 @@
           "ContextTags": ["carnivorousplants_insect"],
           "CustomFields": {
             "CarnivorousCrops.ContentPack/InsectType": "ant",
-            "CarnivorousCrops.ContentPack/CatchLocations": "Farm, Desert",
-            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer",
-            "CarnivorousCrops.ContentPack/CatchTimes": "600-2200",
+            "CarnivorousCrops.ContentPack/CatchLocations": "Farm, Desert, Outdoors",
+            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer, Fall, Winter",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.15"
           },
@@ -595,9 +595,10 @@
           "ContextTags": ["carnivorousplants_insect"],
           "CustomFields": {
             "CarnivorousCrops.ContentPack/InsectType": "dragonfly",
-            "CarnivorousCrops.ContentPack/CatchLocations": "Beach",
-            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Fall",
-            "CarnivorousCrops.ContentPack/CatchTimes": "600-1800",
+            "CarnivorousCrops.ContentPack/CatchLocations": "Beach, Outdoors",
+            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer, Fall, Winter",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.35"
           },
@@ -655,9 +656,10 @@
           "ContextTags": ["carnivorousplants_insect"],
           "CustomFields": {
             "CarnivorousCrops.ContentPack/InsectType": "cicada",
-            "CarnivorousCrops.ContentPack/CatchLocations": "Forest",
-            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Fall",
-            "CarnivorousCrops.ContentPack/CatchTimes": "600-1800",
+            "CarnivorousCrops.ContentPack/CatchLocations": "Forest, Outdoors",
+            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer, Fall, Winter",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.05"
           },
@@ -735,8 +737,8 @@
           "ContextTags": ["carnivorousplants_insect"],
           "CustomFields": {
             "CarnivorousCrops.ContentPack/InsectType": "fly",
-            "CarnivorousCrops.ContentPack/CatchLocations": "Town, Farm",
-            "CarnivorousCrops.ContentPack/CatchSeasons": "Winter, Spring",
+            "CarnivorousCrops.ContentPack/CatchLocations": "Town, Farm, Outdoors",
+            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer, Fall, Winter",
             "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
@@ -1457,6 +1459,7 @@
             "CarnivorousCrops.ContentPack/InsectType": "cicada",
             "CarnivorousCrops.ContentPack/CatchLocations": "Forest, Ginger Island",
             "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/CatchTimes": "600-1800",
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
@@ -2227,7 +2230,7 @@
         "{{ModId}}_InsectGoldenJewelScarab": {
           "Name": "{{ModId}}_InsectGoldenJewelScarab",
           "DisplayName": "Golden Jewel Scarab",
-          "Description": "Scientific: Chrysina resplendens",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -2241,13 +2244,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 111
         },
         "{{ModId}}_InsectRainbowLeafBeetle": {
           "Name": "{{ModId}}_InsectRainbowLeafBeetle",
           "DisplayName": "Rainbow Leaf Beetle",
-          "Description": "Scientific: Chrysolina cerealis",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -2261,13 +2264,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 112
         },
         "{{ModId}}_InsectGoldenTortoiseBeetle": {
           "Name": "{{ModId}}_InsectGoldenTortoiseBeetle",
           "DisplayName": "Golden Tortoise Beetle",
-          "Description": "Scientific: Charidotella sexpunctata",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -2281,13 +2284,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 113
         },
         "{{ModId}}_InsectArgusTortoiseBeetle": {
           "Name": "{{ModId}}_InsectArgusTortoiseBeetle",
           "DisplayName": "Argus Tortoise Beetle",
-          "Description": "Scientific: Chelymorpha cassidea",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 80,
@@ -2301,13 +2304,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 114
         },
         "{{ModId}}_InsectClavateTortoiseBeetle": {
           "Name": "{{ModId}}_InsectClavateTortoiseBeetle",
           "DisplayName": "Clavate Tortoise Beetle",
-          "Description": "Scientific: Helocassis clavata",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 30,
@@ -2321,13 +2324,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.95"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 115
         },
         "{{ModId}}_InsectPicassoBug": {
           "Name": "{{ModId}}_InsectPicassoBug",
           "DisplayName": "Picasso Bug",
-          "Description": "Scientific: Sphaerocoris annulus",
+          "Description": "An insect with a piercing beak and textured wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -2341,13 +2344,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 116
         },
         "{{ModId}}_InsectRosemaryBeetle": {
           "Name": "{{ModId}}_InsectRosemaryBeetle",
           "DisplayName": "Rosemary Beetle",
-          "Description": "Scientific: Chrysolina americana",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 60,
@@ -2361,13 +2364,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.15"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 117
         },
         "{{ModId}}_InsectBloodynosedBeetle": {
           "Name": "{{ModId}}_InsectBloodynosedBeetle",
           "DisplayName": "Bloody-Nosed Beetle",
-          "Description": "Scientific: Timarcha tenebricosa",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 70,
@@ -2381,13 +2384,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 118
         },
         "{{ModId}}_InsectFrogleggedleafbeetle": {
           "Name": "{{ModId}}_InsectFrogleggedleafbeetle",
           "DisplayName": "Frog-Legged Leaf Beetle",
-          "Description": "Scientific: Sagra femorata",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 80,
@@ -2401,13 +2404,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.35"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 119
         },
         "{{ModId}}_InsectTitanBeetle": {
           "Name": "{{ModId}}_InsectTitanBeetle",
           "DisplayName": "Titan Beetle",
-          "Description": "Scientific: Titanus giganteus",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -2421,13 +2424,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 120
         },
         "{{ModId}}_InsectGiantCactusLonghornBeetle": {
           "Name": "{{ModId}}_InsectGiantCactusLonghornBeetle",
           "DisplayName": "Giant Cactus Longhorn Beetle",
-          "Description": "Scientific: Moneilema gigas",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -2441,13 +2444,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 121
         },
         "{{ModId}}_InsectHarlequinBeetle": {
           "Name": "{{ModId}}_InsectHarlequinBeetle",
           "DisplayName": "Harlequin Beetle",
-          "Description": "Scientific: Acrocinus longimanus",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 60,
@@ -2461,13 +2464,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.05"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 122
         },
         "{{ModId}}_InsectBandedAlderBorer": {
           "Name": "{{ModId}}_InsectBandedAlderBorer",
           "DisplayName": "Banded Alder Borer",
-          "Description": "Scientific: Rosalia funebris",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 70,
@@ -2481,13 +2484,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.15"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 123
         },
         "{{ModId}}_InsectMuskbeetle": {
           "Name": "{{ModId}}_InsectMuskbeetle",
           "DisplayName": "Musk Beetle",
-          "Description": "Scientific: Aromia moschata",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 80,
@@ -2501,13 +2504,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 124
         },
         "{{ModId}}_InsectGiantFlowerBeetle": {
           "Name": "{{ModId}}_InsectGiantFlowerBeetle",
           "DisplayName": "Giant Flower Beetle",
-          "Description": "Scientific: Mecynorrhinella torquata",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -2521,13 +2524,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 125
         },
         "{{ModId}}_InsectFiddlerBeetle": {
           "Name": "{{ModId}}_InsectFiddlerBeetle",
           "DisplayName": "Fiddler Beetle",
-          "Description": "Scientific: Eupoecila australasiae",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 50,
@@ -2541,13 +2544,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 126
         },
         "{{ModId}}_Insectsunbeetle": {
           "Name": "{{ModId}}_Insectsunbeetle",
           "DisplayName": "Sun Beetle",
-          "Description": "Scientific: Pachnoda marginata",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -2561,13 +2564,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 128
         },
         "{{ModId}}_InsectEmeraldAshBorer": {
           "Name": "{{ModId}}_InsectEmeraldAshBorer",
           "DisplayName": "Emerald Ash Borer",
-          "Description": "Scientific: Agrilus planipennis",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -2581,13 +2584,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 143
         },
         "{{ModId}}_InsectGiantjewelbeetle": {
           "Name": "{{ModId}}_InsectGiantjewelbeetle",
           "DisplayName": "Giant Jewel Beetle",
-          "Description": "Scientific: Sternocera orissa",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -2601,13 +2604,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 130
         },
         "{{ModId}}_InsectFirecoloredBeetles": {
           "Name": "{{ModId}}_InsectFirecoloredBeetles",
           "DisplayName": "Fire-Colored Beetle",
-          "Description": "Scientific: Pyrochroidae",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 40,
@@ -2621,13 +2624,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 131
         },
         "{{ModId}}_InsectTexasIroncladBeetle": {
           "Name": "{{ModId}}_InsectTexasIroncladBeetle",
           "DisplayName": "Texas Ironclad Beetle",
-          "Description": "Scientific: Zopherus nodulosus haldemani",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -2641,13 +2644,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 145
         },
         "{{ModId}}_InsectDiabolicalIroncladBeetle": {
           "Name": "{{ModId}}_InsectDiabolicalIroncladBeetle",
           "DisplayName": "Diabolical Ironclad Beetle",
-          "Description": "Scientific: Phloeodes diabolicus",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -2661,13 +2664,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 132
         },
         "{{ModId}}_Insectbombardierbeetle": {
           "Name": "{{ModId}}_Insectbombardierbeetle",
           "DisplayName": "Bombardier Beetle",
-          "Description": "Scientific: Pheropsophus verticalis",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -2681,13 +2684,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 146
         },
         "{{ModId}}_InsectSixspottedTigerBeetle": {
           "Name": "{{ModId}}_InsectSixspottedTigerBeetle",
           "DisplayName": "Six-Spotted Tiger Beetle",
-          "Description": "Scientific: Cicindela sexguttata",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -2701,13 +2704,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 127
         },
         "{{ModId}}_InsectCoralPinkSandDunesTigerBeetle": {
           "Name": "{{ModId}}_InsectCoralPinkSandDunesTigerBeetle",
           "DisplayName": "Coral Pink Sand Dunes Tiger Beetle",
-          "Description": "Scientific: Cicindela albissima",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -2721,13 +2724,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 138
         },
         "{{ModId}}_InsectTrilobiteBeetle": {
           "Name": "{{ModId}}_InsectTrilobiteBeetle",
           "DisplayName": "Trilobite Beetle",
-          "Description": "Scientific: Platerodrilus paradoxus",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -2741,13 +2744,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 139
         },
         "{{ModId}}_InsectSpanishFly": {
           "Name": "{{ModId}}_InsectSpanishFly",
           "DisplayName": "Spanish Fly",
-          "Description": "Scientific: Lytta vesicatoria",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -2761,13 +2764,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 129
         },
         "{{ModId}}_InsectJewelBeetles": {
           "Name": "{{ModId}}_InsectJewelBeetles",
           "DisplayName": "Buprestid Beetle",
-          "Description": "Scientific: Buprestidae",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -2781,13 +2784,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 133
         },
         "{{ModId}}_InsectEuropeanStagBeetle": {
           "Name": "{{ModId}}_InsectEuropeanStagBeetle",
           "DisplayName": "European Stag Beetle",
-          "Description": "Scientific: Lucanus cervus",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -2801,13 +2804,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 134
         },
         "{{ModId}}_InsectGiantYellowStagBeetle": {
           "Name": "{{ModId}}_InsectGiantYellowStagBeetle",
           "DisplayName": "Giant Yellow Stag Beetle",
-          "Description": "Scientific: Odontolabis femoralis",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -2821,13 +2824,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 136
         },
         "{{ModId}}_InsectOxBeetles": {
           "Name": "{{ModId}}_InsectOxBeetles",
           "DisplayName": "Ox Beetle",
-          "Description": "Scientific: Strategus",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -2841,13 +2844,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 135
         },
         "{{ModId}}_InsectfivehornedRhinocerosBeetle": {
           "Name": "{{ModId}}_InsectfivehornedRhinocerosBeetle",
           "DisplayName": "Five-Horned Rhinoceros Beetle",
-          "Description": "Scientific: Eupatorus gracilicornis",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -2861,13 +2864,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 137
         },
         "{{ModId}}_InsectEyedClickBeetles": {
           "Name": "{{ModId}}_InsectEyedClickBeetles",
           "DisplayName": "Eyed Click Beetle",
-          "Description": "Scientific: Alaus",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -2881,13 +2884,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 142
         },
         "{{ModId}}_InsectGlowingClickBeetles": {
           "Name": "{{ModId}}_InsectGlowingClickBeetles",
           "DisplayName": "Glowing Click Beetle",
-          "Description": "Scientific: Deilelater",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -2901,13 +2904,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 144
         },
         "{{ModId}}_InsectWartyLeafBeetles": {
           "Name": "{{ModId}}_InsectWartyLeafBeetles",
           "DisplayName": "Warty Leaf Beetle",
-          "Description": "Scientific: Fulcidacini",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -2921,13 +2924,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 140
         },
         "{{ModId}}_InsectGiraffeWeevil": {
           "Name": "{{ModId}}_InsectGiraffeWeevil",
           "DisplayName": "Giraffe Weevil",
-          "Description": "Scientific: Trachelophorus giraffa",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -2941,13 +2944,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 141
         },
         "{{ModId}}_InsectGlasswing": {
           "Name": "{{ModId}}_InsectGlasswing",
           "DisplayName": "Glasswing",
-          "Description": "Scientific: Acraea andromacha",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 60,
@@ -2961,13 +2964,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.15"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 147
         },
         "{{ModId}}_InsectBeautifulDemoiselle": {
           "Name": "{{ModId}}_InsectBeautifulDemoiselle",
           "DisplayName": "Beautiful Demoiselle",
-          "Description": "Scientific: Calopteryx virgo",
+          "Description": "A swift aerial hunter with large eyes and long, clear wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -2981,13 +2984,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 149
         },
         "{{ModId}}_InsectRedLacewing": {
           "Name": "{{ModId}}_InsectRedLacewing",
           "DisplayName": "Red Lacewing",
-          "Description": "Scientific: Dysochrysa furcata",
+          "Description": "A delicate insect with finely veined, netlike wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 40,
@@ -3001,13 +3004,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.35"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 150
         },
         "{{ModId}}_InsectLeopardLacewingButterfly": {
           "Name": "{{ModId}}_InsectLeopardLacewingButterfly",
           "DisplayName": "Leopard Lacewing Butterfly",
-          "Description": "Scientific: Cethosia cyane",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 40,
@@ -3021,13 +3024,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 151
         },
         "{{ModId}}_InsectMalayLacewing": {
           "Name": "{{ModId}}_InsectMalayLacewing",
           "DisplayName": "Malay Lacewing",
-          "Description": "Scientific: Cethosia hypsea hypsina",
+          "Description": "A delicate insect with finely veined, netlike wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -3041,13 +3044,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 152
         },
         "{{ModId}}_InsectChorineasylphina": {
           "Name": "{{ModId}}_InsectChorineasylphina",
           "DisplayName": "Chorinea sylphina",
-          "Description": "Scientific: Chorinea sylphina",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -3061,13 +3064,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 153
         },
         "{{ModId}}_Insectamberphantom": {
           "Name": "{{ModId}}_Insectamberphantom",
           "DisplayName": "Amber Phantom",
-          "Description": "Scientific: Haetera piera",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -3081,13 +3084,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 155
         },
         "{{ModId}}_InsectBluePansy": {
           "Name": "{{ModId}}_InsectBluePansy",
           "DisplayName": "Blue Pansy",
-          "Description": "Scientific: Junonia orithya",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 80,
@@ -3101,13 +3104,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 158
         },
         "{{ModId}}_InsectPeacockPansy": {
           "Name": "{{ModId}}_InsectPeacockPansy",
           "DisplayName": "Peacock Pansy",
-          "Description": "Scientific: Junonia almana",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -3121,13 +3124,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 159
         },
         "{{ModId}}_InsectCommonBuckeye": {
           "Name": "{{ModId}}_InsectCommonBuckeye",
           "DisplayName": "Common Buckeye",
-          "Description": "Scientific: Junonia coenia",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 50,
@@ -3141,13 +3144,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 160
         },
         "{{ModId}}_InsectMalachite": {
           "Name": "{{ModId}}_InsectMalachite",
           "DisplayName": "Malachite",
-          "Description": "Scientific: Siproeta stelenes",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -3161,13 +3164,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 161
         },
         "{{ModId}}_InsectTailedJay": {
           "Name": "{{ModId}}_InsectTailedJay",
           "DisplayName": "Tailed Jay",
-          "Description": "Scientific: Graphium agamemnon",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -3181,13 +3184,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 162
         },
         "{{ModId}}_InsectFivebarSwordtail": {
           "Name": "{{ModId}}_InsectFivebarSwordtail",
           "DisplayName": "Five-Bar Swordtail",
-          "Description": "Scientific: Graphium antiphates",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -3201,13 +3204,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 163
         },
         "{{ModId}}_InsectZebraSwallowtail": {
           "Name": "{{ModId}}_InsectZebraSwallowtail",
           "DisplayName": "Zebra Swallowtail",
-          "Description": "Scientific: Eurytides marcellus",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -3221,13 +3224,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 164
         },
         "{{ModId}}_InsectPurplespottedFlitter": {
           "Name": "{{ModId}}_InsectPurplespottedFlitter",
           "DisplayName": "Purple-Spotted Flitter",
-          "Description": "Scientific: Zographetus ogygia",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -3241,13 +3244,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 165
         },
         "{{ModId}}_InsectEmeraldpatchedCattleheart": {
           "Name": "{{ModId}}_InsectEmeraldpatchedCattleheart",
           "DisplayName": "Emerald-Patched Cattleheart",
-          "Description": "Scientific: Parides sesostris",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -3261,13 +3264,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 167
         },
         "{{ModId}}_InsectPinkspottedCattleheart": {
           "Name": "{{ModId}}_InsectPinkspottedCattleheart",
           "DisplayName": "Pink-Spotted Cattleheart",
-          "Description": "Scientific: Parides photinus",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -3281,13 +3284,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 168
         },
         "{{ModId}}_InsectBhutanGlory": {
           "Name": "{{ModId}}_InsectBhutanGlory",
           "DisplayName": "Bhutan Glory",
-          "Description": "Scientific: Bhutanitis lidderdalii",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -3301,13 +3304,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 169
         },
         "{{ModId}}_InsectKaiseriHind": {
           "Name": "{{ModId}}_InsectKaiseriHind",
           "DisplayName": "Kaiser-i-Hind",
-          "Description": "Scientific: Teinopalpus imperialis",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -3321,13 +3324,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 170
         },
         "{{ModId}}_InsectApollo": {
           "Name": "{{ModId}}_InsectApollo",
           "DisplayName": "Apollo",
-          "Description": "Scientific: Parnassius apollo",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -3341,13 +3344,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 171
         },
         "{{ModId}}_InsectSpanishFestoon": {
           "Name": "{{ModId}}_InsectSpanishFestoon",
           "DisplayName": "Spanish Festoon",
-          "Description": "Scientific: Zerynthia rumina",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -3361,13 +3364,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 172
         },
         "{{ModId}}_InsectBhutantreebrown": {
           "Name": "{{ModId}}_InsectBhutantreebrown",
           "DisplayName": "Bhutan Treebrown",
-          "Description": "Scientific: Lethe margaritae",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 70,
@@ -3381,13 +3384,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 173
         },
         "{{ModId}}_InsectMeliboeus": {
           "Name": "{{ModId}}_InsectMeliboeus",
           "DisplayName": "Meliboeus",
-          "Description": "Scientific: Meliboeus",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -3401,13 +3404,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 175
         },
         "{{ModId}}_InsectSunsetDaggerwing": {
           "Name": "{{ModId}}_InsectSunsetDaggerwing",
           "DisplayName": "Sunset Daggerwing",
-          "Description": "Scientific: Marpesia furcula",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -3421,13 +3424,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 176
         },
         "{{ModId}}_InsectPurplehairstreak": {
           "Name": "{{ModId}}_InsectPurplehairstreak",
           "DisplayName": "Purple Hairstreak",
-          "Description": "Scientific: Favonius quercus",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -3441,13 +3444,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 177
         },
         "{{ModId}}_InsectRedspottedPurple": {
           "Name": "{{ModId}}_InsectRedspottedPurple",
           "DisplayName": "Red-Spotted Purple",
-          "Description": "Scientific: Limenitis arthemis astyanax",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -3461,13 +3464,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 178
         },
         "{{ModId}}_InsectNorthAmericanLunaMoth": {
           "Name": "{{ModId}}_InsectNorthAmericanLunaMoth",
           "DisplayName": "North American Luna Moth",
-          "Description": "Scientific: Actias luna",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 70,
@@ -3481,13 +3484,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.35"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 179
         },
         "{{ModId}}_InsectAfricanMoonMoth": {
           "Name": "{{ModId}}_InsectAfricanMoonMoth",
           "DisplayName": "African Moon Moth",
-          "Description": "Scientific: Argema mimosae",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 80,
@@ -3501,13 +3504,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 180
         },
         "{{ModId}}_InsectSpanishMoonMoth": {
           "Name": "{{ModId}}_InsectSpanishMoonMoth",
           "DisplayName": "Spanish Moon Moth",
-          "Description": "Scientific: Graellsia isabellae",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 40,
@@ -3521,13 +3524,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.95"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 181
         },
         "{{ModId}}_InsectIndianMoonMoth": {
           "Name": "{{ModId}}_InsectIndianMoonMoth",
           "DisplayName": "Indian Moon Moth",
-          "Description": "Scientific: Actias selene",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 50,
@@ -3541,13 +3544,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.05"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 182
         },
         "{{ModId}}_InsectRosyMapleMoth": {
           "Name": "{{ModId}}_InsectRosyMapleMoth",
           "DisplayName": "Rosy Maple Moth",
-          "Description": "Scientific: Dryocampa rubicunda",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 60,
@@ -3561,13 +3564,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.15"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 183
         },
         "{{ModId}}_InsectPolyphemusMoth": {
           "Name": "{{ModId}}_InsectPolyphemusMoth",
           "DisplayName": "Polyphemus Moth",
-          "Description": "Scientific: Antheraea polyphemus",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 70,
@@ -3581,13 +3584,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 184
         },
         "{{ModId}}_InsectCecropiaMoth": {
           "Name": "{{ModId}}_InsectCecropiaMoth",
           "DisplayName": "Cecropia Moth",
-          "Description": "Scientific: Hyalophora cecropia",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 80,
@@ -3601,13 +3604,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.35"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 185
         },
         "{{ModId}}_InsectPrometheaSilkmoth": {
           "Name": "{{ModId}}_InsectPrometheaSilkmoth",
           "DisplayName": "Promethea Silkmoth",
-          "Description": "Scientific: Callosamia promethea",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 40,
@@ -3621,13 +3624,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 186
         },
         "{{ModId}}_InsectImperialMoth": {
           "Name": "{{ModId}}_InsectImperialMoth",
           "DisplayName": "Imperial Moth",
-          "Description": "Scientific: Eacles imperialis",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -3641,13 +3644,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 187
         },
         "{{ModId}}_InsectRegalMoth": {
           "Name": "{{ModId}}_InsectRegalMoth",
           "DisplayName": "Regal Moth",
-          "Description": "Scientific: Citheronia regalis",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -3661,13 +3664,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 188
         },
         "{{ModId}}_InsectDeathsheadHawkmoths": {
           "Name": "{{ModId}}_InsectDeathsheadHawkmoths",
           "DisplayName": "Death's-Head Hawkmoth",
-          "Description": "Scientific: Acherontia",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 70,
@@ -3681,13 +3684,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.15"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 189
         },
         "{{ModId}}_InsectOleanderHawkmoth": {
           "Name": "{{ModId}}_InsectOleanderHawkmoth",
           "DisplayName": "Oleander Hawkmoth",
-          "Description": "Scientific: Daphnis nerii",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 80,
@@ -3701,13 +3704,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 190
         },
         "{{ModId}}_InsectElephantHawkmoth": {
           "Name": "{{ModId}}_InsectElephantHawkmoth",
           "DisplayName": "Elephant Hawkmoth",
-          "Description": "Scientific: Deilephila elpenor",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -3721,13 +3724,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 191
         },
         "{{ModId}}_InsectHummingbirdHawkmoths": {
           "Name": "{{ModId}}_InsectHummingbirdHawkmoths",
           "DisplayName": "Hummingbird Hawkmoth",
-          "Description": "Scientific: Macroglossum",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -3741,13 +3744,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 192
         },
         "{{ModId}}_InsectWhitelinedSphinx": {
           "Name": "{{ModId}}_InsectWhitelinedSphinx",
           "DisplayName": "White-Lined Sphinx",
-          "Description": "Scientific: Hyles lineata",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -3761,13 +3764,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 193
         },
         "{{ModId}}_InsectEyedHawkmoth": {
           "Name": "{{ModId}}_InsectEyedHawkmoth",
           "DisplayName": "Eyed Hawkmoth",
-          "Description": "Scientific: Smerinthus ocellata",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -3781,13 +3784,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 194
         },
         "{{ModId}}_InsectPandorusSphinx": {
           "Name": "{{ModId}}_InsectPandorusSphinx",
           "DisplayName": "Pandorus Sphinx",
-          "Description": "Scientific: Eumorpha pandorus",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -3801,13 +3804,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 195
         },
         "{{ModId}}_InsectLimeHawkmoth": {
           "Name": "{{ModId}}_InsectLimeHawkmoth",
           "DisplayName": "Lime Hawkmoth",
-          "Description": "Scientific: Mimas tiliae",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -3821,13 +3824,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 196
         },
         "{{ModId}}_InsectGardenTiger": {
           "Name": "{{ModId}}_InsectGardenTiger",
           "DisplayName": "Garden Tiger",
-          "Description": "Scientific: Arctia caja",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -3841,13 +3844,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 197
         },
         "{{ModId}}_InsectGiantLeopardMoth": {
           "Name": "{{ModId}}_InsectGiantLeopardMoth",
           "DisplayName": "Giant Leopard Moth",
-          "Description": "Scientific: Hypercompe scribonia",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -3861,13 +3864,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 199
         },
         "{{ModId}}_InsectCinnabarmoth": {
           "Name": "{{ModId}}_InsectCinnabarmoth",
           "DisplayName": "Cinnabar Moth",
-          "Description": "Scientific: Tyria jacobaeae",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -3881,13 +3884,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 200
         },
         "{{ModId}}_InsectOrnateBellaMoth": {
           "Name": "{{ModId}}_InsectOrnateBellaMoth",
           "DisplayName": "Ornate Bella Moth",
-          "Description": "Scientific: Utetheisa ornatrix",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -3901,13 +3904,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 201
         },
         "{{ModId}}_InsectBrahminMoths": {
           "Name": "{{ModId}}_InsectBrahminMoths",
           "DisplayName": "Brahmin Moth",
-          "Description": "Scientific: Brahmaeidae",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -3921,13 +3924,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 202
         },
         "{{ModId}}_InsectWhiteWitch": {
           "Name": "{{ModId}}_InsectWhiteWitch",
           "DisplayName": "White Witch",
-          "Description": "Scientific: Thysania agrippina",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 50,
@@ -3941,13 +3944,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 203
         },
         "{{ModId}}_InsectBlackWitch": {
           "Name": "{{ModId}}_InsectBlackWitch",
           "DisplayName": "Black Witch",
-          "Description": "Scientific: Ascalapha odorata",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 60,
@@ -3961,13 +3964,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.35"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 204
         },
         "{{ModId}}_InsectGhostMoth": {
           "Name": "{{ModId}}_InsectGhostMoth",
           "DisplayName": "Ghost Moth",
-          "Description": "Scientific: Hepialus humuli",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -3981,13 +3984,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 205
         },
         "{{ModId}}_InsectChineseTussarMoth": {
           "Name": "{{ModId}}_InsectChineseTussarMoth",
           "DisplayName": "Chinese Tussar Moth",
-          "Description": "Scientific: Antheraea pernyi",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -4001,13 +4004,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 207
         },
         "{{ModId}}_InsectPepperedMoth": {
           "Name": "{{ModId}}_InsectPepperedMoth",
           "DisplayName": "Peppered Moth",
-          "Description": "Scientific: Biston betularia",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 40,
@@ -4021,13 +4024,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.05"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 208
         },
         "{{ModId}}_InsectBufftip": {
           "Name": "{{ModId}}_InsectBufftip",
           "DisplayName": "Buff-Tip",
-          "Description": "Scientific: Phalera bucephala",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -4041,13 +4044,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 209
         },
         "{{ModId}}_InsectFruitpiercingmoth": {
           "Name": "{{ModId}}_InsectFruitpiercingmoth",
           "DisplayName": "Fruit-Piercing Moth",
-          "Description": "Scientific: Oraesia excavata",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -4061,13 +4064,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 210
         },
         "{{ModId}}_InsectGiantDevilsFlowerMantis": {
           "Name": "{{ModId}}_InsectGiantDevilsFlowerMantis",
           "DisplayName": "Giant Devil's Flower Mantis",
-          "Description": "Scientific: Idolomantis diabolica",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -4081,13 +4084,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 211
         },
         "{{ModId}}_InsectGhostMantises": {
           "Name": "{{ModId}}_InsectGhostMantises",
           "DisplayName": "Ghost Mantis",
-          "Description": "Scientific: Phyllocrania",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -4101,13 +4104,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 212
         },
         "{{ModId}}_InsectSpinyFlowerMantises": {
           "Name": "{{ModId}}_InsectSpinyFlowerMantises",
           "DisplayName": "Spiny Flower Mantis",
-          "Description": "Scientific: Pseudocreobotra",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 40,
@@ -4121,13 +4124,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.95"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 213
         },
         "{{ModId}}_InsectIndianFlowerMantis": {
           "Name": "{{ModId}}_InsectIndianFlowerMantis",
           "DisplayName": "Indian Flower Mantis",
-          "Description": "Scientific: Creobroter pictipennis",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 50,
@@ -4141,13 +4144,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.05"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 214
         },
         "{{ModId}}_InsectBandedFlowerMantis": {
           "Name": "{{ModId}}_InsectBandedFlowerMantis",
           "DisplayName": "Banded Flower Mantis",
-          "Description": "Scientific: Theopropus elegans",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 60,
@@ -4161,13 +4164,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.15"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 215
         },
         "{{ModId}}_InsectThistleMantis": {
           "Name": "{{ModId}}_InsectThistleMantis",
           "DisplayName": "Thistle Mantis",
-          "Description": "Scientific: Blepharopsis mendica",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 70,
@@ -4181,13 +4184,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 216
         },
         "{{ModId}}_InsectWanderingViolinMantis": {
           "Name": "{{ModId}}_InsectWanderingViolinMantis",
           "DisplayName": "Wandering Violin Mantis",
-          "Description": "Scientific: Gongylus gongylodes",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -4201,13 +4204,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 217
         },
         "{{ModId}}_InsectGiantDeadLeafMantis": {
           "Name": "{{ModId}}_InsectGiantDeadLeafMantis",
           "DisplayName": "Giant Dead Leaf Mantis",
-          "Description": "Scientific: Deroplatys desiccata",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -4221,13 +4224,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 218
         },
         "{{ModId}}_InsectSoutheastAsianDeadLeafMantis": {
           "Name": "{{ModId}}_InsectSoutheastAsianDeadLeafMantis",
           "DisplayName": "Southeast Asian Dead Leaf Mantis",
-          "Description": "Scientific: Deroplatys lobata",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 50,
@@ -4241,13 +4244,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.95"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 219
         },
         "{{ModId}}_InsectAfricanTwigMantis": {
           "Name": "{{ModId}}_InsectAfricanTwigMantis",
           "DisplayName": "African Twig Mantis",
-          "Description": "Scientific: Popa spurca",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 60,
@@ -4261,13 +4264,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.05"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 220
         },
         "{{ModId}}_InsectGlassMantis": {
           "Name": "{{ModId}}_InsectGlassMantis",
           "DisplayName": "Glass Mantis",
-          "Description": "Scientific: Sinomantis denticulata",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 70,
@@ -4281,13 +4284,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.15"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 221
         },
         "{{ModId}}_InsectDragonMantis": {
           "Name": "{{ModId}}_InsectDragonMantis",
           "DisplayName": "Dragon Mantis",
-          "Description": "Scientific: Stenophylla lobivertex",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -4301,13 +4304,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 222
         },
         "{{ModId}}_InsectJeweledFlowerMantis": {
           "Name": "{{ModId}}_InsectJeweledFlowerMantis",
           "DisplayName": "Jeweled Flower Mantis",
-          "Description": "Scientific: Creobroter gemmatus",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -4321,13 +4324,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 223
         },
         "{{ModId}}_InsectUnicornMantises": {
           "Name": "{{ModId}}_InsectUnicornMantises",
           "DisplayName": "Unicorn Mantis",
-          "Description": "Scientific: Vatinae",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -4341,13 +4344,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 224
         },
         "{{ModId}}_InsectSouthAmericanBoxerMantis": {
           "Name": "{{ModId}}_InsectSouthAmericanBoxerMantis",
           "DisplayName": "South American Boxer Mantis",
-          "Description": "Scientific: Acanthops falcata",
+          "Description": "A patient predator with folded, grasping forelegs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -4361,13 +4364,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 225
         },
         "{{ModId}}_InsectEasternLubberGrasshopper": {
           "Name": "{{ModId}}_InsectEasternLubberGrasshopper",
           "DisplayName": "Eastern Lubber Grasshopper",
-          "Description": "Scientific: Romalea microptera",
+          "Description": "A powerful jumper with oversized hind legs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 70,
@@ -4381,13 +4384,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.05"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 227
         },
         "{{ModId}}_InsectHorseLubberGrasshopper": {
           "Name": "{{ModId}}_InsectHorseLubberGrasshopper",
           "DisplayName": "Horse Lubber Grasshopper",
-          "Description": "Scientific: Romalea eques",
+          "Description": "A powerful jumper with oversized hind legs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -4401,13 +4404,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 228
         },
         "{{ModId}}_InsectRainbowGrasshopper": {
           "Name": "{{ModId}}_InsectRainbowGrasshopper",
           "DisplayName": "Rainbow Grasshopper",
-          "Description": "Scientific: Dactylotum bicolor",
+          "Description": "A powerful jumper with oversized hind legs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -4421,13 +4424,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 229
         },
         "{{ModId}}_InsectPaintedGrasshopper": {
           "Name": "{{ModId}}_InsectPaintedGrasshopper",
           "DisplayName": "Painted Grasshopper",
-          "Description": "Scientific: Poekilocerus pictus",
+          "Description": "A powerful jumper with oversized hind legs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -4441,13 +4444,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 230
         },
         "{{ModId}}_Insectgiantredwingedgrasshopper": {
           "Name": "{{ModId}}_Insectgiantredwingedgrasshopper",
           "DisplayName": "Giant Red-Winged Grasshopper",
-          "Description": "Scientific: Tropidacris cristata",
+          "Description": "A powerful jumper with oversized hind legs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -4461,13 +4464,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 231
         },
         "{{ModId}}_InsectBluewingedGrasshopper": {
           "Name": "{{ModId}}_InsectBluewingedGrasshopper",
           "DisplayName": "Blue-Winged Grasshopper",
-          "Description": "Scientific: Oedipoda caerulescens",
+          "Description": "A powerful jumper with oversized hind legs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -4481,13 +4484,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 232
         },
         "{{ModId}}_InsectGiantWeta": {
           "Name": "{{ModId}}_InsectGiantWeta",
           "DisplayName": "Giant Weta",
-          "Description": "Scientific: Deinacrida",
+          "Description": "A long-antennaed insect built for hopping through the undergrowth.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -4501,13 +4504,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 233
         },
         "{{ModId}}_InsectAucklandTreeWeta": {
           "Name": "{{ModId}}_InsectAucklandTreeWeta",
           "DisplayName": "Auckland Tree Weta",
-          "Description": "Scientific: Hemideina thoracica",
+          "Description": "A long-antennaed insect built for hopping through the undergrowth.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -4521,13 +4524,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 234
         },
         "{{ModId}}_InsectWetaJerusalemCricketsandAllies": {
           "Name": "{{ModId}}_InsectWetaJerusalemCricketsandAllies",
           "DisplayName": "Common Weta",
-          "Description": "Scientific: Stenopelmatoidea",
+          "Description": "A long-antennaed insect built for hopping through the undergrowth.",
           "Type": "Basic",
           "Category": 0,
           "Price": 50,
@@ -4541,13 +4544,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 235
         },
         "{{ModId}}_InsectCamelCricketsCaveCricketsandCaveWetas": {
           "Name": "{{ModId}}_InsectCamelCricketsCaveCricketsandCaveWetas",
           "DisplayName": "Cave Cricket",
-          "Description": "Scientific: Rhaphidophoroidea",
+          "Description": "A long-antennaed insect built for hopping through the undergrowth.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -4561,13 +4564,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 236
         },
         "{{ModId}}_InsectDragonheadedKatydids": {
           "Name": "{{ModId}}_InsectDragonheadedKatydids",
           "DisplayName": "Dragon-Headed Katydid",
-          "Description": "Scientific: Lesina",
+          "Description": "A long-antennaed insect built for hopping through the undergrowth.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -4581,13 +4584,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 237
         },
         "{{ModId}}_InsectMalaysianLadybird": {
           "Name": "{{ModId}}_InsectMalaysianLadybird",
           "DisplayName": "Malaysian Ladybird",
-          "Description": "Scientific: Chilocorus nigritus",
+          "Description": "A hard-shelled insect protected by a pair of firm wing cases.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -4601,13 +4604,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 239
         },
         "{{ModId}}_InsectLordHoweIslandStickInsect": {
           "Name": "{{ModId}}_InsectLordHoweIslandStickInsect",
           "DisplayName": "Lord Howe Island Stick Insect",
-          "Description": "Scientific: Dryococelus australis",
+          "Description": "A slender insect that blends into twigs and foliage.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -4621,13 +4624,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 240
         },
         "{{ModId}}_InsectPinkwingStickInsect": {
           "Name": "{{ModId}}_InsectPinkwingStickInsect",
           "DisplayName": "Pinkwing Stick Insect",
-          "Description": "Scientific: Sipyloidea chlorotica",
+          "Description": "A slender insect that blends into twigs and foliage.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -4641,13 +4644,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 241
         },
         "{{ModId}}_InsectHalfgreenOrchidBee": {
           "Name": "{{ModId}}_InsectHalfgreenOrchidBee",
           "DisplayName": "Half-Green Orchid Bee",
-          "Description": "Scientific: Euglossa hemichlora",
+          "Description": "A fuzzy, flower-visiting insect with pollen-carrying legs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -4661,13 +4664,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 243
         },
         "{{ModId}}_InsectTeddyBearBee": {
           "Name": "{{ModId}}_InsectTeddyBearBee",
           "DisplayName": "Teddy Bear Bee",
-          "Description": "Scientific: Amegilla bombiformis",
+          "Description": "A fuzzy, flower-visiting insect with pollen-carrying legs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -4681,13 +4684,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 244
         },
         "{{ModId}}_InsectVioletCarpenterBee": {
           "Name": "{{ModId}}_InsectVioletCarpenterBee",
           "DisplayName": "Violet Carpenter Bee",
-          "Description": "Scientific: Xylocopa violacea",
+          "Description": "A fuzzy, flower-visiting insect with pollen-carrying legs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -4701,13 +4704,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 245
         },
         "{{ModId}}_InsectWallacesGiantBee": {
           "Name": "{{ModId}}_InsectWallacesGiantBee",
           "DisplayName": "Wallace's Giant Bee",
-          "Description": "Scientific: Megachile pluto",
+          "Description": "A fuzzy, flower-visiting insect with pollen-carrying legs.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -4721,13 +4724,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 246
         },
         "{{ModId}}_InsectRubytailedCuckooWasps": {
           "Name": "{{ModId}}_InsectRubytailedCuckooWasps",
           "DisplayName": "Ruby-Tailed Cuckoo Wasp",
-          "Description": "Scientific: Chrysis ignita",
+          "Description": "A slender insect with a narrow waist and folded wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -4741,13 +4744,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 247
         },
         "{{ModId}}_InsectEmeraldCockroachWasp": {
           "Name": "{{ModId}}_InsectEmeraldCockroachWasp",
           "DisplayName": "Emerald Cockroach Wasp",
-          "Description": "Scientific: Ampulex compressa",
+          "Description": "A slender insect with a narrow waist and folded wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -4761,13 +4764,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 248
         },
         "{{ModId}}_InsectLongtailedGiantIchneumonidWasp": {
           "Name": "{{ModId}}_InsectLongtailedGiantIchneumonidWasp",
           "DisplayName": "Long-Tailed Giant Ichneumonid Wasp",
-          "Description": "Scientific: Megarhyssa macrurus",
+          "Description": "A slender insect with a narrow waist and folded wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -4781,13 +4784,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 249
         },
         "{{ModId}}_InsectCommonEasternVelvetAnt": {
           "Name": "{{ModId}}_InsectCommonEasternVelvetAnt",
           "DisplayName": "Common Eastern Velvet Ant",
-          "Description": "Scientific: Dasymutilla occidentalis",
+          "Description": "A colony-dwelling insect with a segmented body and strong mandibles.",
           "Type": "Basic",
           "Category": 0,
           "Price": 80,
@@ -4801,13 +4804,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.35"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 250
         },
         "{{ModId}}_InsectPandaAnt": {
           "Name": "{{ModId}}_InsectPandaAnt",
           "DisplayName": "Panda Ant",
-          "Description": "Scientific: Euspinolia militaris",
+          "Description": "A colony-dwelling insect with a segmented body and strong mandibles.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -4821,13 +4824,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 251
         },
         "{{ModId}}_InsectNorthAmericanHoneypotAnts": {
           "Name": "{{ModId}}_InsectNorthAmericanHoneypotAnts",
           "DisplayName": "North American Honeypot Ant",
-          "Description": "Scientific: Myrmecocystus",
+          "Description": "A colony-dwelling insect with a segmented body and strong mandibles.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -4841,13 +4844,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 252
         },
         "{{ModId}}_InsectTurtleAnts": {
           "Name": "{{ModId}}_InsectTurtleAnts",
           "DisplayName": "Turtle Ant",
-          "Description": "Scientific: Cephalotes",
+          "Description": "A colony-dwelling insect with a segmented body and strong mandibles.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -4861,13 +4864,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 253
         },
         "{{ModId}}_InsectGoldentailedSpinyAnt": {
           "Name": "{{ModId}}_InsectGoldentailedSpinyAnt",
           "DisplayName": "Golden-Tailed Spiny Ant",
-          "Description": "Scientific: Polyrhachis ammon",
+          "Description": "A colony-dwelling insect with a segmented body and strong mandibles.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -4881,13 +4884,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 254
         },
         "{{ModId}}_InsectGlobebearingTreehopper": {
           "Name": "{{ModId}}_InsectGlobebearingTreehopper",
           "DisplayName": "Globe-Bearing Treehopper",
-          "Description": "Scientific: Bocydium globulare",
+          "Description": "A small plant-dweller with a wedge-shaped profile and a talent for sudden jumps.",
           "Type": "Basic",
           "Category": 0,
           "Price": 80,
@@ -4901,13 +4904,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 255
         },
         "{{ModId}}_InsectThornTreehopper": {
           "Name": "{{ModId}}_InsectThornTreehopper",
           "DisplayName": "Thorn Treehopper",
-          "Description": "Scientific: Umbonia crassicornis",
+          "Description": "A small plant-dweller with a wedge-shaped profile and a talent for sudden jumps.",
           "Type": "Basic",
           "Category": 0,
           "Price": 40,
@@ -4921,13 +4924,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "1.35"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 256
         },
         "{{ModId}}_InsectBuffaloTreehopper": {
           "Name": "{{ModId}}_InsectBuffaloTreehopper",
           "DisplayName": "Buffalo Treehopper",
-          "Description": "Scientific: Stictocephala bisonia",
+          "Description": "A small plant-dweller with a wedge-shaped profile and a talent for sudden jumps.",
           "Type": "Basic",
           "Category": 0,
           "Price": 50,
@@ -4941,13 +4944,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 257
         },
         "{{ModId}}_InsectAntmimickingTreehopper": {
           "Name": "{{ModId}}_InsectAntmimickingTreehopper",
           "DisplayName": "Ant-Mimicking Treehopper",
-          "Description": "Scientific: Cyphonia clavata",
+          "Description": "A small plant-dweller with a wedge-shaped profile and a talent for sudden jumps.",
           "Type": "Basic",
           "Category": 0,
           "Price": 60,
@@ -4961,13 +4964,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.95"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 258
         },
         "{{ModId}}_InsectBloodredLanternfly": {
           "Name": "{{ModId}}_InsectBloodredLanternfly",
           "DisplayName": "Blood-Red Lanternfly",
-          "Description": "Scientific: Pyrops hamdjahi",
+          "Description": "A small plant-dweller with a wedge-shaped profile and a talent for sudden jumps.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -4981,13 +4984,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 259
         },
         "{{ModId}}_InsectSpottedLanternfly": {
           "Name": "{{ModId}}_InsectSpottedLanternfly",
           "DisplayName": "Spotted Lanternfly",
-          "Description": "Scientific: Lycorma delicatula",
+          "Description": "A small plant-dweller with a wedge-shaped profile and a talent for sudden jumps.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -5001,13 +5004,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 260
         },
         "{{ModId}}_InsectRedbandedLeafhopper": {
           "Name": "{{ModId}}_InsectRedbandedLeafhopper",
           "DisplayName": "Red-Banded Leafhopper",
-          "Description": "Scientific: Graphocephala coccinea",
+          "Description": "A small plant-dweller with a wedge-shaped profile and a talent for sudden jumps.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -5021,13 +5024,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 262
         },
         "{{ModId}}_InsectBluebushCicada": {
           "Name": "{{ModId}}_InsectBluebushCicada",
           "DisplayName": "Bluebush Cicada",
-          "Description": "Scientific: Amica glauca",
+          "Description": "A broad-winged insect known for its loud, rhythmic call.",
           "Type": "Basic",
           "Category": 0,
           "Price": 300,
@@ -5041,13 +5044,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 263
         },
         "{{ModId}}_InsectGreenLacewings": {
           "Name": "{{ModId}}_InsectGreenLacewings",
           "DisplayName": "Green Lacewing",
-          "Description": "Scientific: Chrysopidae",
+          "Description": "A delicate insect with finely veined, netlike wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 60,
@@ -5055,19 +5058,19 @@
           "ContextTags": ["carnivorousplants_insect"],
           "CustomFields": {
             "CarnivorousCrops.ContentPack/InsectType": "lacewing",
-            "CarnivorousCrops.ContentPack/CatchLocations": "Forest, Ginger Island",
-            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer",
-            "CarnivorousCrops.ContentPack/CatchTimes": "600-2200",
+            "CarnivorousCrops.ContentPack/CatchLocations": "Forest, Ginger Island, Outdoors",
+            "CarnivorousCrops.ContentPack/CatchSeasons": "Spring, Summer, Fall, Winter",
+            "CarnivorousCrops.ContentPack/CatchTimes": "600-2600",
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 264
         },
         "{{ModId}}_InsectPeriodicalCicadas": {
           "Name": "{{ModId}}_InsectPeriodicalCicadas",
           "DisplayName": "Periodical Cicada",
-          "Description": "Scientific: Magicicada",
+          "Description": "A broad-winged insect known for its loud, rhythmic call.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -5081,13 +5084,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 265
         },
         "{{ModId}}_InsectWheelBugs": {
           "Name": "{{ModId}}_InsectWheelBugs",
           "DisplayName": "Wheel Bug",
-          "Description": "Scientific: Arilus",
+          "Description": "An insect with a piercing beak and textured wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 450,
@@ -5101,13 +5104,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.85"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 266
         },
         "{{ModId}}_InsectRedspottedPlantBug": {
           "Name": "{{ModId}}_InsectRedspottedPlantBug",
           "DisplayName": "Red-Spotted Plant Bug",
-          "Description": "Scientific: Deraeocoris ruber",
+          "Description": "An insect with a piercing beak and textured wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 500,
@@ -5121,13 +5124,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 267
         },
         "{{ModId}}_InsectVariegatedFritillary": {
           "Name": "{{ModId}}_InsectVariegatedFritillary",
           "DisplayName": "Variegated Fritillary",
-          "Description": "Scientific: Euptoieta claudia",
+          "Description": "A day-flying insect with broad, often patterned wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 150,
@@ -5141,13 +5144,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 269
         },
         "{{ModId}}_InsectEbonyJewelwing": {
           "Name": "{{ModId}}_InsectEbonyJewelwing",
           "DisplayName": "Ebony Jewelwing",
-          "Description": "Scientific: Calopteryx maculata",
+          "Description": "A swift aerial hunter with large eyes and long, clear wings.",
           "Type": "Basic",
           "Category": 0,
           "Price": 200,
@@ -5161,13 +5164,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.65"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 270
         },
         "{{ModId}}_InsectMacleaysOwlfly": {
           "Name": "{{ModId}}_InsectMacleaysOwlfly",
           "DisplayName": "Macleay's Owlfly",
-          "Description": "Scientific: Ululodes macleayanus",
+          "Description": "A nimble insect with one pair of wings and quick, darting flight.",
           "Type": "Basic",
           "Category": 0,
           "Price": 250,
@@ -5181,13 +5184,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.75"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 271
         },
         "{{ModId}}_InsectCommonEuropeanScorpionfly": {
           "Name": "{{ModId}}_InsectCommonEuropeanScorpionfly",
           "DisplayName": "Common European Scorpionfly",
-          "Description": "Scientific: Panorpa communis",
+          "Description": "A long-bodied insect with a distinctive tail-like tip.",
           "Type": "Basic",
           "Category": 0,
           "Price": 80,
@@ -5201,13 +5204,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "common",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.95"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 272
         },
         "{{ModId}}_Insectrailroadworms": {
           "Name": "{{ModId}}_Insectrailroadworms",
           "DisplayName": "Railroad Worm",
-          "Description": "Scientific: Phrixothrix",
+          "Description": "A nimble insect with one pair of wings and quick, darting flight.",
           "Type": "Basic",
           "Category": 0,
           "Price": 350,
@@ -5221,13 +5224,13 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.45"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 273
         },
         "{{ModId}}_InsectEmeraldMoths": {
           "Name": "{{ModId}}_InsectEmeraldMoths",
           "DisplayName": "Emerald Moth",
-          "Description": "Scientific: Geometrinae",
+          "Description": "A night-flying insect with broad wings and feathery antennae.",
           "Type": "Basic",
           "Category": 0,
           "Price": 400,
@@ -5241,7 +5244,7 @@
             "CarnivorousCrops.ContentPack/Rarity": "rare",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.55"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 274
         },
         "{{ModId}}_InsectGlowingCaveButterfly": {
@@ -5262,7 +5265,7 @@
             "CarnivorousCrops.ContentPack/Rarity": "legendary",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.30"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 275
         },
         "{{ModId}}_InsectLavaButterfly": {
@@ -5283,7 +5286,7 @@
             "CarnivorousCrops.ContentPack/Rarity": "legendary",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.35"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 276
         },
         "{{ModId}}_InsectIceButterfly": {
@@ -5304,7 +5307,7 @@
             "CarnivorousCrops.ContentPack/Rarity": "legendary",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 277
         },
         "{{ModId}}_InsectDesertButterfly": {
@@ -5325,7 +5328,7 @@
             "CarnivorousCrops.ContentPack/Rarity": "legendary",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.30"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 278
         },
         "{{ModId}}_InsectVoidMoth": {
@@ -5346,7 +5349,7 @@
             "CarnivorousCrops.ContentPack/Rarity": "legendary",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.35"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 279
         },
         "{{ModId}}_InsectPrismaticButterfly": {
@@ -5367,7 +5370,7 @@
             "CarnivorousCrops.ContentPack/Rarity": "legendary",
             "CarnivorousCrops.ContentPack/CatchWeight": "0.25"
           },
-          "Texture": "Mods/{{{{ModId}}}}/insects",
+          "Texture": "Mods/{{ModId}}/insects",
           "SpriteIndex": 280
         }
       }

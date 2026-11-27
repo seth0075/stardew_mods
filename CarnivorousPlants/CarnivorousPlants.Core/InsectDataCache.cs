@@ -187,7 +187,8 @@ internal static class InsectDataCache
             location.NameOrUniqueName,
             mine is not null,
             mine?.mineLevel ?? 0,
-            location is Caldera
+            location is Caldera,
+            location.IsOutdoors
         );
     }
 }

@@ -41,6 +41,57 @@ internal static class InsectCatchRules
             && time <= insect.EndTime;
     }
 
+    public static bool CanCatchRarity(InsectRarity rarity, BaitCatchRules bait)
+    {
+        return rarity switch
+        {
+            InsectRarity.Common => true,
+            InsectRarity.Rare => bait.CanCatchRare,
+            InsectRarity.Legendary => bait.CanCatchLegendary,
+            _ => false
+        };
+    }
+
+    public static Dictionary<string, double> GetCatchProbabilities(
+        IReadOnlyList<InsectData> eligible,
+        BaitCatchRules bait
+    )
+    {
+        List<InsectData> common = eligible.Where(insect => insect.Rarity == InsectRarity.Common).ToList();
+        List<InsectData> rare = eligible.Where(insect => insect.Rarity == InsectRarity.Rare).ToList();
+        List<InsectData> legendary = eligible.Where(insect => insect.Rarity == InsectRarity.Legendary).ToList();
+
+        double legendaryChance = bait.CanCatchLegendary && legendary.Count > 0 ? 0.05 : 0;
+        double fallbackChance = 1 - legendaryChance;
+        double commonChance = 0;
+        double rareChance = 0;
+        double totalLegendaryChance = legendaryChance;
+
+        if (bait.CanCatchRare && common.Count > 0 && rare.Count > 0)
+        {
+            commonChance = fallbackChance * 0.5;
+            rareChance = fallbackChance * 0.5;
+        }
+        else if (common.Count > 0)
+        {
+            commonChance = fallbackChance;
+        }
+        else if (bait.CanCatchRare && rare.Count > 0)
+        {
+            rareChance = fallbackChance;
+        }
+        else if (bait.CanCatchLegendary && legendary.Count > 0)
+        {
+            totalLegendaryChance += fallbackChance;
+        }
+
+        var probabilities = new Dictionary<string, double>(StringComparer.OrdinalIgnoreCase);
+        AddWeightedProbabilities(probabilities, common, commonChance);
+        AddWeightedProbabilities(probabilities, rare, rareChance);
+        AddWeightedProbabilities(probabilities, legendary, totalLegendaryChance);
+        return probabilities;
+    }
+
     public static List<InsectData> SelectRarityPool(
         IReadOnlyList<InsectData> eligible,
         BaitCatchRules bait,
@@ -65,6 +116,20 @@ internal static class InsectCatchRules
             return legendary;
         return new List<InsectData>();
     }
+
+    private static void AddWeightedProbabilities(
+        IDictionary<string, double> probabilities,
+        IReadOnlyList<InsectData> insects,
+        double rarityChance
+    )
+    {
+        if (rarityChance == 0 || insects.Count == 0)
+            return;
+
+        double totalWeight = insects.Sum(insect => insect.Weight);
+        foreach (InsectData insect in insects)
+            probabilities[insect.ItemId] = rarityChance * insect.Weight / totalWeight;
+    }
 }
 
 internal static class InsectLocationRules
@@ -74,9 +139,12 @@ internal static class InsectLocationRules
         string locationName,
         bool isMine,
         int mineLevel,
-        bool isCaldera
+        bool isCaldera,
+        bool isOutdoors = false
     )
     {
+        if (catchLocation.Equals("Outdoors", StringComparison.OrdinalIgnoreCase))
+            return isOutdoors;
         if (catchLocation.Equals("Mines", StringComparison.OrdinalIgnoreCase))
             return isMine && mineLevel is > 0 and <= 120;
         if (catchLocation.StartsWith("Mines Floor ", StringComparison.OrdinalIgnoreCase))

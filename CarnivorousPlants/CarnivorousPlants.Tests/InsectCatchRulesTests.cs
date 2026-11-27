@@ -58,6 +58,17 @@ public sealed class InsectCatchRulesTests
     }
 
     [Fact]
+    public void CatchablePoolOnlyIncludesRaritiesAllowedByBait()
+    {
+        Assert.True(InsectCatchRules.CanCatchRarity(InsectRarity.Common, ButterflyBait));
+        Assert.False(InsectCatchRules.CanCatchRarity(InsectRarity.Rare, ButterflyBait));
+        Assert.False(InsectCatchRules.CanCatchRarity(InsectRarity.Legendary, ButterflyBait));
+        Assert.True(InsectCatchRules.CanCatchRarity(InsectRarity.Rare, RareButterflyBait));
+        Assert.False(InsectCatchRules.CanCatchRarity(InsectRarity.Legendary, RareButterflyBait));
+        Assert.True(InsectCatchRules.CanCatchRarity(InsectRarity.Legendary, CelestialBait));
+    }
+
+    [Fact]
     public void RareBaitCanSelectRareButNotLegendaryInsects()
     {
         List<InsectData> commonPool = InsectCatchRules.SelectRarityPool(
@@ -98,6 +109,33 @@ public sealed class InsectCatchRulesTests
         Assert.DoesNotContain(nonLegendaryPool, insect => insect.Rarity == InsectRarity.Legendary);
     }
 
+    [Fact]
+    public void CatchProbabilitiesIncludeRaritySelectionAndRelativeWeights()
+    {
+        InsectData weightedCommon = CreateInsect("WeightedCommon", "butterfly", InsectRarity.Common, 600, 1800, 3);
+        InsectData weightedRare = CreateInsect("WeightedRare", "butterfly", InsectRarity.Rare, 600, 1800, 3);
+        var eligible = new[] { Butterfly, weightedCommon, RareButterfly, weightedRare, LegendaryButterfly };
+
+        Dictionary<string, double> probabilities = InsectCatchRules.GetCatchProbabilities(eligible, CelestialBait);
+
+        Assert.Equal(0.11875, probabilities["Monarch"], 8);
+        Assert.Equal(0.35625, probabilities["WeightedCommon"], 8);
+        Assert.Equal(0.11875, probabilities["BlueMorpho"], 8);
+        Assert.Equal(0.35625, probabilities["WeightedRare"], 8);
+        Assert.Equal(0.05, probabilities["Prismatic"], 8);
+    }
+
+    [Fact]
+    public void CatchProbabilitiesMatchFallbackWhenOnlyRareAndLegendaryInsectsExist()
+    {
+        var eligible = new[] { RareButterfly, LegendaryButterfly };
+
+        Dictionary<string, double> probabilities = InsectCatchRules.GetCatchProbabilities(eligible, CelestialBait);
+
+        Assert.Equal(0.95, probabilities["BlueMorpho"], 8);
+        Assert.Equal(0.05, probabilities["Prismatic"], 8);
+    }
+
     [Theory]
     [InlineData("Forest", "Forest", false, 0, false, true)]
     [InlineData("Witch's Swamp", "WitchSwamp", false, 0, false, true)]
@@ -124,12 +162,34 @@ public sealed class InsectCatchRulesTests
         );
     }
 
+    [Fact]
+    public void OutdoorCatchLocationMatchesOutdoorMapsButNotInteriors()
+    {
+        Assert.True(InsectLocationRules.MatchesLocation(
+            "Outdoors",
+            "BusStop",
+            isMine: false,
+            mineLevel: 0,
+            isCaldera: false,
+            isOutdoors: true
+        ));
+        Assert.False(InsectLocationRules.MatchesLocation(
+            "Outdoors",
+            "FarmHouse",
+            isMine: false,
+            mineLevel: 0,
+            isCaldera: false,
+            isOutdoors: false
+        ));
+    }
+
     private static InsectData CreateInsect(
         string itemId,
         string type,
         InsectRarity rarity,
         int startTime,
-        int endTime
+        int endTime,
+        double weight = 1
     )
     {
         return new InsectData(
@@ -140,7 +200,7 @@ public sealed class InsectCatchRulesTests
             new[] { "Spring" },
             startTime,
             endTime,
-            1
+            weight
         );
     }
 }

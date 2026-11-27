@@ -58,14 +58,14 @@
         "{{ModId}}_AromaticBait": {
           "Name": "{{ModId}}_AromaticBait",
           "DisplayName": "Aromatic Bait",
-          "Description": "A fragrant botanical mixture that attracts elusive butterflies, bees and moths, including rare species.",
+          "Description": "A fragrant botanical mixture that attracts butterflies, bees, moths, cicadas, grasshoppers, crickets, stick insects and termites, including rare species.",
           "Type": "Basic",
           "Category": 0,
           "Price": 1,
           "Edibility": -300,
           "ContextTags": ["insect_bait"],
           "CustomFields": {
-            "CarnivorousCrops.ContentPack/CatchesInsectTypes": "butterfly,bee,moth",
+            "CarnivorousCrops.ContentPack/CatchesInsectTypes": "butterfly,bee,moth,cicada,grasshopper,cricket,stick insect,termite",
             "CarnivorousCrops.ContentPack/CanCatchRare": "true",
             "CarnivorousCrops.ContentPack/CanCatchLegendary": "false"
           },

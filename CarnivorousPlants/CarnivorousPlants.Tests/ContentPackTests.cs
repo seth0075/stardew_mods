@@ -111,7 +111,7 @@ public sealed class ContentPackTests
             ["ProteinBait"] = ("beetle,ant,wasp,mantis,true bug,arachnid,centipede,crustacean,isopod,mollusk", false, false),
             ["SweetBait"] = ("butterfly,bee,moth,cicada,grasshopper,cricket,stick insect,termite", false, false),
             ["StickyBait"] = ("fly,dragonfly,lacewing,planthopper,scorpionfly", false, false),
-            ["AromaticBait"] = ("butterfly,bee,moth", true, false),
+            ["AromaticBait"] = ("butterfly,bee,moth,cicada,grasshopper,cricket,stick insect,termite", true, false),
             ["AdhesiveBait"] = ("fly,dragonfly,lacewing,planthopper,scorpionfly", true, false),
             ["VenomBait"] = ("beetle,ant,wasp,mantis,true bug,arachnid,centipede,crustacean,isopod,mollusk", true, false),
             ["CelestialBait"] = ("*", true, true)
@@ -141,6 +141,49 @@ public sealed class ContentPackTests
     }
 
     [Fact]
+    public void EveryBaitHasThreeCommonCatchesAvailableAtAllOutdoorTimesAndSeasons()
+    {
+        Dictionary<string, JsonElement> insects = ReadEntries("data/insects.json", "Data/Objects");
+        Dictionary<string, JsonElement> baits = ReadEntries("data/bait.json", "Data/Objects");
+        string[] allSeasons = { "Spring", "Summer", "Fall", "Winter" };
+
+        foreach (var (baitId, bait) in baits)
+        {
+            string[] baitTypes = ParseList(GetField(bait.GetProperty("CustomFields"), "CatchesInsectTypes"));
+            bool catchesAllTypes = baitTypes.Contains("*", StringComparer.OrdinalIgnoreCase);
+            int commonCatchCount = 0;
+
+            foreach (JsonElement insect in insects.Values)
+            {
+                JsonElement fields = insect.GetProperty("CustomFields");
+                if (GetField(fields, "Rarity") != "common"
+                    || !ParseList(GetField(fields, "CatchLocations")).Contains("Outdoors", StringComparer.OrdinalIgnoreCase)
+                    || !allSeasons.All(season => ParseList(GetField(fields, "CatchSeasons"))
+                        .Contains(season, StringComparer.OrdinalIgnoreCase)))
+                {
+                    continue;
+                }
+
+                string insectType = GetField(fields, "InsectType");
+                if (!catchesAllTypes && !baitTypes.Contains(insectType, StringComparer.OrdinalIgnoreCase))
+                    continue;
+
+                string[] times = GetField(fields, "CatchTimes").Split('-');
+                if (times.Length == 2
+                    && int.TryParse(times[0], out int startTime)
+                    && int.TryParse(times[1], out int endTime)
+                    && startTime <= 600
+                    && endTime >= 2600)
+                {
+                    commonCatchCount++;
+                }
+            }
+
+            Assert.True(commonCatchCount >= 3, $"{baitId} only has {commonCatchCount} common all-season outdoor catches.");
+        }
+    }
+
+    [Fact]
     public void InsectDefinitionsHaveUsableAvailabilityAndRarityMetadata()
     {
         Dictionary<string, JsonElement> insects = ReadEntries("data/insects.json", "Data/Objects");
@@ -149,6 +192,10 @@ public sealed class ContentPackTests
         foreach (var (itemId, item) in insects)
         {
             JsonElement fields = item.GetProperty("CustomFields");
+            Assert.Equal("Mods/{{ModId}}/insects", item.GetProperty("Texture").GetString());
+            string description = item.GetProperty("Description").GetString()!;
+            Assert.False(description.StartsWith("Scientific:", StringComparison.Ordinal), itemId);
+            Assert.DoesNotContain("Scientific name:", description);
             string type = GetField(fields, "InsectType");
             string rarity = GetField(fields, "Rarity");
             string[] locations = ParseList(GetField(fields, "CatchLocations"));
@@ -199,10 +246,11 @@ public sealed class ContentPackTests
 
         Assert.True(InsectCatchRules.IsInSeason(insect, "spring"));
         Assert.True(InsectCatchRules.IsInSeason(insect, "winter"));
-        Assert.False(InsectCatchRules.IsInSeason(insect, "fall"));
+        Assert.True(InsectCatchRules.IsInSeason(insect, "fall"));
+        Assert.True(InsectCatchRules.IsInSeason(insect, "summer"));
         Assert.True(InsectCatchRules.IsEligibleForBait(insect, butterflyBait, 600));
-        Assert.True(InsectCatchRules.IsEligibleForBait(insect, butterflyBait, 1800));
-        Assert.False(InsectCatchRules.IsEligibleForBait(insect, butterflyBait, 1801));
+        Assert.True(InsectCatchRules.IsEligibleForBait(insect, butterflyBait, 2600));
+        Assert.False(InsectCatchRules.IsEligibleForBait(insect, butterflyBait, 2601));
         Assert.True(InsectLocationRules.MatchesLocation(insect.Locations[0], "Forest", false, 0, false));
         Assert.False(InsectLocationRules.MatchesLocation(insect.Locations[0], "Beach", false, 0, false));
     }

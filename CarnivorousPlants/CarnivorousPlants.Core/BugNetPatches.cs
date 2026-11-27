@@ -13,7 +13,7 @@ internal static class BugNetPatches
     private const int SwingSpriteIndex = 1;
     private static IMonitor _monitor = null!;
 
-    private static bool IsBugNet(Tool? tool)
+    internal static bool IsBugNet(Tool? tool)
     {
         return tool?.QualifiedItemId is BugNetId or IridiumBugNetId;
     }
