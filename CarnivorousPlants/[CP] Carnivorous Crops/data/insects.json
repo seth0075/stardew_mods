@@ -2308,18 +2308,6 @@
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 197
         },
-        "{{ModId}}_Insectscarletpimpernel": {
-          "Name": "{{ModId}}_Insectscarletpimpernel",
-          "DisplayName": "scarlet pimpernel",
-          "Description": "Scientific: Lysimachia arvensis",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": ["carnivorousplants_insect"],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 198
-        },
         "{{ModId}}_InsectGiantLeopardMoth": {
           "Name": "{{ModId}}_InsectGiantLeopardMoth",
           "DisplayName": "Giant Leopard Moth",
@@ -2403,18 +2391,6 @@
           "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 205
-        },
-        "{{ModId}}_InsectVenezuelanTroupial": {
-          "Name": "{{ModId}}_InsectVenezuelanTroupial",
-          "DisplayName": "Venezuelan Troupial",
-          "Description": "Scientific: Icterus icterus",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": ["carnivorousplants_insect"],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 206
         },
         "{{ModId}}_InsectChineseTussarMoth": {
           "Name": "{{ModId}}_InsectChineseTussarMoth",
@@ -2644,18 +2620,6 @@
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 225
         },
-        "{{ModId}}_InsectCoffee": {
-          "Name": "{{ModId}}_InsectCoffee",
-          "DisplayName": "Coffee",
-          "Description": "Scientific: Coffea arabica",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": ["carnivorousplants_insect"],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 226
-        },
         "{{ModId}}_InsectEasternLubberGrasshopper": {
           "Name": "{{ModId}}_InsectEasternLubberGrasshopper",
           "DisplayName": "Eastern Lubber Grasshopper",
@@ -2788,18 +2752,6 @@
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 237
         },
-        "{{ModId}}_Insectpinkfamily": {
-          "Name": "{{ModId}}_Insectpinkfamily",
-          "DisplayName": "pink family",
-          "Description": "Scientific: Caryophyllaceae",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": ["carnivorousplants_insect"],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 238
-        },
         "{{ModId}}_InsectMalaysianLadybird": {
           "Name": "{{ModId}}_InsectMalaysianLadybird",
           "DisplayName": "Malaysian Ladybird",
@@ -2835,18 +2787,6 @@
           "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 241
-        },
-        "{{ModId}}_InsectVietnameseCentipede": {
-          "Name": "{{ModId}}_InsectVietnameseCentipede",
-          "DisplayName": "Vietnamese Centipede",
-          "Description": "Scientific: Scolopendra dehaani",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": ["carnivorousplants_insect"],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 242
         },
         "{{ModId}}_InsectHalfgreenOrchidBee": {
           "Name": "{{ModId}}_InsectHalfgreenOrchidBee",
@@ -3064,18 +3004,6 @@
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 260
         },
-        "{{ModId}}_InsectLongnosedDolphins": {
-          "Name": "{{ModId}}_InsectLongnosedDolphins",
-          "DisplayName": "Long-nosed Dolphins",
-          "Description": "Scientific: Delphininae",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": ["carnivorousplants_insect"],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 261
-        },
         "{{ModId}}_InsectRedbandedLeafhopper": {
           "Name": "{{ModId}}_InsectRedbandedLeafhopper",
           "DisplayName": "Red-banded Leafhopper",
@@ -3147,18 +3075,6 @@
           "ContextTags": ["carnivorousplants_insect"],
           "Texture": "Mods/{{{{ModId}}}}/insects",
           "SpriteIndex": 267
-        },
-        "{{ModId}}_Insectredoaks": {
-          "Name": "{{ModId}}_Insectredoaks",
-          "DisplayName": "red oaks",
-          "Description": "Scientific: Lobatae",
-          "Type": "Basic",
-          "Category": 0,
-          "Price": 1,
-          "Edibility": -300,
-          "ContextTags": ["carnivorousplants_insect"],
-          "Texture": "Mods/{{{{ModId}}}}/insects",
-          "SpriteIndex": 268
         },
         "{{ModId}}_InsectVariegatedFritillary": {
           "Name": "{{ModId}}_InsectVariegatedFritillary",
