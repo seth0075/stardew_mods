@@ -42,6 +42,11 @@ internal static class InsectDataCache
         UpdateSeasonAndLocation(season, location, monitor);
     }
 
+    public static IReadOnlyList<InsectData> GetAllInsects()
+    {
+        return AllInsects;
+    }
+
     public static void UpdateSeasonAndLocation(string season, GameLocation location, IMonitor monitor)
     {
         if (!string.Equals(_loadedSeason, season, StringComparison.OrdinalIgnoreCase))

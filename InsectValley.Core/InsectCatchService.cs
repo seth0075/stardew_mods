@@ -123,6 +123,7 @@ internal static class InsectCatchService
             return;
         }
 
+        InsectCatchCountStore.RecordCatch(farmer, selected.ItemId, monitor);
         if (!farmer.addItemToInventoryBool(insect))
             Game1.createItemDebris(insect, farmer.Position, farmer.FacingDirection, location);
     }

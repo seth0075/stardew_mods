@@ -24,18 +24,22 @@ public class ModEntry : Mod
         helper.Events.GameLoop.DayStarted += (_, _) =>
             InsectDataCache.UpdateSeasonAndLocation(Game1.currentSeason, Game1.currentLocation, this.Monitor);
         helper.Events.GameLoop.ReturnedToTitle += (_, _) => BugNetHud.Reset();
+        helper.Events.GameLoop.ReturnedToTitle += (_, _) => BugNetPatches.ResetPendingSwing();
         helper.Events.Player.Warped += (_, e) =>
         {
             if (e.IsLocalPlayer)
             {
+                BugNetPatches.ResetPendingSwing();
                 InsectDataCache.LoadInsectsForLocation(e.NewLocation, this.Monitor);
                 BugNetHud.Reset();
             }
         };
+        helper.Events.Input.ButtonReleased += (_, e) => BugNetPatches.OnButtonReleased(e.Button);
         helper.Events.Display.RenderedHud += (_, e) =>
             BugNetHud.Draw(e.SpriteBatch, Game1.player, this.Monitor);
 
         ObjectCategoryPatches.Apply(this.ModManifest.UniqueID);
         BugNetPatches.Apply(this.ModManifest.UniqueID, this.Monitor);
+        InsectCollectionPatches.Apply(this.ModManifest.UniqueID, this.Monitor);
     }
 }

@@ -12,6 +12,10 @@ internal static class BugNetPatches
     private const string IridiumBugNetId = "(T)InsectValley.Core_IridiumBugNet";
     private const int SwingSpriteIndex = 1;
     private static IMonitor _monitor = null!;
+    private static Tool? _pendingNet;
+    private static GameLocation? _pendingLocation;
+    private static Farmer? _pendingFarmer;
+    private static bool _startingSwingOnRelease;
 
     internal static bool IsBugNet(Tool? tool)
     {
@@ -85,6 +89,63 @@ internal static class BugNetPatches
         return false;
     }
 
+    internal static void OnButtonReleased(SButton button)
+    {
+        if (button != SButton.MouseLeft || _pendingNet is null)
+            return;
+
+        Tool net = _pendingNet;
+        GameLocation? location = _pendingLocation;
+        Farmer? farmer = _pendingFarmer;
+        _pendingNet = null;
+        _pendingLocation = null;
+        _pendingFarmer = null;
+
+        if (farmer is null)
+            return;
+
+        farmer.UsingTool = false;
+        farmer.canReleaseTool = true;
+        farmer.CanMove = true;
+
+        if (location is null
+            || Game1.player != farmer
+            || farmer.CurrentTool != net
+            || farmer.currentLocation != location)
+        {
+            farmer.FarmerSprite.PauseForSingleAnimation = false;
+            farmer.FarmerSprite.StopAnimation();
+            return;
+        }
+
+        _startingSwingOnRelease = true;
+        try
+        {
+            Game1.pressUseToolButton();
+        }
+        finally
+        {
+            _startingSwingOnRelease = false;
+        }
+    }
+
+    internal static void ResetPendingSwing()
+    {
+        if (_pendingFarmer is Farmer farmer)
+        {
+            farmer.UsingTool = false;
+            farmer.canReleaseTool = true;
+            farmer.CanMove = true;
+            farmer.FarmerSprite.PauseForSingleAnimation = false;
+            farmer.FarmerSprite.StopAnimation();
+        }
+
+        _pendingNet = null;
+        _pendingLocation = null;
+        _pendingFarmer = null;
+        _startingSwingOnRelease = false;
+    }
+
     private static bool DoFunction(Tool __instance)
     {
         return !IsBugNet(__instance);
@@ -92,8 +153,37 @@ internal static class BugNetPatches
 
     private static bool PressUseToolButton()
     {
-        return !IsBugNet(Game1.player?.CurrentTool)
-            || Game1.didPlayerJustLeftClick(ignoreNonMouseHeldInput: true);
+        if (!IsBugNet(Game1.player?.CurrentTool))
+            return true;
+
+        if (_startingSwingOnRelease)
+            return true;
+
+        if (Game1.didPlayerJustLeftClick(ignoreNonMouseHeldInput: true)
+            && Game1.player is Farmer farmer
+            && farmer.CurrentTool is Tool net)
+        {
+            _pendingNet = net;
+            _pendingLocation = farmer.currentLocation;
+            _pendingFarmer = farmer;
+
+            farmer.Halt();
+            farmer.CanMove = false;
+            farmer.UsingTool = true;
+            farmer.canReleaseTool = false;
+            farmer.FarmerSprite.PauseForSingleAnimation = false;
+            farmer.FarmerSprite.setCurrentFrame(farmer.FacingDirection switch
+            {
+                0 => 295,
+                1 => 296,
+                2 => 297,
+                3 => 298,
+                _ => throw new System.InvalidOperationException($"Invalid facing direction: {farmer.FacingDirection}")
+            });
+            net.Update(farmer.FacingDirection, 0, farmer);
+        }
+
+        return false;
     }
 
     private static bool DrawTool(Farmer f)

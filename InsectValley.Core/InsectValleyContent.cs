@@ -14,6 +14,7 @@ internal sealed class InsectValleyContent
     private const string BaitAsset = "Mods/InsectValley.Core/bait";
     private const string BugNetAsset = "Mods/InsectValley.Core/tools";
     private const string IridiumBugNetAsset = "Mods/InsectValley.Core/iridium_bug_net";
+    private const string BugIconAsset = "Mods/InsectValley.Core/bug_icon";
 
     private readonly IDictionary<string, ObjectData> _objects;
     private readonly IDictionary<string, ToolData> _tools;
@@ -69,6 +70,8 @@ internal sealed class InsectValleyContent
             e.LoadFromModFile<Texture2D>("assets/bug_net_tool.png", AssetLoadPriority.Medium);
         else if (e.NameWithoutLocale.IsEquivalentTo(IridiumBugNetAsset))
             e.LoadFromModFile<Texture2D>("assets/iridium_bug_net_tool.png", AssetLoadPriority.Medium);
+        else if (e.NameWithoutLocale.IsEquivalentTo(BugIconAsset))
+            e.LoadFromModFile<Texture2D>("assets/bug_icon.png", AssetLoadPriority.Medium);
     }
 
     private static T ReadRequiredData<T>(IModHelper helper, string path) where T : class
