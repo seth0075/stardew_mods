@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Glassworks mine resources",
+      "Action": "EditData",
+      "Target": "Mods/mistyspring.ItemExtensions/Resources",
+      "Entries": {
+        "{{ModId}}_SilicaNode": {
+          "Name": "{{ModId}}_SilicaNode",
+          "DisplayName": "Silica Node",
+          "Description": "A cluster of pale crystals embedded in stone.",
+          "Texture": "Mods/{{ModId}}/silica_node",
+          "SpriteIndex": 0,
+          "Width": 3,
+          "Height": 3,
+          "Health": 10,
+          "Tool": "Pickaxe",
+          "ItemDropped": "(O){{ModId}}_Silica",
+          "MinDrops": 2,
+          "MaxDrops": 5,
+          "MineSpawns": [
+            {
+              "Floors": "41/79",
+              "SpawnFrequency": 0.015,
+              "Type": "All"
+            }
+          ]
+        },
+        "{{ModId}}_SandstoneNode": {
+          "Name": "{{ModId}}_SandstoneNode",
+          "DisplayName": "Sandstone Node",
+          "Description": "A block of warm sandstone, shaped by the desert.",
+          "Texture": "Mods/{{ModId}}/sandstone_node",
+          "SpriteIndex": 0,
+          "Width": 3,
+          "Height": 3,
+          "Health": 10,
+          "Tool": "Pickaxe",
+          "ItemDropped": "(O)570",
+          "MinDrops": 2,
+          "MaxDrops": 5,
+          "MineSpawns": [
+            {
+              "Floors": "121/-999",
+              "SpawnFrequency": 0.05,
+              "Type": "All"
+            }
+          ]
+        },
+        "{{ModId}}_GlassNode": {
+          "Name": "{{ModId}}_GlassNode",
+          "DisplayName": "Natural Glass Node",
+          "Description": "A rare mineral formation threaded with glassy veins.",
+          "Texture": "Mods/{{ModId}}/glass_node",
+          "SpriteIndex": 0,
+          "Width": 3,
+          "Height": 3,
+          "Health": 10,
+          "Tool": "Pickaxe",
+          "ItemDropped": "(O){{ModId}}_Glass",
+          "MinDrops": 2,
+          "MaxDrops": 5,
+          "MineSpawns": [
+            {
+              "Floors": "121/-999",
+              "SpawnFrequency": 0.005,
+              "Type": "All"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

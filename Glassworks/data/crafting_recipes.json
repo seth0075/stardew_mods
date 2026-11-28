@@ -1,0 +1,13 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Glassworks machine crafting recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "{{ModId}}_GlassKiln": "390 40 330 10 334 5 382 5/Home/{{ModId}}_GlassKiln/true/Mining 3/Glass Kiln",
+        "{{ModId}}_GlassworkingStation": "388 40 335 5 {{ModId}}_Glass 10 334 2/Home/{{ModId}}_GlassworkingStation/true/Mining 5/Glassworking Station"
+      }
+    }
+  ]
+}

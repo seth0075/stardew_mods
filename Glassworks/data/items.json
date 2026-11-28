@@ -1,0 +1,286 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Glassworks materials and artisan goods",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_Silica": {
+          "Name": "{{ModId}}_Silica",
+          "DisplayName": "Silica",
+          "Description": "A fine mineral used to make glass.",
+          "Type": "Basic",
+          "Category": -8,
+          "Price": 5,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 0
+        },
+        "{{ModId}}_Glass": {
+          "Name": "{{ModId}}_Glass",
+          "DisplayName": "Glass",
+          "Description": "A clear material made by melting silica.",
+          "Type": "Basic",
+          "Category": -8,
+          "Price": 50,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 1
+        },
+        "{{ModId}}_ColoredGlass": {
+          "Name": "{{ModId}}_ColoredGlass",
+          "DisplayName": "Colored Glass",
+          "Description": "Glass tinted with copper.",
+          "Type": "Basic",
+          "Category": -8,
+          "Price": 100,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 2
+        },
+        "{{ModId}}_ReinforcedGlass": {
+          "Name": "{{ModId}}_ReinforcedGlass",
+          "DisplayName": "Reinforced Glass",
+          "Description": "Strong glass refined with quartz.",
+          "Type": "Basic",
+          "Category": -8,
+          "Price": 150,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 3
+        },
+        "{{ModId}}_IridescentGlass": {
+          "Name": "{{ModId}}_IridescentGlass",
+          "DisplayName": "Iridescent Glass",
+          "Description": "A rare glass with a shifting, colorful sheen.",
+          "Type": "Basic",
+          "Category": -8,
+          "Price": 350,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 4
+        },
+        "{{ModId}}_SeaGlass": {
+          "Name": "{{ModId}}_SeaGlass",
+          "DisplayName": "Sea Glass",
+          "Description": "A smooth shard of glass polished by the sea.",
+          "Type": "Basic",
+          "Category": -81,
+          "Price": 40,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/sea_glass",
+          "SpriteIndex": 0
+        },
+        "{{ModId}}_AmberBottle": {
+          "Name": "{{ModId}}_AmberBottle",
+          "DisplayName": "Amber Bottle",
+          "Description": "A finely crafted amber glass bottle.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 450,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 5
+        },
+        "{{ModId}}_AzureVase": {
+          "Name": "{{ModId}}_AzureVase",
+          "DisplayName": "Azure Vase",
+          "Description": "A graceful vase made from deep blue glass.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 750,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 6
+        },
+        "{{ModId}}_CrimsonGoblet": {
+          "Name": "{{ModId}}_CrimsonGoblet",
+          "DisplayName": "Crimson Goblet",
+          "Description": "A brilliant red glass goblet.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 850,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 7
+        },
+        "{{ModId}}_EmeraldBowl": {
+          "Name": "{{ModId}}_EmeraldBowl",
+          "DisplayName": "Emerald Bowl",
+          "Description": "A polished bowl of green glass.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 900,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 8
+        },
+        "{{ModId}}_AmethystDecanter": {
+          "Name": "{{ModId}}_AmethystDecanter",
+          "DisplayName": "Amethyst Decanter",
+          "Description": "A violet glass decanter with a smooth finish.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 850,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 9
+        },
+        "{{ModId}}_OpalescentVase": {
+          "Name": "{{ModId}}_OpalescentVase",
+          "DisplayName": "Opalescent Vase",
+          "Description": "An iridescent vase that catches the light.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1300,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 10
+        },
+        "{{ModId}}_GlassSongbird": {
+          "Name": "{{ModId}}_GlassSongbird",
+          "DisplayName": "Glass Songbird",
+          "Description": "A delicate songbird sculpted from glass.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 550,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 11
+        },
+        "{{ModId}}_GlassButterfly": {
+          "Name": "{{ModId}}_GlassButterfly",
+          "DisplayName": "Glass Butterfly",
+          "Description": "A butterfly with colorful glass wings.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 750,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 12
+        },
+        "{{ModId}}_GlassJellyfish": {
+          "Name": "{{ModId}}_GlassJellyfish",
+          "DisplayName": "Glass Jellyfish",
+          "Description": "A translucent jellyfish shaped from glass.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1150,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 13
+        },
+        "{{ModId}}_GlassFlower": {
+          "Name": "{{ModId}}_GlassFlower",
+          "DisplayName": "Glass Flower",
+          "Description": "A colorful flower preserved in glass.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1050,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 14
+        },
+        "{{ModId}}_GlassDragon": {
+          "Name": "{{ModId}}_GlassDragon",
+          "DisplayName": "Glass Dragon",
+          "Description": "A finely detailed dragon made from iridescent glass.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 2500,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 15
+        },
+        "{{ModId}}_StainedGlassPanel": {
+          "Name": "{{ModId}}_StainedGlassPanel",
+          "DisplayName": "Stained Glass Panel",
+          "Description": "A panel of colorful stained glass.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 650,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 16
+        },
+        "{{ModId}}_SunflowerPanel": {
+          "Name": "{{ModId}}_SunflowerPanel",
+          "DisplayName": "Sunflower Panel",
+          "Description": "A stained glass panel depicting a sunflower.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1050,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 17
+        },
+        "{{ModId}}_RosePanel": {
+          "Name": "{{ModId}}_RosePanel",
+          "DisplayName": "Rose Panel",
+          "Description": "A stained glass panel depicting a rose.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1350,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 18
+        },
+        "{{ModId}}_MoonlightPanel": {
+          "Name": "{{ModId}}_MoonlightPanel",
+          "DisplayName": "Moonlight Panel",
+          "Description": "A stained glass panel with a moonlit glow.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1650,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 19
+        },
+        "{{ModId}}_ButterflyPanel": {
+          "Name": "{{ModId}}_ButterflyPanel",
+          "DisplayName": "Butterfly Panel",
+          "Description": "A stained glass panel depicting a butterfly.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1400,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 20
+        },
+        "{{ModId}}_CathedralPanel": {
+          "Name": "{{ModId}}_CathedralPanel",
+          "DisplayName": "Cathedral Panel",
+          "Description": "An intricate panel of cathedral glass.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 3500,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 21
+        },
+        "{{ModId}}_GildedChalice": {
+          "Name": "{{ModId}}_GildedChalice",
+          "DisplayName": "Gilded Chalice",
+          "Description": "A glass chalice accented with gold.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 1200,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 22
+        },
+        "{{ModId}}_CelestialOrb": {
+          "Name": "{{ModId}}_CelestialOrb",
+          "DisplayName": "Celestial Orb",
+          "Description": "A brilliant orb with a star-like shimmer.",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 4500,
+          "Edibility": -300,
+          "Texture": "Mods/{{ModId}}/objects",
+          "SpriteIndex": 23
+        }
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Carnivorous Crops and Insect Valley
 
-This repository contains two related Stardew Valley mods. **Carnivorous Crops** adds unusual plants and ways to process their harvests. **Insect Valley** adds insects to catch with bait and bug nets. Insect Valley requires Carnivorous Crops; Carnivorous Crops can be played on its own.
+This repository contains three Stardew Valley mods. **Carnivorous Crops** adds unusual plants and ways to process their harvests. **Insect Valley** adds insects to catch with bait and bug nets, and requires Carnivorous Crops. **Glassworks** adds new mining nodes, glass materials, beach forage, and glassworking machines. Carnivorous Crops can be played on its own.
 
 ## For players
 
@@ -14,18 +14,23 @@ The **Botanical Extractor** and selected existing artisan machines turn plant ha
 
 The Collections menu has an **Insects** page. Uncaught species appear undiscovered; after catching one, its sprite and catch count are shown. While holding a baited net, the HUD previews eligible insects and their catch chances.
 
+**Glassworks** adds silica, sandstone, and natural glass nodes, plus Sea Glass forage on the Beach in every season. The Glass Kiln turns these materials into glass, and the Glassworking Station makes artisan glassware and stained-glass panels. Glass materials are crafting resources and don't receive the Artisan profession bonus; the glassware and panels do.
+
 ### Requirements and installation
 
 - Stardew Valley with **SMAPI 4.0.0 or later**.
 - **Content Patcher 2.0.0 or later** for `[CP] Carnivorous Crops`.
-- Install both `[CP] Carnivorous Crops` and `InsectValley` for the complete experience. Insect Valley requires Carnivorous Crops because several bait recipes use its plant-based goods.
+- **Item Extensions 1.15.0 or later** for Glassworks (which requires SMAPI 4.2.1 or later).
+- **Extra Machine Config 1.18.0 or later** for Glassworks' recipe-specific machine ingredients.
+- Install `[CP] Carnivorous Crops`, `InsectValley`, and `Glassworks` as separate mod folders. Insect Valley requires Carnivorous Crops because several bait recipes use its plant-based goods.
 
-Install the two mod folders separately into `Stardew Valley/Mods`:
+Install the three mod folders separately into `Stardew Valley/Mods`:
 
 ```text
 Mods/
 ├── [CP] Carnivorous Crops/
-└── InsectValley/
+├── InsectValley/
+└── Glassworks/
 ```
 
 Do not install the source-code folders from this repository as mod folders. Use the folders from a release or the developer build output.
@@ -45,6 +50,7 @@ When upgrading an older installation, remove the legacy `Mods/CarnivorousPlants`
 ### Repository layout
 
 - `[CP] Carnivorous Crops/` is a content-only Content Patcher pack. Its `content.json`, `data/`, and `assets/` define the crops, seeds, plant products, machine outputs, recipes, and sprites. There is no C# project for this mod.
+- `Glassworks/` is a content-only Content Patcher pack. It registers custom mine resources with Item Extensions and uses Extra Machine Config for per-recipe machine ingredients.
 - `InsectValley.Core/` is the SMAPI C# mod. `data/` defines insect, bait, tool, and recipe data; `assets/` contains their textures. The `InsectValleyContent` class loads these definitions into the game's data assets.
 - Insect definitions include custom fields for type, rarity, catch locations, seasons, times, and weight. `InsectDataCache` parses and indexes them; `InsectCatchRules` and `InsectCatchService` determine and perform catches. Harmony patches in `BugNetPatches` connect the nets to the game's tool behavior, while `InsectCollectionPatches` adds the insect collection page.
 - Successful catches are stored per player in `Farmer.modData` under the `InsectValley.Core/Caught/` key prefix.
@@ -59,7 +65,7 @@ From the repository root, rebuild and stage the mods with:
 .\build-mods.ps1
 ```
 
-The script discovers SMAPI projects from their manifests, skips test projects, stages the build, and replaces this repository's current and legacy mod folders in the resolved Stardew Valley `Mods` directory. The Insect Valley build also stages the Content Patcher pack. Package `[CP] Carnivorous Crops` and `InsectValley` as separate mod folders for release.
+The script discovers SMAPI projects from their manifests, skips test projects, stages the build, and replaces this repository's current and legacy mod folders in the resolved Stardew Valley `Mods` directory. The Insect Valley build also stages the `[CP] Carnivorous Crops` pack, and the script stages `Glassworks`. Package all three mod folders separately for release.
 
 Run the unit tests with:
 

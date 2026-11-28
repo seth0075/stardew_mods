@@ -1,0 +1,22 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Beach Sea Glass forage",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": [
+        "Beach",
+        "Forage"
+      ],
+      "Entries": {
+        "{{ModId}}_SeaGlass": {
+          "Id": "{{ModId}}_SeaGlass",
+          "Chance": 0.1,
+          "Precedence": 0,
+          "ItemId": "(O){{ModId}}_SeaGlass",
+          "MaxItems": 1
+        }
+      }
+    }
+  ]
+}

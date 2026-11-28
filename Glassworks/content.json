@@ -1,0 +1,55 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/silica_node",
+      "FromFile": "assets/silica_node.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/sandstone_node",
+      "FromFile": "assets/sandstone_node.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/glass_node",
+      "FromFile": "assets/glass_node.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/objects",
+      "FromFile": "assets/objects.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/sea_glass",
+      "FromFile": "assets/sea_glass.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/machines",
+      "FromFile": "assets/machines.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/nodes.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/items.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/machines.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/crafting_recipes.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/forage.json"
+    }
+  ]
+}

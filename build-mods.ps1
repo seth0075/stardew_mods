@@ -64,6 +64,13 @@ try {
         }
     }
 
+    $glassworksPath = Join-Path $PSScriptRoot 'Glassworks'
+    if (-not (Test-Path -LiteralPath (Join-Path $glassworksPath 'manifest.json') -PathType Leaf)) {
+        throw "The Glassworks content pack manifest wasn't found at '$glassworksPath'."
+    }
+
+    Copy-Item -LiteralPath $glassworksPath -Destination $stagingModsPath -Recurse
+
     $stagedModFolders = @(Get-ChildItem -LiteralPath $stagingModsPath -Directory | Sort-Object Name)
     if ($stagedModFolders.Count -eq 0) {
         throw 'The build completed but did not stage any mod folders.'

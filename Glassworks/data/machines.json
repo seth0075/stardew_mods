@@ -1,0 +1,644 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Glassworks machines",
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModId}}_GlassKiln": {
+          "Name": "{{ModId}}_GlassKiln",
+          "DisplayName": "Glass Kiln",
+          "Description": "Melts silica and shapes glass.",
+          "Price": 0,
+          "Texture": "Mods/{{ModId}}/machines",
+          "SpriteIndex": 0
+        },
+        "{{ModId}}_GlassworkingStation": {
+          "Name": "{{ModId}}_GlassworkingStation",
+          "DisplayName": "Glassworking Station",
+          "Description": "Crafts beautiful objects from glass.",
+          "Price": 0,
+          "Texture": "Mods/{{ModId}}/machines",
+          "SpriteIndex": 1
+        }
+      }
+    },
+    {
+      "LogName": "Add Glassworks machine recipes",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC){{ModId}}_GlassKiln": {
+          "OutputRules": [
+            {
+              "Id": "{{ModId}}_SilicaToGlass",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Silica",
+                  "RequiredCount": 5
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_Glass",
+                  "MinStack": 2,
+                  "MaxStack": 2,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)382",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 60
+            },
+            {
+              "Id": "{{ModId}}_SandstoneToGlass",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O)570",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_Glass",
+                  "MinStack": 2,
+                  "MaxStack": 2,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)382",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 90
+            },
+            {
+              "Id": "{{ModId}}_SeaGlassToGlass",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_SeaGlass",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_Glass",
+                  "MinStack": 1,
+                  "MaxStack": 1
+                }
+              ],
+              "MinutesUntilReady": 30
+            },
+            {
+              "Id": "{{ModId}}_GlassToReinforcedGlass",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 2
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_ReinforcedGlass",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)80",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 120
+            },
+            {
+              "Id": "{{ModId}}_GlassToColoredGlass",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 1
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_ColoredGlass",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)378",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 60
+            },
+            {
+              "Id": "{{ModId}}_GlassToIridescentGlass",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 2
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_IridescentGlass",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)82",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 240
+            }
+          ],
+          "ShowNextIndexWhenReady": false
+        },
+        "(BC){{ModId}}_GlassworkingStation": {
+          "OutputRules": [
+            {
+              "Id": "{{ModId}}_AmberBottle",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 2
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_AmberBottle",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)68",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 480
+            },
+            {
+              "Id": "{{ModId}}_AzureVase",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 3
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_AzureVase",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)62",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 720
+            },
+            {
+              "Id": "{{ModId}}_CrimsonGoblet",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 2
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_CrimsonGoblet",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)64",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 720
+            },
+            {
+              "Id": "{{ModId}}_EmeraldBowl",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 3
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_EmeraldBowl",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)60",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 720
+            },
+            {
+              "Id": "{{ModId}}_AmethystDecanter",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 4
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_AmethystDecanter",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)66",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 720
+            },
+            {
+              "Id": "{{ModId}}_OpalescentVase",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_IridescentGlass",
+                  "RequiredCount": 2
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_OpalescentVase",
+                  "MinStack": 1,
+                  "MaxStack": 1
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_GlassSongbird",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 2
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_GlassSongbird",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_ColoredGlass",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 720
+            },
+            {
+              "Id": "{{ModId}}_GlassButterfly",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_ColoredGlass",
+                  "RequiredCount": 3
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_GlassButterfly",
+                  "MinStack": 1,
+                  "MaxStack": 1
+                }
+              ],
+              "MinutesUntilReady": 720
+            },
+            {
+              "Id": "{{ModId}}_GlassJellyfish",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 2
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_GlassJellyfish",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_SeaGlass",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1",
+                    "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_IridescentGlass",
+                    "selph.ExtraMachineConfig.RequirementCount.2": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_GlassFlower",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_ColoredGlass",
+                  "RequiredCount": 2
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_GlassFlower",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)595",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_GlassDragon",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_IridescentGlass",
+                  "RequiredCount": 3
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_GlassDragon",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)82",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 2880
+            },
+            {
+              "Id": "{{ModId}}_StainedGlassPanel",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_ColoredGlass",
+                  "RequiredCount": 3
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_StainedGlassPanel",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)334",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 720
+            },
+            {
+              "Id": "{{ModId}}_SunflowerPanel",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_ColoredGlass",
+                  "RequiredCount": 3
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_SunflowerPanel",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)334",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1",
+                    "selph.ExtraMachineConfig.RequirementId.2": "(O)421",
+                    "selph.ExtraMachineConfig.RequirementCount.2": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_RosePanel",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_ColoredGlass",
+                  "RequiredCount": 3
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_RosePanel",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)334",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1",
+                    "selph.ExtraMachineConfig.RequirementId.2": "(O)595",
+                    "selph.ExtraMachineConfig.RequirementCount.2": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_MoonlightPanel",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_IridescentGlass",
+                  "RequiredCount": 2
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_MoonlightPanel",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)335",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1",
+                    "selph.ExtraMachineConfig.RequirementId.2": "(O)571",
+                    "selph.ExtraMachineConfig.RequirementCount.2": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 2160
+            },
+            {
+              "Id": "{{ModId}}_ButterflyPanel",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_ColoredGlass",
+                  "RequiredCount": 4
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_ButterflyPanel",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)336",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_CathedralPanel",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_ColoredGlass",
+                  "RequiredCount": 6
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_CathedralPanel",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)336",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "2",
+                    "selph.ExtraMachineConfig.RequirementId.2": "(O)72",
+                    "selph.ExtraMachineConfig.RequirementCount.2": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 2880
+            },
+            {
+              "Id": "{{ModId}}_GildedChalice",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_Glass",
+                  "RequiredCount": 3
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_GildedChalice",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)336",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 1440
+            },
+            {
+              "Id": "{{ModId}}_CelestialOrb",
+              "Triggers": [
+                {
+                  "Id": "Input",
+                  "Trigger": "ItemPlacedInMachine",
+                  "RequiredItemId": "(O){{ModId}}_IridescentGlass",
+                  "RequiredCount": 3
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Output",
+                  "ItemId": "(O){{ModId}}_CelestialOrb",
+                  "MinStack": 1,
+                  "MaxStack": 1,
+                  "CustomData": {
+                    "selph.ExtraMachineConfig.RequirementId.1": "(O)337",
+                    "selph.ExtraMachineConfig.RequirementCount.1": "1",
+                    "selph.ExtraMachineConfig.RequirementId.2": "(O)578",
+                    "selph.ExtraMachineConfig.RequirementCount.2": "1"
+                  }
+                }
+              ],
+              "MinutesUntilReady": 4320
+            }
+          ],
+          "ShowNextIndexWhenReady": false
+        }
+      }
+    }
+  ]
+}
