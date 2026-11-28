@@ -37,7 +37,7 @@
                   "Id": "Input",
                   "Trigger": "ItemPlacedInMachine",
                   "RequiredItemId": "(O){{ModId}}_Silica",
-                  "RequiredCount": 5
+                  "RequiredCount": 25
                 }
               ],
               "OutputItem": [
@@ -60,16 +60,16 @@
                 {
                   "Id": "Input",
                   "Trigger": "ItemPlacedInMachine",
-                  "RequiredItemId": "(O)570",
-                  "RequiredCount": 1
+                  "RequiredItemId": "(O)568",
+                  "RequiredCount": 5
                 }
               ],
               "OutputItem": [
                 {
                   "Id": "Output",
                   "ItemId": "(O){{ModId}}_Glass",
-                  "MinStack": 2,
-                  "MaxStack": 2,
+                  "MinStack": 1,
+                  "MaxStack": 1,
                   "CustomData": {
                     "selph.ExtraMachineConfig.RequirementId.1": "(O)382",
                     "selph.ExtraMachineConfig.RequirementCount.1": "1"
@@ -92,8 +92,8 @@
                 {
                   "Id": "Output",
                   "ItemId": "(O){{ModId}}_Glass",
-                  "MinStack": 1,
-                  "MaxStack": 1
+                  "MinStack": 5,
+                  "MaxStack": 5
                 }
               ],
               "MinutesUntilReady": 30
