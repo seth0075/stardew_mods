@@ -1,21 +1,65 @@
-# stardew_mods
+# Carnivorous Crops and Insect Valley
 
-## Carnivorous Crops and Insect Valley
+This repository contains two related Stardew Valley mods. **Carnivorous Crops** adds unusual plants and ways to process their harvests. **Insect Valley** adds insects to catch with bait and bug nets. Insect Valley requires Carnivorous Crops; Carnivorous Crops can be played on its own.
 
-The project ships as two mods:
+## For players
 
-- `[CP] Carnivorous Crops` is a Content Patcher pack containing the carnivorous crops, giant crops, Botanical Extractor, and plant-based artisan goods. It requires Content Patcher.
-- `InsectValley` is a single SMAPI mod containing its code, data, and assets. It adds insects, bait, bug nets, and bug catching, and requires Carnivorous Crops.
+### What the mods add
 
-Install `[CP] Carnivorous Crops` and `InsectValley` as separate folders in `Stardew Valley\Mods`. Insect Valley declares Carnivorous Crops as a required dependency because its bait recipes use that mod's artisan goods. When upgrading, remove the old `Mods\CarnivorousPlants` folder and any previous split `Mods\InsectValley` folder before copying in the new installation.
+**[CP] Carnivorous Crops** adds 13 seasonal carnivorous plants, including Venus flytraps, pitcher plants, sundews, butterworts, cobra lilies, and more. Grow them from their seeds, then harvest their plant parts. Some plants regrow after harvest, while others need to be replanted.
 
-Rebuild all SMAPI mod projects from the repository root with:
+The **Botanical Extractor** and selected existing artisan machines turn plant harvests into 20 botanical goods. The Botanical Extractor can be crafted after reaching Farming level 4. Five of the plants also have giant crop variants.
+
+**Insect Valley** adds 268 collectible insects, seven types of specialized bait, and two tools: the Bug Net and Iridium Bug Net. Insects depend on where and when you catch them, and bait type and insect rarity affect which insects can be caught.
+
+The Collections menu has an **Insects** page. Uncaught species appear undiscovered; after catching one, its sprite and catch count are shown. While holding a baited net, the HUD previews eligible insects and their catch chances.
+
+### Requirements and installation
+
+- Stardew Valley with **SMAPI 4.0.0 or later**.
+- **Content Patcher 2.0.0 or later** for `[CP] Carnivorous Crops`.
+- Install both `[CP] Carnivorous Crops` and `InsectValley` for the complete experience. Insect Valley requires Carnivorous Crops because several bait recipes use its plant-based goods.
+
+Install the two mod folders separately into `Stardew Valley/Mods`:
+
+```text
+Mods/
+├── [CP] Carnivorous Crops/
+└── InsectValley/
+```
+
+Do not install the source-code folders from this repository as mod folders. Use the folders from a release or the developer build output.
+
+### Getting started
+
+1. Plant carnivorous crop seeds in their listed growing seasons. Check seed descriptions for season and growth information.
+2. Craft a Botanical Extractor (Farming level 4) and use it, along with the supported artisan machines, to process harvests into botanical goods.
+3. Equip a Bug Net or Iridium Bug Net and attach bait in its single bait slot. Bait is consumed on each swing, even if no insect can be caught in the current conditions.
+4. Catch insects in suitable locations, seasons, and times. If your inventory is full, a caught insect drops nearby.
+5. Check the Collections menu to see which insects you have found and how many of each you have caught.
+
+When upgrading an older installation, remove the legacy `Mods/CarnivorousPlants` folder and any old split `Mods/InsectValley` folder before installing the current two folders. Insect and bait IDs use the `InsectValley.Core` namespace; saves or other content referring to their former `CarnivorousCrops.ContentPack` IDs may need those items replaced or references updated.
+
+## For developers
+
+### Repository layout
+
+- `[CP] Carnivorous Crops/` is a content-only Content Patcher pack. Its `content.json`, `data/`, and `assets/` define the crops, seeds, plant products, machine outputs, recipes, and sprites. There is no C# project for this mod.
+- `InsectValley.Core/` is the SMAPI C# mod. `data/` defines insect, bait, tool, and recipe data; `assets/` contains their textures. The `InsectValleyContent` class loads these definitions into the game's data assets.
+- Insect definitions include custom fields for type, rarity, catch locations, seasons, times, and weight. `InsectDataCache` parses and indexes them; `InsectCatchRules` and `InsectCatchService` determine and perform catches. Harmony patches in `BugNetPatches` connect the nets to the game's tool behavior, while `InsectCollectionPatches` adds the insect collection page.
+- Successful catches are stored per player in `Farmer.modData` under the `InsectValley.Core/Caught/` key prefix.
+- `InsectValley.Tests/` contains unit tests for data and catch rules. `InsectValley.Tests/GameAcceptanceTests/` contains a separate in-game validation mod.
+- `CarnivorousCrops.Tests/` tests the Content Patcher pack's data.
+
+### Build and test
+
+From the repository root, rebuild and stage the mods with:
 
 ```powershell
 .\build-mods.ps1
 ```
 
-The script discovers mod projects by their `manifest.json` and rebuilds them without incremental compilation. Test projects are skipped. It stages the build first, then replaces this project's current and legacy mod folders in the resolved Stardew Valley `Mods` directory with the freshly built folders. Carnivorous Crops is a content-only Content Patcher pack, so it has no project to compile; Insect Valley's build stages both mods. For a release, package `[CP] Carnivorous Crops` separately from the `InsectValley` folder, which contains one SMAPI manifest and DLL alongside Insect Valley's data and assets.
+The script discovers SMAPI projects from their manifests, skips test projects, stages the build, and replaces this repository's current and legacy mod folders in the resolved Stardew Valley `Mods` directory. The Insect Valley build also stages the Content Patcher pack. Package `[CP] Carnivorous Crops` and `InsectValley` as separate mod folders for release.
 
 Run the unit tests with:
 
@@ -24,10 +68,6 @@ dotnet test CarnivorousCrops.Tests\CarnivorousCrops.Tests.csproj
 dotnet test InsectValley.Tests\InsectValley.Tests.csproj
 ```
 
-For in-game acceptance checks, build `InsectValley.Tests\GameAcceptanceTests\CarnivorousPlants.GameAcceptanceTests.csproj`, then copy its output DLL and `manifest.json` into a new `Mods\CarnivorousPlants.GameAcceptanceTests` folder. Launch SMAPI with Content Patcher, Carnivorous Crops, and Insect Valley enabled, then load a save. The harness checks crop data, artisan machine outputs, insect and bait data, and bug-net attachments; results appear in the SMAPI log as `PASS`, `FAIL`, and a final summary. These checks are read-only.
+To run the in-game acceptance checks, build `InsectValley.Tests\GameAcceptanceTests\CarnivorousPlants.GameAcceptanceTests.csproj`, then copy its output DLL and `manifest.json` to a new `Mods\CarnivorousPlants.GameAcceptanceTests` folder. Launch SMAPI with Content Patcher, Carnivorous Crops, and Insect Valley enabled, then load a save. The harness checks loaded crop schedules and harvest items, artisan machine outputs, insect and bait data, legendary insects, and bug-net attachments. It reports `PASS` and `FAIL` entries plus a final summary in the SMAPI log; the checks are read-only.
 
-The Bug Net and Iridium Bug Net each have one bait slot and use the scythe swing animation and sound. Each swing consumes one attached bait and attempts a catch using the current location, season, time, insect rarity, and bait type. If no insects match, bait is still consumed; if the inventory is full, the insect drops nearby. While holding a baited bug net, the HUD shows remaining bait and per-swing catch chances. For testing, use an item spawner to obtain `(T)InsectValley.Core_BugNet` or `(T)InsectValley.Core_IridiumBugNet`; run `bugnet_pool` in the SMAPI console to list eligible insects.
-
-The Collections menu includes an Insects page with every species shown as undiscovered until caught. Each player's catch count is saved and shown in the insect's collection description.
-
-Insect Valley defines 268 insects and seven bait types. Bait recipes use artisan goods from Carnivorous Crops. Insect and bait IDs use the `InsectValley.Core` namespace, so existing saves or content that refer to their former `CarnivorousCrops.ContentPack` IDs may need those items replaced or references updated.
+The Insect Valley core project targets .NET 6 and uses `Pathoschild.Stardew.ModBuildConfig`. Its unit-test project targets .NET 10.
